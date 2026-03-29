@@ -1,0 +1,5 @@
+{
+  "name": "Horarios Facultad",
+  "description": "Tabla interactiva para consultar y filtrar horarios de clases de la facultad.",
+  "requestFramePermissions": []
+}
