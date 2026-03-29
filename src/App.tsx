@@ -114,6 +114,12 @@ export default function App() {
     });
   }, [data, filterTurno, filterFecha, filterCarrera, filterAño, searchQuery]);
 
+  // Compute latest update timestamp
+  const latestUpdate = useMemo(() => {
+    if (!data || data.length === 0) return null;
+    return data.reduce((max, row) => (row.insert_ts && row.insert_ts > max ? row.insert_ts : max), data[0].insert_ts || '');
+  }, [data]);
+
   const clearFilters = () => {
     setFilterTurno('');
     setFilterFecha('');
@@ -155,9 +161,16 @@ export default function App() {
             <h1 className="text-3xl font-bold tracking-tight text-slate-900">Horarios de Facultad</h1>
             <p className="text-slate-500 mt-1">Consulta y filtra los horarios de clases, docentes y aulas.</p>
           </div>
-          <Badge variant="secondary" className="w-fit text-sm px-3 py-1">
-            {filteredData.length} {filteredData.length === 1 ? 'clase encontrada' : 'clases encontradas'}
-          </Badge>
+          <div className="flex flex-col items-start md:items-end gap-2">
+            <Badge variant="secondary" className="w-fit text-sm px-3 py-1">
+              {filteredData.length} {filteredData.length === 1 ? 'clase encontrada' : 'clases encontradas'}
+            </Badge>
+            {latestUpdate && (
+              <Badge variant="outline" className="w-fit text-xs font-normal text-slate-500 bg-slate-50">
+                Última actualización: {latestUpdate}
+              </Badge>
+            )}
+          </div>
         </div>
 
         <Card className="border-slate-200 shadow-sm">
