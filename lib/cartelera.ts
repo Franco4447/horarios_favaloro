@@ -269,7 +269,9 @@ export async function fetchCarteleraHorarios(
     currentPage++;
   } while (currentPage <= totalPages);
 
-  const rows = allRawItems.map((item) => normalizarItemCartelera(item, generatedAt));
+  const rows = allRawItems
+    .map((item) => normalizarItemCartelera(item, generatedAt))
+    .filter((row) => row.origen_db !== 'sql_server');
 
   return {
     rows,
@@ -310,14 +312,19 @@ export async function fetchHorariosConsolidados(
     });
     if (ghRes.ok) {
       const ghData = await ghRes.json();
-      if (ghData?.ok && Array.isArray(ghData.rows) && ghData.rows.length > 0) {
-        return {
-          rows: ghData.rows,
-          totalItems: ghData.rows.length,
-          generatedAt: ghData.generatedAt || '',
-          source: ghData.source || 'github_actions',
-          originType: 'github_json',
-        };
+      if (ghData?.ok && Array.isArray(ghData.rows)) {
+        const filteredRows = ghData.rows.filter(
+          (r: ScheduleRow) => r.origen_db !== 'sql_server'
+        );
+        if (filteredRows.length > 0) {
+          return {
+            rows: filteredRows,
+            totalItems: filteredRows.length,
+            generatedAt: ghData.generatedAt || '',
+            source: ghData.source || 'github_actions',
+            originType: 'github_json',
+          };
+        }
       }
     }
   } catch {
@@ -336,9 +343,13 @@ export async function fetchHorariosConsolidados(
     throw new Error('Formato inválido en horarios.json');
   }
 
+  const filteredLocalRows = localData.rows.filter(
+    (r: ScheduleRow) => r.origen_db !== 'sql_server'
+  );
+
   return {
-    rows: localData.rows,
-    totalItems: localData.rows.length,
+    rows: filteredLocalRows,
+    totalItems: filteredLocalRows.length,
     generatedAt: localData.generatedAt || '',
     source: localData.source || 'local_json',
     originType: 'local_json',
