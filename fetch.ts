@@ -3,6 +3,7 @@ import path from 'path';
 import Papa from 'papaparse';
 import {
   fetchCarteleraHorarios,
+  deduplicarPriorizandoPostgres,
   CARTELERA_DIRECT_URL,
   type ScheduleRow,
 } from './lib/cartelera';
@@ -58,10 +59,38 @@ async function main() {
   const jsonPath = path.join(publicDir, 'horarios.json');
   const csvPath = path.join(publicDir, 'horarios.csv');
 
-  // Filtramos cualquier registro con origen_db === 'sql_server'
-  const mergedRows: ScheduleRow[] = result.rows.filter(
-    (r) => r.origen_db !== 'sql_server'
-  );
+  // Si ya existe public/horarios.json, conservamos los registros de SQL Server de días previos/distintos
+  // que sigan vigentes (>= todayBA) para no perder historial si se ejecuta en días sucesivos.
+  let mergedRows: ScheduleRow[] = [...result.rows];
+  if (fs.existsSync(jsonPath)) {
+    try {
+      const existingRaw = JSON.parse(fs.readFileSync(jsonPath, 'utf-8'));
+      const existingRows: ScheduleRow[] = Array.isArray(existingRaw?.rows)
+        ? existingRaw.rows
+        : [];
+      const freshDatesSql = new Set(
+        result.rows
+          .filter((r) => r.origen_db === 'sql_server')
+          .map((r) => r.fecha)
+      );
+      const preservedSqlRows = existingRows.filter(
+        (r) =>
+          r.origen_db === 'sql_server' &&
+          r.fecha >= todayBA &&
+          !freshDatesSql.has(r.fecha)
+      );
+      if (preservedSqlRows.length > 0) {
+        console.log(
+          `Conservando ${preservedSqlRows.length} registros previos de SQL Server para fechas vigentes.`
+        );
+        mergedRows = [...result.rows, ...preservedSqlRows];
+      }
+    } catch {
+      // Si el JSON previo está corrupto, usamos directamente result.rows
+    }
+  }
+
+  mergedRows = deduplicarPriorizandoPostgres(mergedRows);
 
   // Ordenar de manera determinística para evitar diffs innecesarios en Git
   mergedRows.sort((a, b) => {

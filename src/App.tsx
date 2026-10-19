@@ -172,7 +172,6 @@ export default function App() {
   const filteredData = useMemo(() => {
     return data
       .filter((row) => {
-        if (row.origen_db === 'sql_server') return false;
         const matchTurno = filterTurno ? row.turno === filterTurno : true;
         const matchFecha = filterFecha ? row.fecha === filterFecha : true;
         const matchCarrera = filterCarrera ? row.carrera === filterCarrera : true;

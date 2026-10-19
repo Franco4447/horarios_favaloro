@@ -1,9 +1,597 @@
 {
   "ok": true,
-  "generatedAt": "2026-10-19T22:40:10+00:00",
+  "generatedAt": "2026-10-19T22:53:46+00:00",
   "source": "multi_db",
-  "totalItems": 120,
+  "totalItems": 226,
   "rows": [
+    {
+      "fecha": "2026-10-19",
+      "año": "",
+      "carrera": "ATENEOS Y/O EVENTOS ESPECIALES",
+      "actividad": "HUFF - Residencia Clinica Medica",
+      "actividad_completa": "- HUFF - Residencia Clinica Medica",
+      "comision": "1",
+      "id_comision": "1",
+      "horario": "07:30 - 08:00",
+      "horario_ini": "07:30",
+      "horario_fin": "08:00",
+      "turno": "Turno Mañana",
+      "ubicacion": "SOLÍS 453",
+      "aula": "A104",
+      "docente": "TISSERA, Jorge Horacio",
+      "dia_semana": "Lunes",
+      "observacion": "",
+      "es_clase_virtual": false,
+      "origen_db": "sql_server",
+      "insert_ts": "19/10/2026, 07:53:46"
+    },
+    {
+      "fecha": "2026-10-19",
+      "año": "",
+      "carrera": "ATENEOS Y/O EVENTOS ESPECIALES",
+      "actividad": "HUFF - Exámenes Periodicos Fundación",
+      "actividad_completa": "- HUFF - Exámenes Periodicos Fundación",
+      "comision": "1",
+      "id_comision": "1",
+      "horario": "08:00 - 18:00",
+      "horario_ini": "08:00",
+      "horario_fin": "18:00",
+      "turno": "Turno Mañana",
+      "ubicacion": "SOLÍS 453",
+      "aula": "Mag",
+      "docente": "TISSERA, Jorge Horacio",
+      "dia_semana": "Lunes",
+      "observacion": "",
+      "es_clase_virtual": false,
+      "origen_db": "sql_server",
+      "insert_ts": "19/10/2026, 07:53:46"
+    },
+    {
+      "fecha": "2026-10-19",
+      "año": "1º año",
+      "carrera": "BACHILLERATO UNIVERSITARIO EN CIENCIAS DE LA INGENIERÍA",
+      "actividad": "Cálculo II",
+      "actividad_completa": "1º año - Cálculo II",
+      "comision": "0",
+      "id_comision": "0",
+      "horario": "08:00 - 11:00",
+      "horario_ini": "08:00",
+      "horario_fin": "11:00",
+      "turno": "Turno Mañana",
+      "ubicacion": "SARMIENTO 1853",
+      "aula": "B203",
+      "docente": "RUBIO, Aurora Diana",
+      "dia_semana": "Lunes",
+      "observacion": "",
+      "es_clase_virtual": false,
+      "origen_db": "sql_server",
+      "insert_ts": "19/10/2026, 07:53:46"
+    },
+    {
+      "fecha": "2026-10-19",
+      "año": "2º año",
+      "carrera": "BACHILLERATO UNIVERSITARIO EN CIENCIAS DE LA INGENIERÍA",
+      "actividad": "Señales, Sistemas y Circuitos",
+      "actividad_completa": "2º año - Señales, Sistemas y Circuitos",
+      "comision": "0",
+      "id_comision": "0",
+      "horario": "08:00 - 13:00",
+      "horario_ini": "08:00",
+      "horario_fin": "13:00",
+      "turno": "Turno Mañana",
+      "ubicacion": "SARMIENTO 1853",
+      "aula": "B302",
+      "docente": "PESSANA, Franco Martin",
+      "dia_semana": "Lunes",
+      "observacion": "",
+      "es_clase_virtual": false,
+      "origen_db": "sql_server",
+      "insert_ts": "19/10/2026, 07:53:46"
+    },
+    {
+      "fecha": "2026-10-19",
+      "año": "3º año",
+      "carrera": "BACHILLERATO UNIVERSITARIO EN CIENCIAS DE LA INGENIERÍA",
+      "actividad": "Introducción a la Biología",
+      "actividad_completa": "3º año - Introducción a la Biología",
+      "comision": "0",
+      "id_comision": "0",
+      "horario": "08:00 - 10:00",
+      "horario_ini": "08:00",
+      "horario_fin": "10:00",
+      "turno": "Turno Mañana",
+      "ubicacion": "SOLÍS 453",
+      "aula": "A302",
+      "docente": "CABRERA FISCHER, Edmundo Ignacio",
+      "dia_semana": "Lunes",
+      "observacion": "",
+      "es_clase_virtual": false,
+      "origen_db": "sql_server",
+      "insert_ts": "19/10/2026, 07:53:46"
+    },
+    {
+      "fecha": "2026-10-19",
+      "año": "1º año",
+      "carrera": "LICENCIATURA EN CIENCIAS BIOLÓGICAS",
+      "actividad": "Física General",
+      "actividad_completa": "1º año - Física General",
+      "comision": "0",
+      "id_comision": "0",
+      "horario": "08:00 - 10:00",
+      "horario_ini": "08:00",
+      "horario_fin": "10:00",
+      "turno": "Turno Mañana",
+      "ubicacion": "SARMIENTO 1853",
+      "aula": "B403",
+      "docente": "CASCIARO, Mariano Ezequiel",
+      "dia_semana": "Lunes",
+      "observacion": "",
+      "es_clase_virtual": false,
+      "origen_db": "sql_server",
+      "insert_ts": "19/10/2026, 07:53:46"
+    },
+    {
+      "fecha": "2026-10-19",
+      "año": "4º año",
+      "carrera": "LICENCIATURA EN CIENCIAS BIOLÓGICAS",
+      "actividad": "Formulación de Proyectos Biológicos Productivos",
+      "actividad_completa": "4º año - Formulación de Proyectos Biológicos Productivos",
+      "comision": "0",
+      "id_comision": "0",
+      "horario": "08:00 - 12:00",
+      "horario_ini": "08:00",
+      "horario_fin": "12:00",
+      "turno": "Turno Mañana",
+      "ubicacion": "Virtual (Zoom)",
+      "aula": "z_ficen_bio1",
+      "docente": "BENTANCOR, Leticia Verónica",
+      "dia_semana": "Lunes",
+      "observacion": "Clase virtual",
+      "es_clase_virtual": true,
+      "origen_db": "sql_server",
+      "insert_ts": "19/10/2026, 07:53:46"
+    },
+    {
+      "fecha": "2026-10-19",
+      "año": "1º año",
+      "carrera": "LICENCIATURA EN ENFERMERÍA",
+      "actividad": "Bases de Enfermería Comunitaria",
+      "actividad_completa": "1º año - Bases de Enfermería Comunitaria",
+      "comision": "1",
+      "id_comision": "1",
+      "horario": "08:00 - 11:00",
+      "horario_ini": "08:00",
+      "horario_fin": "11:00",
+      "turno": "Turno Mañana",
+      "ubicacion": "AV. BELGRANO 1670",
+      "aula": "E703",
+      "docente": "DI LORETTO, Miriam Liliana",
+      "dia_semana": "Lunes",
+      "observacion": "",
+      "es_clase_virtual": false,
+      "origen_db": "sql_server",
+      "insert_ts": "19/10/2026, 07:53:46"
+    },
+    {
+      "fecha": "2026-10-19",
+      "año": "1º año",
+      "carrera": "LICENCIATURA EN ENFERMERÍA",
+      "actividad": "Fundamentos de Enfermería",
+      "actividad_completa": "1º año - Fundamentos de Enfermería",
+      "comision": "1",
+      "id_comision": "1",
+      "horario": "08:00 - 11:00",
+      "horario_ini": "08:00",
+      "horario_fin": "11:00",
+      "turno": "Turno Mañana",
+      "ubicacion": "ENTRE RÍOS 495",
+      "aula": "C012",
+      "docente": "DI LORETTO, Miriam Liliana",
+      "dia_semana": "Lunes",
+      "observacion": "",
+      "es_clase_virtual": false,
+      "origen_db": "sql_server",
+      "insert_ts": "19/10/2026, 07:53:46"
+    },
+    {
+      "fecha": "2026-10-19",
+      "año": "2º año",
+      "carrera": "LICENCIATURA EN ENFERMERÍA",
+      "actividad": "Enfermería del Adulto y el Anciano II",
+      "actividad_completa": "2º año - Enfermería del Adulto y el Anciano II",
+      "comision": "1",
+      "id_comision": "1",
+      "horario": "08:00 - 13:00",
+      "horario_ini": "08:00",
+      "horario_fin": "13:00",
+      "turno": "Turno Mañana",
+      "ubicacion": "AV. BELGRANO 1670",
+      "aula": "E702",
+      "docente": "CERON, Virginia Mariana",
+      "dia_semana": "Lunes",
+      "observacion": "",
+      "es_clase_virtual": false,
+      "origen_db": "sql_server",
+      "insert_ts": "19/10/2026, 07:53:46"
+    },
+    {
+      "fecha": "2026-10-19",
+      "año": "3º año",
+      "carrera": "LICENCIATURA EN ENFERMERÍA",
+      "actividad": "Educación en Enfermería",
+      "actividad_completa": "3º año - Educación en Enfermería",
+      "comision": "12",
+      "id_comision": "12",
+      "horario": "08:00 - 13:00",
+      "horario_ini": "08:00",
+      "horario_fin": "13:00",
+      "turno": "Turno Mañana",
+      "ubicacion": "ENTRE RÍOS 495",
+      "aula": "C211",
+      "docente": "BARRIOS, Cristina Haydeé",
+      "dia_semana": "Lunes",
+      "observacion": "",
+      "es_clase_virtual": false,
+      "origen_db": "sql_server",
+      "insert_ts": "19/10/2026, 07:53:46"
+    },
+    {
+      "fecha": "2026-10-19",
+      "año": "4º año",
+      "carrera": "LICENCIATURA EN ENFERMERÍA",
+      "actividad": "Enfermería en Cuidados Críticos II",
+      "actividad_completa": "4º año - Enfermería en Cuidados Críticos II",
+      "comision": "12",
+      "id_comision": "12",
+      "horario": "08:00 - 13:00",
+      "horario_ini": "08:00",
+      "horario_fin": "13:00",
+      "turno": "Turno Mañana",
+      "ubicacion": "ENTRE RÍOS 495",
+      "aula": "C411",
+      "docente": "SALAS, Miguel Angel",
+      "dia_semana": "Lunes",
+      "observacion": "",
+      "es_clase_virtual": false,
+      "origen_db": "sql_server",
+      "insert_ts": "19/10/2026, 07:53:46"
+    },
+    {
+      "fecha": "2026-10-19",
+      "año": "4º año",
+      "carrera": "LICENCIATURA EN ENFERMERÍA",
+      "actividad": "Gestión de los Servicios de Enfermería I",
+      "actividad_completa": "4º año - Gestión de los Servicios de Enfermería I",
+      "comision": "1",
+      "id_comision": "1",
+      "horario": "08:00 - 13:00",
+      "horario_ini": "08:00",
+      "horario_fin": "13:00",
+      "turno": "Turno Mañana",
+      "ubicacion": "AV. BELGRANO 1670",
+      "aula": "E601",
+      "docente": "MORALES, Pablo Ismael",
+      "dia_semana": "Lunes",
+      "observacion": "",
+      "es_clase_virtual": false,
+      "origen_db": "sql_server",
+      "insert_ts": "19/10/2026, 07:53:46"
+    },
+    {
+      "fecha": "2026-10-19",
+      "año": "1º año",
+      "carrera": "LICENCIATURA EN INSTRUMENTACIÓN QUIRÚRGICA",
+      "actividad": "Microbiología, Parasitología y Virología",
+      "actividad_completa": "1º año - Microbiología, Parasitología y Virología",
+      "comision": "0",
+      "id_comision": "0",
+      "horario": "08:00 - 10:00",
+      "horario_ini": "08:00",
+      "horario_fin": "10:00",
+      "turno": "Turno Mañana",
+      "ubicacion": "Virtual (Zoom)",
+      "aula": "z_fcm_25",
+      "docente": "PIROLA, Daniel Alberto",
+      "dia_semana": "Lunes",
+      "observacion": "Clase virtual",
+      "es_clase_virtual": true,
+      "origen_db": "sql_server",
+      "insert_ts": "19/10/2026, 07:53:46"
+    },
+    {
+      "fecha": "2026-10-19",
+      "año": "5º año",
+      "carrera": "LICENCIATURA EN KINESIOLOGÍA Y FISIATRÍA",
+      "actividad": "Práctica Final Obligatoria - Práctica Final Obligatoria",
+      "actividad_completa": "5º año - Práctica Final Obligatoria - Práctica Final Obligatoria",
+      "comision": "0",
+      "id_comision": "0",
+      "horario": "08:00 - 15:00",
+      "horario_ini": "08:00",
+      "horario_fin": "15:00",
+      "turno": "Turno Mañana",
+      "ubicacion": "HOSPITAL GUTIÉRREZ",
+      "aula": "Gutiérrez",
+      "docente": "PERALTA, Miriam Elizabeth",
+      "dia_semana": "Lunes",
+      "observacion": "",
+      "es_clase_virtual": false,
+      "origen_db": "sql_server",
+      "insert_ts": "19/10/2026, 07:53:46"
+    },
+    {
+      "fecha": "2026-10-19",
+      "año": "1º año",
+      "carrera": "LICENCIATURA EN NUTRICIÓN",
+      "actividad": "Psicología de la Nutrición",
+      "actividad_completa": "1º año - Psicología de la Nutrición",
+      "comision": "0",
+      "id_comision": "0",
+      "horario": "08:00 - 10:00",
+      "horario_ini": "08:00",
+      "horario_fin": "10:00",
+      "turno": "Turno Mañana",
+      "ubicacion": "Virtual (Zoom)",
+      "aula": "z_fcm_05",
+      "docente": "GARCÍA LABANDAL, Livia Beatriz",
+      "dia_semana": "Lunes",
+      "observacion": "Clase virtual",
+      "es_clase_virtual": true,
+      "origen_db": "sql_server",
+      "insert_ts": "19/10/2026, 07:53:46"
+    },
+    {
+      "fecha": "2026-10-19",
+      "año": "2º año",
+      "carrera": "LICENCIATURA EN NUTRICIÓN",
+      "actividad": "Taller de Integración I",
+      "actividad_completa": "2º año - Taller de Integración I",
+      "comision": "0",
+      "id_comision": "0",
+      "horario": "08:00 - 10:00",
+      "horario_ini": "08:00",
+      "horario_fin": "10:00",
+      "turno": "Turno Mañana",
+      "ubicacion": "MORENO 1623",
+      "aula": "F403",
+      "docente": "RODRÍGUEZ, Viviana Andrea",
+      "dia_semana": "Lunes",
+      "observacion": "",
+      "es_clase_virtual": false,
+      "origen_db": "sql_server",
+      "insert_ts": "19/10/2026, 07:53:46"
+    },
+    {
+      "fecha": "2026-10-19",
+      "año": "2º año",
+      "carrera": "LICENCIATURA EN NUTRICIÓN",
+      "actividad": "Taller de Integración I",
+      "actividad_completa": "2º año - Taller de Integración I",
+      "comision": "0",
+      "id_comision": "0",
+      "horario": "08:00 - 10:00",
+      "horario_ini": "08:00",
+      "horario_fin": "10:00",
+      "turno": "Turno Mañana",
+      "ubicacion": "Virtual (Zoom)",
+      "aula": "z_fcm_07",
+      "docente": "RODRÍGUEZ, Viviana Andrea",
+      "dia_semana": "Lunes",
+      "observacion": "Clase virtual",
+      "es_clase_virtual": true,
+      "origen_db": "sql_server",
+      "insert_ts": "19/10/2026, 07:53:46"
+    },
+    {
+      "fecha": "2026-10-19",
+      "año": "3º año",
+      "carrera": "LICENCIATURA EN NUTRICIÓN",
+      "actividad": "Taller de Integración II",
+      "actividad_completa": "3º año - Taller de Integración II",
+      "comision": "0",
+      "id_comision": "0",
+      "horario": "08:00 - 10:00",
+      "horario_ini": "08:00",
+      "horario_fin": "10:00",
+      "turno": "Turno Mañana",
+      "ubicacion": "AV. BELGRANO 1670",
+      "aula": "E602",
+      "docente": "ZUMMER, Eleonora Ruth",
+      "dia_semana": "Lunes",
+      "observacion": "",
+      "es_clase_virtual": false,
+      "origen_db": "sql_server",
+      "insert_ts": "19/10/2026, 07:53:46"
+    },
+    {
+      "fecha": "2026-10-19",
+      "año": "4º año",
+      "carrera": "LICENCIATURA EN NUTRICIÓN",
+      "actividad": "Prácticas en Nutrición Clínica",
+      "actividad_completa": "4º año - Prácticas en Nutrición Clínica",
+      "comision": "3",
+      "id_comision": "3",
+      "horario": "08:00 - 14:00",
+      "horario_ini": "08:00",
+      "horario_fin": "14:00",
+      "turno": "Turno Mañana",
+      "ubicacion": "HOSPITAL GENERAL DE AGUDOS \"DR. C. ARGERICH\"",
+      "aula": "Argerich",
+      "docente": "SPEHRS, Carmen Estela",
+      "dia_semana": "Lunes",
+      "observacion": "",
+      "es_clase_virtual": false,
+      "origen_db": "sql_server",
+      "insert_ts": "19/10/2026, 07:53:46"
+    },
+    {
+      "fecha": "2026-10-19",
+      "año": "4º año",
+      "carrera": "LICENCIATURA EN NUTRICIÓN",
+      "actividad": "Prácticas en Nutrición Clínica",
+      "actividad_completa": "4º año - Prácticas en Nutrición Clínica",
+      "comision": "4",
+      "id_comision": "4",
+      "horario": "08:00 - 14:00",
+      "horario_ini": "08:00",
+      "horario_fin": "14:00",
+      "turno": "Turno Mañana",
+      "ubicacion": "HOSPITAL FERNANDEZ",
+      "aula": "FERNANDEZ",
+      "docente": "SAYAR, Romina Verónica",
+      "dia_semana": "Lunes",
+      "observacion": "",
+      "es_clase_virtual": false,
+      "origen_db": "sql_server",
+      "insert_ts": "19/10/2026, 07:53:46"
+    },
+    {
+      "fecha": "2026-10-19",
+      "año": "4º año",
+      "carrera": "LICENCIATURA EN NUTRICIÓN",
+      "actividad": "Prácticas en Nutrición Clínica",
+      "actividad_completa": "4º año - Prácticas en Nutrición Clínica",
+      "comision": "2",
+      "id_comision": "2",
+      "horario": "08:00 - 14:00",
+      "horario_ini": "08:00",
+      "horario_fin": "14:00",
+      "turno": "Turno Mañana",
+      "ubicacion": "HOSPITAL PIROVANO",
+      "aula": "HPIROVANO",
+      "docente": "BELLINI, María Victoria",
+      "dia_semana": "Lunes",
+      "observacion": "",
+      "es_clase_virtual": false,
+      "origen_db": "sql_server",
+      "insert_ts": "19/10/2026, 07:53:46"
+    },
+    {
+      "fecha": "2026-10-19",
+      "año": "4º año",
+      "carrera": "LICENCIATURA EN NUTRICIÓN",
+      "actividad": "Prácticas en Nutrición Clínica",
+      "actividad_completa": "4º año - Prácticas en Nutrición Clínica",
+      "comision": "12",
+      "id_comision": "12",
+      "horario": "08:00 - 14:00",
+      "horario_ini": "08:00",
+      "horario_fin": "14:00",
+      "turno": "Turno Mañana",
+      "ubicacion": "HUFF (HOSPITAL UNIVERSITARIO FUNDACIÓN FAVALORO",
+      "aula": "HUFF",
+      "docente": "SOMOZA, María Inés",
+      "dia_semana": "Lunes",
+      "observacion": "",
+      "es_clase_virtual": false,
+      "origen_db": "sql_server",
+      "insert_ts": "19/10/2026, 07:53:46"
+    },
+    {
+      "fecha": "2026-10-19",
+      "año": "4º año",
+      "carrera": "LICENCIATURA EN NUTRICIÓN",
+      "actividad": "Prácticas en Nutrición Clínica",
+      "actividad_completa": "4º año - Prácticas en Nutrición Clínica",
+      "comision": "6",
+      "id_comision": "6",
+      "horario": "08:00 - 14:00",
+      "horario_ini": "08:00",
+      "horario_fin": "14:00",
+      "turno": "Turno Mañana",
+      "ubicacion": "HOSPITAL PIÑERO",
+      "aula": "PIÑERO",
+      "docente": "VÁZQUEZ, Marcela Lidia",
+      "dia_semana": "Lunes",
+      "observacion": "",
+      "es_clase_virtual": false,
+      "origen_db": "sql_server",
+      "insert_ts": "19/10/2026, 07:53:46"
+    },
+    {
+      "fecha": "2026-10-19",
+      "año": "4º año",
+      "carrera": "LICENCIATURA EN NUTRICIÓN",
+      "actividad": "Prácticas en Nutrición Clínica",
+      "actividad_completa": "4º año - Prácticas en Nutrición Clínica",
+      "comision": "5",
+      "id_comision": "5",
+      "horario": "08:00 - 14:00",
+      "horario_ini": "08:00",
+      "horario_fin": "14:00",
+      "turno": "Turno Mañana",
+      "ubicacion": "HOSPITAL RIVADAVIA",
+      "aula": "Rivadavia",
+      "docente": "BAISTROCCHI, Gabriela",
+      "dia_semana": "Lunes",
+      "observacion": "",
+      "es_clase_virtual": false,
+      "origen_db": "sql_server",
+      "insert_ts": "19/10/2026, 07:53:46"
+    },
+    {
+      "fecha": "2026-10-19",
+      "año": "4º año",
+      "carrera": "LICENCIATURA EN NUTRICIÓN",
+      "actividad": "Prácticas en Nutrición Clínica",
+      "actividad_completa": "4º año - Prácticas en Nutrición Clínica",
+      "comision": "7",
+      "id_comision": "7",
+      "horario": "08:00 - 14:00",
+      "horario_ini": "08:00",
+      "horario_fin": "14:00",
+      "turno": "Turno Mañana",
+      "ubicacion": "HOSPITAL SANTOJANI",
+      "aula": "SANTOJANI",
+      "docente": "SAUCINA, Luciana Marianela",
+      "dia_semana": "Lunes",
+      "observacion": "",
+      "es_clase_virtual": false,
+      "origen_db": "sql_server",
+      "insert_ts": "19/10/2026, 07:53:46"
+    },
+    {
+      "fecha": "2026-10-19",
+      "año": "4º año",
+      "carrera": "LICENCIATURA EN NUTRICIÓN",
+      "actividad": "Prácticas en Nutrición Clínica",
+      "actividad_completa": "4º año - Prácticas en Nutrición Clínica",
+      "comision": "1",
+      "id_comision": "1",
+      "horario": "08:00 - 14:00",
+      "horario_ini": "08:00",
+      "horario_fin": "14:00",
+      "turno": "Turno Mañana",
+      "ubicacion": "HOSPITAL TORNU",
+      "aula": "TORNU",
+      "docente": "BIONDI, Miriam Roxana",
+      "dia_semana": "Lunes",
+      "observacion": "",
+      "es_clase_virtual": false,
+      "origen_db": "sql_server",
+      "insert_ts": "19/10/2026, 07:53:46"
+    },
+    {
+      "fecha": "2026-10-19",
+      "año": "4º año",
+      "carrera": "LICENCIATURA EN PRODUCCIÓN DE BIOIMÁGENES",
+      "actividad": "Resonancia Magnética - RMN / Resonancia Magnética",
+      "actividad_completa": "4º año - Resonancia Magnética - RMN / Resonancia Magnética",
+      "comision": "0",
+      "id_comision": "0",
+      "horario": "08:00 - 16:00",
+      "horario_ini": "08:00",
+      "horario_fin": "16:00",
+      "turno": "Turno Mañana",
+      "ubicacion": "HUFF (HOSPITAL UNIVERSITARIO FUNDACIÓN FAVALORO",
+      "aula": "HUFF",
+      "docente": "SZTEJNBERG GONÇALVES CARRALVES, Manuel Leonardo",
+      "dia_semana": "Lunes",
+      "observacion": "",
+      "es_clase_virtual": false,
+      "origen_db": "sql_server",
+      "insert_ts": "19/10/2026, 07:53:46"
+    },
     {
       "fecha": "2026-10-19",
       "año": "3º año",
@@ -23,7 +611,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "19/10/2026, 07:40:10"
+      "insert_ts": "19/10/2026, 07:53:46"
     },
     {
       "fecha": "2026-10-19",
@@ -44,7 +632,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "19/10/2026, 07:40:10"
+      "insert_ts": "19/10/2026, 07:53:46"
     },
     {
       "fecha": "2026-10-19",
@@ -65,7 +653,91 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "19/10/2026, 07:40:10"
+      "insert_ts": "19/10/2026, 07:53:46"
+    },
+    {
+      "fecha": "2026-10-19",
+      "año": "3º año",
+      "carrera": "MEDICINA",
+      "actividad": "Medicina I - Medicina I",
+      "actividad_completa": "3º año - Medicina I - Medicina I",
+      "comision": "2",
+      "id_comision": "2",
+      "horario": "08:00 - 12:00",
+      "horario_ini": "08:00",
+      "horario_fin": "12:00",
+      "turno": "Turno Mañana",
+      "ubicacion": "SOLÍS 453",
+      "aula": "A104",
+      "docente": "ROSSI, Andrea Silvia",
+      "dia_semana": "Lunes",
+      "observacion": "",
+      "es_clase_virtual": false,
+      "origen_db": "sql_server",
+      "insert_ts": "19/10/2026, 07:53:46"
+    },
+    {
+      "fecha": "2026-10-19",
+      "año": "3º año",
+      "carrera": "MEDICINA",
+      "actividad": "Medicina I - Medicina I",
+      "actividad_completa": "3º año - Medicina I - Medicina I",
+      "comision": "1",
+      "id_comision": "1",
+      "horario": "08:00 - 12:00",
+      "horario_ini": "08:00",
+      "horario_fin": "12:00",
+      "turno": "Turno Mañana",
+      "ubicacion": "AV. BELGRANO 1670",
+      "aula": "E201",
+      "docente": "GUTIÉRREZ, Luis María",
+      "dia_semana": "Lunes",
+      "observacion": "",
+      "es_clase_virtual": false,
+      "origen_db": "sql_server",
+      "insert_ts": "19/10/2026, 07:53:46"
+    },
+    {
+      "fecha": "2026-10-19",
+      "año": "4º año",
+      "carrera": "MEDICINA",
+      "actividad": "Medicina II - Medicina II",
+      "actividad_completa": "4º año - Medicina II - Medicina II",
+      "comision": "0",
+      "id_comision": "0",
+      "horario": "08:00 - 10:00",
+      "horario_ini": "08:00",
+      "horario_fin": "10:00",
+      "turno": "Turno Mañana",
+      "ubicacion": "SOLÍS 453",
+      "aula": "A101",
+      "docente": "BALDESSARI, Enrique Mario",
+      "dia_semana": "Lunes",
+      "observacion": "Taller de imágenes - Com. 5 a 8",
+      "es_clase_virtual": false,
+      "origen_db": "sql_server",
+      "insert_ts": "19/10/2026, 07:53:46"
+    },
+    {
+      "fecha": "2026-10-19",
+      "año": "4º año",
+      "carrera": "MEDICINA",
+      "actividad": "Medicina II - Medicina II",
+      "actividad_completa": "4º año - Medicina II - Medicina II",
+      "comision": "0",
+      "id_comision": "0",
+      "horario": "08:00 - 10:00",
+      "horario_ini": "08:00",
+      "horario_fin": "10:00",
+      "turno": "Turno Mañana",
+      "ubicacion": "AV. BELGRANO 1670",
+      "aula": "E502",
+      "docente": "BALDESSARI, Enrique Mario",
+      "dia_semana": "Lunes",
+      "observacion": "Taller ECG - Com. 1 a 4",
+      "es_clase_virtual": false,
+      "origen_db": "sql_server",
+      "insert_ts": "19/10/2026, 07:53:46"
     },
     {
       "fecha": "2026-10-19",
@@ -86,7 +758,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "19/10/2026, 07:40:10"
+      "insert_ts": "19/10/2026, 07:53:46"
     },
     {
       "fecha": "2026-10-19",
@@ -107,7 +779,385 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "19/10/2026, 07:40:10"
+      "insert_ts": "19/10/2026, 07:53:46"
+    },
+    {
+      "fecha": "2026-10-19",
+      "año": "5º año",
+      "carrera": "MEDICINA",
+      "actividad": "Cirugía",
+      "actividad_completa": "5º año - Cirugía",
+      "comision": "3",
+      "id_comision": "3",
+      "horario": "08:00 - 12:00",
+      "horario_ini": "08:00",
+      "horario_fin": "12:00",
+      "turno": "Turno Mañana",
+      "ubicacion": "",
+      "aula": "",
+      "docente": "MARTÍNEZ CERANA, Adela Cecilia",
+      "dia_semana": "Lunes",
+      "observacion": "Htal Fernandez - Htal. Pirovano - Htal Piñero",
+      "es_clase_virtual": false,
+      "origen_db": "sql_server",
+      "insert_ts": "19/10/2026, 07:53:46"
+    },
+    {
+      "fecha": "2026-10-19",
+      "año": "5º año",
+      "carrera": "MEDICINA",
+      "actividad": "Cirugía",
+      "actividad_completa": "5º año - Cirugía",
+      "comision": "4",
+      "id_comision": "4",
+      "horario": "08:00 - 12:00",
+      "horario_ini": "08:00",
+      "horario_fin": "12:00",
+      "turno": "Turno Mañana",
+      "ubicacion": "",
+      "aula": "",
+      "docente": "MARTÍNEZ CERANA, Adela Cecilia",
+      "dia_semana": "Lunes",
+      "observacion": "Htal. Fernandez - Htal. Pirovano - Htal. Piñero",
+      "es_clase_virtual": false,
+      "origen_db": "sql_server",
+      "insert_ts": "19/10/2026, 07:53:46"
+    },
+    {
+      "fecha": "2026-10-19",
+      "año": "5º año",
+      "carrera": "MEDICINA",
+      "actividad": "Pediatría",
+      "actividad_completa": "5º año - Pediatría",
+      "comision": "1",
+      "id_comision": "1",
+      "horario": "08:00 - 12:00",
+      "horario_ini": "08:00",
+      "horario_fin": "12:00",
+      "turno": "Turno Mañana",
+      "ubicacion": "HOSPITAL PIROVANO",
+      "aula": "HPIROVANO",
+      "docente": "COOK, Silvia Claudia",
+      "dia_semana": "Lunes",
+      "observacion": "",
+      "es_clase_virtual": false,
+      "origen_db": "sql_server",
+      "insert_ts": "19/10/2026, 07:53:46"
+    },
+    {
+      "fecha": "2026-10-19",
+      "año": "5º año",
+      "carrera": "MEDICINA",
+      "actividad": "Pediatría",
+      "actividad_completa": "5º año - Pediatría",
+      "comision": "2",
+      "id_comision": "2",
+      "horario": "08:00 - 12:00",
+      "horario_ini": "08:00",
+      "horario_fin": "12:00",
+      "turno": "Turno Mañana",
+      "ubicacion": "HOSPITAL PIROVANO",
+      "aula": "HPIROVANO",
+      "docente": "COOK, Silvia Claudia",
+      "dia_semana": "Lunes",
+      "observacion": "",
+      "es_clase_virtual": false,
+      "origen_db": "sql_server",
+      "insert_ts": "19/10/2026, 07:53:46"
+    },
+    {
+      "fecha": "2026-10-19",
+      "año": "1º año",
+      "carrera": "POSGRADO",
+      "actividad": "- Clínica de Endodoncia I",
+      "actividad_completa": "1º año -  - Clínica de Endodoncia I",
+      "comision": "1",
+      "id_comision": "1",
+      "horario": "08:00 - 12:00",
+      "horario_ini": "08:00",
+      "horario_fin": "12:00",
+      "turno": "Turno Mañana",
+      "ubicacion": "ANCHORENA 1176",
+      "aula": "AODO1",
+      "docente": "FERNÁNDEZ MONJES, Eduardo Javier",
+      "dia_semana": "Lunes",
+      "observacion": "",
+      "es_clase_virtual": false,
+      "origen_db": "sql_server",
+      "insert_ts": "19/10/2026, 07:53:46"
+    },
+    {
+      "fecha": "2026-10-19",
+      "año": "2º año",
+      "carrera": "POSGRADO",
+      "actividad": "- Asignatura Co-curricular: Metodología de la Investigación II",
+      "actividad_completa": "2º año -  - Asignatura Co-curricular: Metodología de la Investigación II",
+      "comision": "1",
+      "id_comision": "1",
+      "horario": "08:00 - 12:00",
+      "horario_ini": "08:00",
+      "horario_fin": "12:00",
+      "turno": "Turno Mañana",
+      "ubicacion": "ANCHORENA 1176",
+      "aula": "AODO1",
+      "docente": "CAZAU, Pablo María José",
+      "dia_semana": "Lunes",
+      "observacion": "",
+      "es_clase_virtual": false,
+      "origen_db": "sql_server",
+      "insert_ts": "19/10/2026, 07:53:46"
+    },
+    {
+      "fecha": "2026-10-19",
+      "año": "2º año",
+      "carrera": "POSGRADO",
+      "actividad": "- Clínica de Endodoncia II",
+      "actividad_completa": "2º año -  - Clínica de Endodoncia II",
+      "comision": "1",
+      "id_comision": "1",
+      "horario": "08:00 - 12:00",
+      "horario_ini": "08:00",
+      "horario_fin": "12:00",
+      "turno": "Turno Mañana",
+      "ubicacion": "ANCHORENA 1176",
+      "aula": "AODO1",
+      "docente": "FERNÁNDEZ MONJES, Eduardo Javier",
+      "dia_semana": "Lunes",
+      "observacion": "",
+      "es_clase_virtual": false,
+      "origen_db": "sql_server",
+      "insert_ts": "19/10/2026, 07:53:46"
+    },
+    {
+      "fecha": "2026-10-19",
+      "año": "4º año",
+      "carrera": "INGENIERÍA EN FÍSICA MÉDICA",
+      "actividad": "Introducción a la Dosimetría",
+      "actividad_completa": "4º año - Introducción a la Dosimetría",
+      "comision": "0",
+      "id_comision": "0",
+      "horario": "08:30 - 12:30",
+      "horario_ini": "08:30",
+      "horario_fin": "12:30",
+      "turno": "Turno Mañana",
+      "ubicacion": "SARMIENTO 1853",
+      "aula": "B301",
+      "docente": "GADAN, Mario Alberto",
+      "dia_semana": "Lunes",
+      "observacion": "",
+      "es_clase_virtual": false,
+      "origen_db": "sql_server",
+      "insert_ts": "19/10/2026, 07:53:46"
+    },
+    {
+      "fecha": "2026-10-19",
+      "año": "",
+      "carrera": "ATENEOS Y/O EVENTOS ESPECIALES",
+      "actividad": "HUFF - Entrevistas RRHH",
+      "actividad_completa": "- HUFF - Entrevistas RRHH",
+      "comision": "1",
+      "id_comision": "1",
+      "horario": "09:00 - 12:00",
+      "horario_ini": "09:00",
+      "horario_fin": "12:00",
+      "turno": "Turno Mañana",
+      "ubicacion": "ENTRE RÍOS 495",
+      "aula": "C011",
+      "docente": "TISSERA, Jorge Horacio",
+      "dia_semana": "Lunes",
+      "observacion": "",
+      "es_clase_virtual": false,
+      "origen_db": "sql_server",
+      "insert_ts": "19/10/2026, 07:53:46"
+    },
+    {
+      "fecha": "2026-10-19",
+      "año": "",
+      "carrera": "ATENEOS Y/O EVENTOS ESPECIALES",
+      "actividad": "HUFF - Ingresos",
+      "actividad_completa": "- HUFF - Ingresos",
+      "comision": "1",
+      "id_comision": "1",
+      "horario": "09:00 - 10:30",
+      "horario_ini": "09:00",
+      "horario_fin": "10:30",
+      "turno": "Turno Mañana",
+      "ubicacion": "SOLÍS 453",
+      "aula": "A102",
+      "docente": "TISSERA, Jorge Horacio",
+      "dia_semana": "Lunes",
+      "observacion": "",
+      "es_clase_virtual": false,
+      "origen_db": "sql_server",
+      "insert_ts": "19/10/2026, 07:53:46"
+    },
+    {
+      "fecha": "2026-10-19",
+      "año": "",
+      "carrera": "ATENEOS Y/O EVENTOS ESPECIALES",
+      "actividad": "UF - enfAPCA26",
+      "actividad_completa": "- UF - enfAPCA26",
+      "comision": "1",
+      "id_comision": "1",
+      "horario": "09:00 - 18:00",
+      "horario_ini": "09:00",
+      "horario_fin": "18:00",
+      "turno": "Turno Mañana",
+      "ubicacion": "Virtual (Zoom)",
+      "aula": "z_fcm_13",
+      "docente": "TISSERA, Jorge Horacio",
+      "dia_semana": "Lunes",
+      "observacion": "Clase virtual",
+      "es_clase_virtual": true,
+      "origen_db": "sql_server",
+      "insert_ts": "19/10/2026, 07:53:46"
+    },
+    {
+      "fecha": "2026-10-19",
+      "año": "",
+      "carrera": "ATENEOS Y/O EVENTOS ESPECIALES",
+      "actividad": "UF-Ficen",
+      "actividad_completa": "- UF-Ficen",
+      "comision": "1",
+      "id_comision": "1",
+      "horario": "09:00 - 13:00",
+      "horario_ini": "09:00",
+      "horario_fin": "13:00",
+      "turno": "Turno Mañana",
+      "ubicacion": "SARMIENTO 1853 1º PISO",
+      "aula": "BSREUNION",
+      "docente": "TISSERA, Jorge Horacio",
+      "dia_semana": "Lunes",
+      "observacion": "",
+      "es_clase_virtual": false,
+      "origen_db": "sql_server",
+      "insert_ts": "19/10/2026, 07:53:46"
+    },
+    {
+      "fecha": "2026-10-19",
+      "año": "3º año",
+      "carrera": "LICENCIATURA EN CIENCIAS BIOLÓGICAS",
+      "actividad": "Laboratorio y Trabajo de Campo VI",
+      "actividad_completa": "3º año - Laboratorio y Trabajo de Campo VI",
+      "comision": "0",
+      "id_comision": "0",
+      "horario": "09:00 - 13:00",
+      "horario_ini": "09:00",
+      "horario_fin": "13:00",
+      "turno": "Turno Mañana",
+      "ubicacion": "SOLÍS 453",
+      "aula": "A301",
+      "docente": "CUNIBERTI, Luis Alberto",
+      "dia_semana": "Lunes",
+      "observacion": "",
+      "es_clase_virtual": false,
+      "origen_db": "sql_server",
+      "insert_ts": "19/10/2026, 07:53:46"
+    },
+    {
+      "fecha": "2026-10-19",
+      "año": "4º año",
+      "carrera": "LICENCIATURA EN CIENCIAS BIOLÓGICAS",
+      "actividad": "Tratamiento de Residuos y Efluentes",
+      "actividad_completa": "4º año - Tratamiento de Residuos y Efluentes",
+      "comision": "0",
+      "id_comision": "0",
+      "horario": "09:00 - 13:00",
+      "horario_ini": "09:00",
+      "horario_fin": "13:00",
+      "turno": "Turno Mañana",
+      "ubicacion": "Virtual (Zoom)",
+      "aula": "z_ficen_bio3",
+      "docente": "SENN, Alejandro Marcelo",
+      "dia_semana": "Lunes",
+      "observacion": "Clase virtual",
+      "es_clase_virtual": true,
+      "origen_db": "sql_server",
+      "insert_ts": "19/10/2026, 07:53:46"
+    },
+    {
+      "fecha": "2026-10-19",
+      "año": "5º año",
+      "carrera": "LICENCIATURA EN KINESIOLOGÍA Y FISIATRÍA",
+      "actividad": "Práctica Final Obligatoria - Práctica Final Obligatoria",
+      "actividad_completa": "5º año - Práctica Final Obligatoria - Práctica Final Obligatoria",
+      "comision": "0",
+      "id_comision": "0",
+      "horario": "09:00 - 16:00",
+      "horario_ini": "09:00",
+      "horario_fin": "16:00",
+      "turno": "Turno Mañana",
+      "ubicacion": "CENTRO DE REHABILITACIÓN NEUROMOTRIZ ALPI",
+      "aula": "ALPI",
+      "docente": "ETCHEVERRY, Eduardo Agustín",
+      "dia_semana": "Lunes",
+      "observacion": "",
+      "es_clase_virtual": false,
+      "origen_db": "sql_server",
+      "insert_ts": "19/10/2026, 07:53:46"
+    },
+    {
+      "fecha": "2026-10-19",
+      "año": "5º año",
+      "carrera": "LICENCIATURA EN KINESIOLOGÍA Y FISIATRÍA",
+      "actividad": "Práctica Final Obligatoria - Práctica Final Obligatoria",
+      "actividad_completa": "5º año - Práctica Final Obligatoria - Práctica Final Obligatoria",
+      "comision": "0",
+      "id_comision": "0",
+      "horario": "09:00 - 16:00",
+      "horario_ini": "09:00",
+      "horario_fin": "16:00",
+      "turno": "Turno Mañana",
+      "ubicacion": "HUFF (HOSPITAL UNIVERSITARIO FUNDACIÓN FAVALORO",
+      "aula": "HUFF",
+      "docente": "MOROZOVSKY, Verónica Celia",
+      "dia_semana": "Lunes",
+      "observacion": "",
+      "es_clase_virtual": false,
+      "origen_db": "sql_server",
+      "insert_ts": "19/10/2026, 07:53:46"
+    },
+    {
+      "fecha": "2026-10-19",
+      "año": "5º año",
+      "carrera": "LICENCIATURA EN KINESIOLOGÍA Y FISIATRÍA",
+      "actividad": "Práctica Final Obligatoria - Práctica Final Obligatoria",
+      "actividad_completa": "5º año - Práctica Final Obligatoria - Práctica Final Obligatoria",
+      "comision": "0",
+      "id_comision": "0",
+      "horario": "09:00 - 16:00",
+      "horario_ini": "09:00",
+      "horario_fin": "16:00",
+      "turno": "Turno Mañana",
+      "ubicacion": "HOSPITAL PIÑERO",
+      "aula": "PIÑERO",
+      "docente": "CURA, Adriano Javier",
+      "dia_semana": "Lunes",
+      "observacion": "",
+      "es_clase_virtual": false,
+      "origen_db": "sql_server",
+      "insert_ts": "19/10/2026, 07:53:46"
+    },
+    {
+      "fecha": "2026-10-19",
+      "año": "4º año",
+      "carrera": "LICENCIATURA EN PSICOLOGÍA",
+      "actividad": "Psicología Clínica: Orientación Cognitivo Conductual - PCOCC / Psicología Clínica: Orientación Cognitivo Conductual",
+      "actividad_completa": "4º año - Psicología Clínica: Orientación Cognitivo Conductual - PCOCC / Psicología Clínica: Orientación Cognitivo Conductual",
+      "comision": "2",
+      "id_comision": "2",
+      "horario": "09:00 - 12:00",
+      "horario_ini": "09:00",
+      "horario_fin": "12:00",
+      "turno": "Turno Mañana",
+      "ubicacion": "SARMIENTO 1853",
+      "aula": "B502",
+      "docente": "HERRERO, Mariana Cecilia",
+      "dia_semana": "Lunes",
+      "observacion": "",
+      "es_clase_virtual": false,
+      "origen_db": "sql_server",
+      "insert_ts": "19/10/2026, 07:53:46"
     },
     {
       "fecha": "2026-10-19",
@@ -128,7 +1178,196 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "19/10/2026, 07:40:10"
+      "insert_ts": "19/10/2026, 07:53:46"
+    },
+    {
+      "fecha": "2026-10-19",
+      "año": "1º año",
+      "carrera": "LICENCIATURA EN INSTRUMENTACIÓN QUIRÚRGICA",
+      "actividad": "Psicología",
+      "actividad_completa": "1º año - Psicología",
+      "comision": "0",
+      "id_comision": "0",
+      "horario": "10:00 - 12:00",
+      "horario_ini": "10:00",
+      "horario_fin": "12:00",
+      "turno": "Turno Mañana",
+      "ubicacion": "Virtual (Zoom)",
+      "aula": "z_fcm_25",
+      "docente": "COOK, Mónica Enriqueta",
+      "dia_semana": "Lunes",
+      "observacion": "Clase virtual",
+      "es_clase_virtual": true,
+      "origen_db": "sql_server",
+      "insert_ts": "19/10/2026, 07:53:46"
+    },
+    {
+      "fecha": "2026-10-19",
+      "año": "1º año",
+      "carrera": "LICENCIATURA EN NUTRICIÓN",
+      "actividad": "Saneamiento Ambiental",
+      "actividad_completa": "1º año - Saneamiento Ambiental",
+      "comision": "0",
+      "id_comision": "0",
+      "horario": "10:00 - 12:00",
+      "horario_ini": "10:00",
+      "horario_fin": "12:00",
+      "turno": "Turno Mañana",
+      "ubicacion": "Virtual (Zoom)",
+      "aula": "z_fcm_14",
+      "docente": "SAUCINA, Luciana Marianela",
+      "dia_semana": "Lunes",
+      "observacion": "Clase virtual",
+      "es_clase_virtual": true,
+      "origen_db": "sql_server",
+      "insert_ts": "19/10/2026, 07:53:46"
+    },
+    {
+      "fecha": "2026-10-19",
+      "año": "2º año",
+      "carrera": "LICENCIATURA EN NUTRICIÓN",
+      "actividad": "Inglés Técnico II",
+      "actividad_completa": "2º año - Inglés Técnico II",
+      "comision": "2",
+      "id_comision": "2",
+      "horario": "10:00 - 12:00",
+      "horario_ini": "10:00",
+      "horario_fin": "12:00",
+      "turno": "Turno Mañana",
+      "ubicacion": "MORENO 1623",
+      "aula": "F401",
+      "docente": "BASTARRECHEA, Ana Gabriela",
+      "dia_semana": "Lunes",
+      "observacion": "",
+      "es_clase_virtual": false,
+      "origen_db": "sql_server",
+      "insert_ts": "19/10/2026, 07:53:46"
+    },
+    {
+      "fecha": "2026-10-19",
+      "año": "2º año",
+      "carrera": "LICENCIATURA EN NUTRICIÓN",
+      "actividad": "Inglés Técnico II",
+      "actividad_completa": "2º año - Inglés Técnico II",
+      "comision": "1",
+      "id_comision": "1",
+      "horario": "10:00 - 12:00",
+      "horario_ini": "10:00",
+      "horario_fin": "12:00",
+      "turno": "Turno Mañana",
+      "ubicacion": "MORENO 1623",
+      "aula": "F403",
+      "docente": "COSTA, Gustavo Alfredo",
+      "dia_semana": "Lunes",
+      "observacion": "",
+      "es_clase_virtual": false,
+      "origen_db": "sql_server",
+      "insert_ts": "19/10/2026, 07:53:46"
+    },
+    {
+      "fecha": "2026-10-19",
+      "año": "3º año",
+      "carrera": "LICENCIATURA EN NUTRICIÓN",
+      "actividad": "Fisiopatología y Dietoterapia del Adulto",
+      "actividad_completa": "3º año - Fisiopatología y Dietoterapia del Adulto",
+      "comision": "0",
+      "id_comision": "0",
+      "horario": "10:00 - 13:00",
+      "horario_ini": "10:00",
+      "horario_fin": "13:00",
+      "turno": "Turno Mañana",
+      "ubicacion": "AV. BELGRANO 1670",
+      "aula": "E602",
+      "docente": "VÁZQUEZ, Raquel Liliana",
+      "dia_semana": "Lunes",
+      "observacion": "",
+      "es_clase_virtual": false,
+      "origen_db": "sql_server",
+      "insert_ts": "19/10/2026, 07:53:46"
+    },
+    {
+      "fecha": "2026-10-19",
+      "año": "2º año",
+      "carrera": "LICENCIATURA EN PRODUCCIÓN DE BIOIMÁGENES",
+      "actividad": "Radiología Convencional II - RXC2 / Radiología Convencional II",
+      "actividad_completa": "2º año - Radiología Convencional II - RXC2 / Radiología Convencional II",
+      "comision": "0",
+      "id_comision": "0",
+      "horario": "10:00 - 16:00",
+      "horario_ini": "10:00",
+      "horario_fin": "16:00",
+      "turno": "Turno Mañana",
+      "ubicacion": "HUFF (HOSPITAL UNIVERSITARIO FUNDACIÓN FAVALORO",
+      "aula": "HUFF",
+      "docente": "ROSSETTI, Adrián",
+      "dia_semana": "Lunes",
+      "observacion": "",
+      "es_clase_virtual": false,
+      "origen_db": "sql_server",
+      "insert_ts": "19/10/2026, 07:53:46"
+    },
+    {
+      "fecha": "2026-10-19",
+      "año": "1º año",
+      "carrera": "LICENCIATURA EN PSICOLOGÍA",
+      "actividad": "Sociología",
+      "actividad_completa": "1º año - Sociología",
+      "comision": "2",
+      "id_comision": "2",
+      "horario": "10:00 - 12:00",
+      "horario_ini": "10:00",
+      "horario_fin": "12:00",
+      "turno": "Turno Mañana",
+      "ubicacion": "AV. BELGRANO 1670",
+      "aula": "E701",
+      "docente": "RADOSTA, Dario Iván",
+      "dia_semana": "Lunes",
+      "observacion": "",
+      "es_clase_virtual": false,
+      "origen_db": "sql_server",
+      "insert_ts": "19/10/2026, 07:53:46"
+    },
+    {
+      "fecha": "2026-10-19",
+      "año": "2º año",
+      "carrera": "LICENCIATURA EN PSICOLOGÍA",
+      "actividad": "Psicología Social",
+      "actividad_completa": "2º año - Psicología Social",
+      "comision": "21",
+      "id_comision": "21",
+      "horario": "10:00 - 13:00",
+      "horario_ini": "10:00",
+      "horario_fin": "13:00",
+      "turno": "Turno Mañana",
+      "ubicacion": "AV. BELGRANO 1670",
+      "aula": "E501",
+      "docente": "RUETTI, Eliana Martha",
+      "dia_semana": "Lunes",
+      "observacion": "",
+      "es_clase_virtual": false,
+      "origen_db": "sql_server",
+      "insert_ts": "19/10/2026, 07:53:46"
+    },
+    {
+      "fecha": "2026-10-19",
+      "año": "2º año",
+      "carrera": "LICENCIATURA EN PSICOLOGÍA",
+      "actividad": "Psicología Social",
+      "actividad_completa": "2º año - Psicología Social",
+      "comision": "22",
+      "id_comision": "22",
+      "horario": "10:00 - 13:00",
+      "horario_ini": "10:00",
+      "horario_fin": "13:00",
+      "turno": "Turno Mañana",
+      "ubicacion": "AV. BELGRANO 1670",
+      "aula": "E502",
+      "docente": "RUETTI, Eliana Martha",
+      "dia_semana": "Lunes",
+      "observacion": "",
+      "es_clase_virtual": false,
+      "origen_db": "sql_server",
+      "insert_ts": "19/10/2026, 07:53:46"
     },
     {
       "fecha": "2026-10-19",
@@ -149,7 +1388,322 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "19/10/2026, 07:40:10"
+      "insert_ts": "19/10/2026, 07:53:46"
+    },
+    {
+      "fecha": "2026-10-19",
+      "año": "4º año",
+      "carrera": "MEDICINA",
+      "actividad": "Medicina II - Medicina II",
+      "actividad_completa": "4º año - Medicina II - Medicina II",
+      "comision": "0",
+      "id_comision": "0",
+      "horario": "10:00 - 12:00",
+      "horario_ini": "10:00",
+      "horario_fin": "12:00",
+      "turno": "Turno Mañana",
+      "ubicacion": "SOLÍS 453",
+      "aula": "A101",
+      "docente": "BALDESSARI, Enrique Mario",
+      "dia_semana": "Lunes",
+      "observacion": "Todas las comisiones",
+      "es_clase_virtual": false,
+      "origen_db": "sql_server",
+      "insert_ts": "19/10/2026, 07:53:46"
+    },
+    {
+      "fecha": "2026-10-19",
+      "año": "3º año",
+      "carrera": "BACHILLERATO UNIVERSITARIO EN CIENCIAS DE LA INGENIERÍA",
+      "actividad": "Electrónica Analógica",
+      "actividad_completa": "3º año - Electrónica Analógica",
+      "comision": "0",
+      "id_comision": "0",
+      "horario": "10:30 - 13:00",
+      "horario_ini": "10:30",
+      "horario_fin": "13:00",
+      "turno": "Turno Mañana",
+      "ubicacion": "SARMIENTO 1853",
+      "aula": "B501",
+      "docente": "CRAIEM, Damián Oscar",
+      "dia_semana": "Lunes",
+      "observacion": "",
+      "es_clase_virtual": false,
+      "origen_db": "sql_server",
+      "insert_ts": "19/10/2026, 07:53:46"
+    },
+    {
+      "fecha": "2026-10-19",
+      "año": "1º año",
+      "carrera": "LICENCIATURA EN CIENCIAS BIOLÓGICAS",
+      "actividad": "Biología Vegetal y Botánica",
+      "actividad_completa": "1º año - Biología Vegetal y Botánica",
+      "comision": "0",
+      "id_comision": "0",
+      "horario": "10:30 - 13:30",
+      "horario_ini": "10:30",
+      "horario_fin": "13:30",
+      "turno": "Turno Mañana",
+      "ubicacion": "SARMIENTO 1853",
+      "aula": "B403",
+      "docente": "TARDIVO KUBIS, Jonás Adrián",
+      "dia_semana": "Lunes",
+      "observacion": "",
+      "es_clase_virtual": false,
+      "origen_db": "sql_server",
+      "insert_ts": "19/10/2026, 07:53:46"
+    },
+    {
+      "fecha": "2026-10-19",
+      "año": "1º año",
+      "carrera": "LICENCIATURA EN ENFERMERÍA",
+      "actividad": "Nutrición",
+      "actividad_completa": "1º año - Nutrición",
+      "comision": "1",
+      "id_comision": "1",
+      "horario": "11:00 - 13:00",
+      "horario_ini": "11:00",
+      "horario_fin": "13:00",
+      "turno": "Turno Mañana",
+      "ubicacion": "ENTRE RÍOS 495",
+      "aula": "C412",
+      "docente": "CAMIO, Verónica",
+      "dia_semana": "Lunes",
+      "observacion": "",
+      "es_clase_virtual": false,
+      "origen_db": "sql_server",
+      "insert_ts": "19/10/2026, 07:53:46"
+    },
+    {
+      "fecha": "2026-10-19",
+      "año": "",
+      "carrera": "ATENEOS Y/O EVENTOS ESPECIALES",
+      "actividad": "UF - Esparcimiento",
+      "actividad_completa": "- UF - Esparcimiento",
+      "comision": "1",
+      "id_comision": "1",
+      "horario": "12:00 - 14:00",
+      "horario_ini": "12:00",
+      "horario_fin": "14:00",
+      "turno": "Turno Mañana",
+      "ubicacion": "AV. BELGRANO 1670",
+      "aula": "E202",
+      "docente": "TISSERA, Jorge Horacio",
+      "dia_semana": "Lunes",
+      "observacion": "",
+      "es_clase_virtual": false,
+      "origen_db": "sql_server",
+      "insert_ts": "19/10/2026, 07:53:46"
+    },
+    {
+      "fecha": "2026-10-19",
+      "año": "4º año",
+      "carrera": "LICENCIATURA EN CIENCIAS BIOLÓGICAS",
+      "actividad": "Neurociencia Molecular y Celular",
+      "actividad_completa": "4º año - Neurociencia Molecular y Celular",
+      "comision": "0",
+      "id_comision": "0",
+      "horario": "12:00 - 15:00",
+      "horario_ini": "12:00",
+      "horario_fin": "15:00",
+      "turno": "Turno Mañana",
+      "ubicacion": "Virtual (Zoom)",
+      "aula": "z_ficen_bio2",
+      "docente": "PÉREZ DE COGRAM, Patricia",
+      "dia_semana": "Lunes",
+      "observacion": "Clase virtual",
+      "es_clase_virtual": true,
+      "origen_db": "sql_server",
+      "insert_ts": "19/10/2026, 07:53:46"
+    },
+    {
+      "fecha": "2026-10-19",
+      "año": "2º año",
+      "carrera": "LICENCIATURA EN NUTRICIÓN",
+      "actividad": "Bioética",
+      "actividad_completa": "2º año - Bioética",
+      "comision": "0",
+      "id_comision": "0",
+      "horario": "12:00 - 14:00",
+      "horario_ini": "12:00",
+      "horario_fin": "14:00",
+      "turno": "Turno Mañana",
+      "ubicacion": "MORENO 1623",
+      "aula": "F403",
+      "docente": "CAMBARIERE, Roberto",
+      "dia_semana": "Lunes",
+      "observacion": "",
+      "es_clase_virtual": false,
+      "origen_db": "sql_server",
+      "insert_ts": "19/10/2026, 07:53:46"
+    },
+    {
+      "fecha": "2026-10-19",
+      "año": "1º año",
+      "carrera": "LICENCIATURA EN PSICOLOGÍA",
+      "actividad": "Epistemología",
+      "actividad_completa": "1º año - Epistemología",
+      "comision": "21",
+      "id_comision": "21",
+      "horario": "12:00 - 14:00",
+      "horario_ini": "12:00",
+      "horario_fin": "14:00",
+      "turno": "Turno Mañana",
+      "ubicacion": "AV. BELGRANO 1670",
+      "aula": "E701",
+      "docente": "ALINOVI, Matías Javier",
+      "dia_semana": "Lunes",
+      "observacion": "",
+      "es_clase_virtual": false,
+      "origen_db": "sql_server",
+      "insert_ts": "19/10/2026, 07:53:46"
+    },
+    {
+      "fecha": "2026-10-19",
+      "año": "",
+      "carrera": "ATENEOS Y/O EVENTOS ESPECIALES",
+      "actividad": "HUFF - Presentación donantes vivos  Tx. Renal",
+      "actividad_completa": "- HUFF - Presentación donantes vivos  Tx. Renal",
+      "comision": "1",
+      "id_comision": "1",
+      "horario": "13:00 - 15:00",
+      "horario_ini": "13:00",
+      "horario_fin": "15:00",
+      "turno": "Turno Mañana",
+      "ubicacion": "SOLÍS 453",
+      "aula": "A102",
+      "docente": "TISSERA, Jorge Horacio",
+      "dia_semana": "Lunes",
+      "observacion": "",
+      "es_clase_virtual": false,
+      "origen_db": "sql_server",
+      "insert_ts": "19/10/2026, 07:53:46"
+    },
+    {
+      "fecha": "2026-10-19",
+      "año": "",
+      "carrera": "ATENEOS Y/O EVENTOS ESPECIALES",
+      "actividad": "HUFF - Residencia Cardiología",
+      "actividad_completa": "- HUFF - Residencia Cardiología",
+      "comision": "1",
+      "id_comision": "1",
+      "horario": "13:00 - 14:00",
+      "horario_ini": "13:00",
+      "horario_fin": "14:00",
+      "turno": "Turno Mañana",
+      "ubicacion": "ENTRE RÍOS 495",
+      "aula": "C111",
+      "docente": "TISSERA, Jorge Horacio",
+      "dia_semana": "Lunes",
+      "observacion": "",
+      "es_clase_virtual": false,
+      "origen_db": "sql_server",
+      "insert_ts": "19/10/2026, 07:53:46"
+    },
+    {
+      "fecha": "2026-10-19",
+      "año": "",
+      "carrera": "ATENEOS Y/O EVENTOS ESPECIALES",
+      "actividad": "UF - Actividad Dr. Klein con estudiantes de FCM",
+      "actividad_completa": "- UF - Actividad Dr. Klein con estudiantes de FCM",
+      "comision": "1",
+      "id_comision": "1",
+      "horario": "13:00 - 14:00",
+      "horario_ini": "13:00",
+      "horario_fin": "14:00",
+      "turno": "Turno Mañana",
+      "ubicacion": "SOLÍS 453",
+      "aula": "A801",
+      "docente": "KLEIN, Francisco",
+      "dia_semana": "Lunes",
+      "observacion": "",
+      "es_clase_virtual": false,
+      "origen_db": "sql_server",
+      "insert_ts": "19/10/2026, 07:53:46"
+    },
+    {
+      "fecha": "2026-10-19",
+      "año": "1º año",
+      "carrera": "BACHILLERATO UNIVERSITARIO EN CIENCIAS DE LA INGENIERÍA",
+      "actividad": "Lógica, Epistemología y Ética - Lógica, Epistemología y Ética",
+      "actividad_completa": "1º año - Lógica, Epistemología y Ética - Lógica, Epistemología y Ética",
+      "comision": "0",
+      "id_comision": "0",
+      "horario": "13:00 - 15:00",
+      "horario_ini": "13:00",
+      "horario_fin": "15:00",
+      "turno": "Turno Mañana",
+      "ubicacion": "SARMIENTO 1853",
+      "aula": "B203",
+      "docente": "POUEY BRAGOS, Maira",
+      "dia_semana": "Lunes",
+      "observacion": "",
+      "es_clase_virtual": false,
+      "origen_db": "sql_server",
+      "insert_ts": "19/10/2026, 07:53:46"
+    },
+    {
+      "fecha": "2026-10-19",
+      "año": "3º año",
+      "carrera": "BACHILLERATO UNIVERSITARIO EN CIENCIAS DE LA INGENIERÍA",
+      "actividad": "Electrónica Analógica",
+      "actividad_completa": "3º año - Electrónica Analógica",
+      "comision": "0",
+      "id_comision": "0",
+      "horario": "13:00 - 15:30",
+      "horario_ini": "13:00",
+      "horario_fin": "15:30",
+      "turno": "Turno Mañana",
+      "ubicacion": "SARMIENTO 1853",
+      "aula": "B402",
+      "docente": "CRAIEM, Damián Oscar",
+      "dia_semana": "Lunes",
+      "observacion": "",
+      "es_clase_virtual": false,
+      "origen_db": "sql_server",
+      "insert_ts": "19/10/2026, 07:53:46"
+    },
+    {
+      "fecha": "2026-10-19",
+      "año": "5º año",
+      "carrera": "LICENCIATURA EN PSICOLOGÍA",
+      "actividad": "Práctica Profesional Supervisada",
+      "actividad_completa": "5º año - Práctica Profesional Supervisada",
+      "comision": "1",
+      "id_comision": "1",
+      "horario": "13:00 - 15:00",
+      "horario_ini": "13:00",
+      "horario_fin": "15:00",
+      "turno": "Turno Mañana",
+      "ubicacion": "SARMIENTO 1853",
+      "aula": "B502",
+      "docente": "RUETTI, Eliana Martha",
+      "dia_semana": "Lunes",
+      "observacion": "",
+      "es_clase_virtual": false,
+      "origen_db": "sql_server",
+      "insert_ts": "19/10/2026, 07:53:46"
+    },
+    {
+      "fecha": "2026-10-19",
+      "año": "1º año",
+      "carrera": "MEDICINA",
+      "actividad": "Química General",
+      "actividad_completa": "1º año - Química General",
+      "comision": "0",
+      "id_comision": "0",
+      "horario": "13:00 - 15:00",
+      "horario_ini": "13:00",
+      "horario_fin": "15:00",
+      "turno": "Turno Mañana",
+      "ubicacion": "AV. BELGRANO 1670",
+      "aula": "E501",
+      "docente": "PIGNATARO, Omar Pedro",
+      "dia_semana": "Lunes",
+      "observacion": "",
+      "es_clase_virtual": false,
+      "origen_db": "sql_server",
+      "insert_ts": "19/10/2026, 07:53:46"
     },
     {
       "fecha": "2026-10-19",
@@ -170,7 +1724,49 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "19/10/2026, 07:40:10"
+      "insert_ts": "19/10/2026, 07:53:46"
+    },
+    {
+      "fecha": "2026-10-19",
+      "año": "1º año",
+      "carrera": "POSGRADO",
+      "actividad": "- Integración Disciplinaria I",
+      "actividad_completa": "1º año -  - Integración Disciplinaria I",
+      "comision": "1",
+      "id_comision": "1",
+      "horario": "13:00 - 17:00",
+      "horario_ini": "13:00",
+      "horario_fin": "17:00",
+      "turno": "Turno Mañana",
+      "ubicacion": "ANCHORENA 1176",
+      "aula": "AODO1",
+      "docente": "ROLA, Yanina Soledad",
+      "dia_semana": "Lunes",
+      "observacion": "",
+      "es_clase_virtual": false,
+      "origen_db": "sql_server",
+      "insert_ts": "19/10/2026, 07:53:46"
+    },
+    {
+      "fecha": "2026-10-19",
+      "año": "4º año",
+      "carrera": "INGENIERÍA BIOMÉDICA",
+      "actividad": "Radiaciones y Radioprotección",
+      "actividad_completa": "4º año - Radiaciones y Radioprotección",
+      "comision": "0",
+      "id_comision": "0",
+      "horario": "14:00 - 19:00",
+      "horario_ini": "14:00",
+      "horario_fin": "19:00",
+      "turno": "Turno Mañana",
+      "ubicacion": "SARMIENTO 1853",
+      "aula": "B501",
+      "docente": "STROCOVSKY, Sergio Gerardo",
+      "dia_semana": "Lunes",
+      "observacion": "",
+      "es_clase_virtual": false,
+      "origen_db": "sql_server",
+      "insert_ts": "19/10/2026, 07:53:46"
     },
     {
       "fecha": "2026-10-19",
@@ -191,7 +1787,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "19/10/2026, 07:40:10"
+      "insert_ts": "19/10/2026, 07:53:46"
     },
     {
       "fecha": "2026-10-19",
@@ -212,7 +1808,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "19/10/2026, 07:40:10"
+      "insert_ts": "19/10/2026, 07:53:46"
     },
     {
       "fecha": "2026-10-19",
@@ -233,7 +1829,49 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "19/10/2026, 07:40:10"
+      "insert_ts": "19/10/2026, 07:53:46"
+    },
+    {
+      "fecha": "2026-10-19",
+      "año": "5º año",
+      "carrera": "MEDICINA",
+      "actividad": "Investigación en Ciencias Biomédicas - Módulo IV",
+      "actividad_completa": "5º año - Investigación en Ciencias Biomédicas - Módulo IV",
+      "comision": "0",
+      "id_comision": "0",
+      "horario": "14:00 - 18:00",
+      "horario_ini": "14:00",
+      "horario_fin": "18:00",
+      "turno": "Turno Mañana",
+      "ubicacion": "Virtual (Zoom)",
+      "aula": "z_fcm_10",
+      "docente": "RAPACIOLI, Melina Paola",
+      "dia_semana": "Lunes",
+      "observacion": "Clase virtual",
+      "es_clase_virtual": true,
+      "origen_db": "sql_server",
+      "insert_ts": "19/10/2026, 07:53:46"
+    },
+    {
+      "fecha": "2026-10-19",
+      "año": "5º año",
+      "carrera": "INGENIERÍA BIOMÉDICA",
+      "actividad": "Biomateriales",
+      "actividad_completa": "5º año - Biomateriales",
+      "comision": "0",
+      "id_comision": "0",
+      "horario": "14:30 - 19:30",
+      "horario_ini": "14:30",
+      "horario_fin": "19:30",
+      "turno": "Turno Mañana",
+      "ubicacion": "SARMIENTO 1853",
+      "aula": "B302",
+      "docente": "CORNES, Pablo Daniel",
+      "dia_semana": "Lunes",
+      "observacion": "",
+      "es_clase_virtual": false,
+      "origen_db": "sql_server",
+      "insert_ts": "19/10/2026, 07:53:46"
     },
     {
       "fecha": "2026-10-19",
@@ -254,7 +1892,154 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "19/10/2026, 07:40:10"
+      "insert_ts": "19/10/2026, 07:53:46"
+    },
+    {
+      "fecha": "2026-10-19",
+      "año": "",
+      "carrera": "ATENEOS Y/O EVENTOS ESPECIALES",
+      "actividad": "HUFF - Curso Anual Residentes Neumonología",
+      "actividad_completa": "- HUFF - Curso Anual Residentes Neumonología",
+      "comision": "1",
+      "id_comision": "1",
+      "horario": "15:00 - 16:00",
+      "horario_ini": "15:00",
+      "horario_fin": "16:00",
+      "turno": "Turno Vespertino",
+      "ubicacion": "ENTRE RÍOS 495",
+      "aula": "C111",
+      "docente": "CÁNEVA, Jorge Osvaldo",
+      "dia_semana": "Lunes",
+      "observacion": "",
+      "es_clase_virtual": false,
+      "origen_db": "sql_server",
+      "insert_ts": "19/10/2026, 07:53:46"
+    },
+    {
+      "fecha": "2026-10-19",
+      "año": "",
+      "carrera": "ATENEOS Y/O EVENTOS ESPECIALES",
+      "actividad": "UF - Aula Locker PMB",
+      "actividad_completa": "- UF - Aula Locker PMB",
+      "comision": "1",
+      "id_comision": "1",
+      "horario": "15:00 - 17:00",
+      "horario_ini": "15:00",
+      "horario_fin": "17:00",
+      "turno": "Turno Vespertino",
+      "ubicacion": "ENTRE RÍOS 495",
+      "aula": "C412",
+      "docente": "TISSERA, Jorge Horacio",
+      "dia_semana": "Lunes",
+      "observacion": "",
+      "es_clase_virtual": false,
+      "origen_db": "sql_server",
+      "insert_ts": "19/10/2026, 07:53:46"
+    },
+    {
+      "fecha": "2026-10-19",
+      "año": "",
+      "carrera": "ATENEOS Y/O EVENTOS ESPECIALES",
+      "actividad": "UF- Capacitación Docente",
+      "actividad_completa": "- UF- Capacitación Docente",
+      "comision": "1",
+      "id_comision": "1",
+      "horario": "15:00 - 17:00",
+      "horario_ini": "15:00",
+      "horario_fin": "17:00",
+      "turno": "Turno Vespertino",
+      "ubicacion": "SARMIENTO 1853",
+      "aula": "B202",
+      "docente": "CAMIO, Adriana Victoria",
+      "dia_semana": "Lunes",
+      "observacion": "",
+      "es_clase_virtual": false,
+      "origen_db": "sql_server",
+      "insert_ts": "19/10/2026, 07:53:46"
+    },
+    {
+      "fecha": "2026-10-19",
+      "año": "4º año",
+      "carrera": "LICENCIATURA EN CIENCIAS BIOLÓGICAS",
+      "actividad": "Neurobiología de la Conducta",
+      "actividad_completa": "4º año - Neurobiología de la Conducta",
+      "comision": "0",
+      "id_comision": "0",
+      "horario": "15:00 - 18:00",
+      "horario_ini": "15:00",
+      "horario_fin": "18:00",
+      "turno": "Turno Vespertino",
+      "ubicacion": "Virtual (Zoom)",
+      "aula": "z_ficen_bio2",
+      "docente": "WEISSTAUB, Noelia Victoria",
+      "dia_semana": "Lunes",
+      "observacion": "Clase virtual",
+      "es_clase_virtual": true,
+      "origen_db": "sql_server",
+      "insert_ts": "19/10/2026, 07:53:46"
+    },
+    {
+      "fecha": "2026-10-19",
+      "año": "1º año",
+      "carrera": "LICENCIATURA EN ENFERMERÍA",
+      "actividad": "Bases de Enfermería Comunitaria",
+      "actividad_completa": "1º año - Bases de Enfermería Comunitaria",
+      "comision": "2",
+      "id_comision": "2",
+      "horario": "15:00 - 18:00",
+      "horario_ini": "15:00",
+      "horario_fin": "18:00",
+      "turno": "Turno Vespertino",
+      "ubicacion": "AV. BELGRANO 1670",
+      "aula": "E501",
+      "docente": "DI LORETTO, Miriam Liliana",
+      "dia_semana": "Lunes",
+      "observacion": "",
+      "es_clase_virtual": false,
+      "origen_db": "sql_server",
+      "insert_ts": "19/10/2026, 07:53:46"
+    },
+    {
+      "fecha": "2026-10-19",
+      "año": "4º año",
+      "carrera": "LICENCIATURA EN ENFERMERÍA",
+      "actividad": "Enfermería en Cuidados Críticos II",
+      "actividad_completa": "4º año - Enfermería en Cuidados Críticos II",
+      "comision": "2",
+      "id_comision": "2",
+      "horario": "15:00 - 20:00",
+      "horario_ini": "15:00",
+      "horario_fin": "20:00",
+      "turno": "Turno Vespertino",
+      "ubicacion": "ENTRE RÍOS 495",
+      "aula": "C311",
+      "docente": "SALAS, Miguel Angel",
+      "dia_semana": "Lunes",
+      "observacion": "",
+      "es_clase_virtual": false,
+      "origen_db": "sql_server",
+      "insert_ts": "19/10/2026, 07:53:46"
+    },
+    {
+      "fecha": "2026-10-19",
+      "año": "4º año",
+      "carrera": "LICENCIATURA EN ENFERMERÍA",
+      "actividad": "Enfermería en Cuidados Críticos II",
+      "actividad_completa": "4º año - Enfermería en Cuidados Críticos II",
+      "comision": "2",
+      "id_comision": "2",
+      "horario": "15:00 - 20:00",
+      "horario_ini": "15:00",
+      "horario_fin": "20:00",
+      "turno": "Turno Vespertino",
+      "ubicacion": "AV. BELGRANO 1670",
+      "aula": "E603",
+      "docente": "SALAS, Miguel Angel",
+      "dia_semana": "Lunes",
+      "observacion": "",
+      "es_clase_virtual": false,
+      "origen_db": "sql_server",
+      "insert_ts": "19/10/2026, 07:53:46"
     },
     {
       "fecha": "2026-10-19",
@@ -275,7 +2060,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "19/10/2026, 07:40:10"
+      "insert_ts": "19/10/2026, 07:53:46"
     },
     {
       "fecha": "2026-10-19",
@@ -296,7 +2081,154 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "19/10/2026, 07:40:10"
+      "insert_ts": "19/10/2026, 07:53:46"
+    },
+    {
+      "fecha": "2026-10-19",
+      "año": "1º año",
+      "carrera": "MEDICINA",
+      "actividad": "Prácticas Médicas Básicas",
+      "actividad_completa": "1º año - Prácticas Médicas Básicas",
+      "comision": "1",
+      "id_comision": "1",
+      "horario": "15:00 - 17:00",
+      "horario_ini": "15:00",
+      "horario_fin": "17:00",
+      "turno": "Turno Vespertino",
+      "ubicacion": "HUFF (HOSPITAL UNIVERSITARIO FUNDACIÓN FAVALORO",
+      "aula": "HUFF",
+      "docente": "MESQUIDA, Sara María",
+      "dia_semana": "Lunes",
+      "observacion": "",
+      "es_clase_virtual": false,
+      "origen_db": "sql_server",
+      "insert_ts": "19/10/2026, 07:53:46"
+    },
+    {
+      "fecha": "2026-10-19",
+      "año": "3º año",
+      "carrera": "MEDICINA",
+      "actividad": "Patología",
+      "actividad_completa": "3º año - Patología",
+      "comision": "0",
+      "id_comision": "0",
+      "horario": "15:00 - 17:00",
+      "horario_ini": "15:00",
+      "horario_fin": "17:00",
+      "turno": "Turno Vespertino",
+      "ubicacion": "SOLÍS 453",
+      "aula": "A101",
+      "docente": "VIGLIANO, Carlos Adolfo",
+      "dia_semana": "Lunes",
+      "observacion": "",
+      "es_clase_virtual": false,
+      "origen_db": "sql_server",
+      "insert_ts": "19/10/2026, 07:53:46"
+    },
+    {
+      "fecha": "2026-10-19",
+      "año": "3º año",
+      "carrera": "MEDICINA",
+      "actividad": "Patología",
+      "actividad_completa": "3º año - Patología",
+      "comision": "0",
+      "id_comision": "0",
+      "horario": "15:00 - 17:00",
+      "horario_ini": "15:00",
+      "horario_fin": "17:00",
+      "turno": "Turno Vespertino",
+      "ubicacion": "SOLÍS 453",
+      "aula": "A301",
+      "docente": "VIGLIANO, Carlos Adolfo",
+      "dia_semana": "Lunes",
+      "observacion": "",
+      "es_clase_virtual": false,
+      "origen_db": "sql_server",
+      "insert_ts": "19/10/2026, 07:53:46"
+    },
+    {
+      "fecha": "2026-10-19",
+      "año": "1º año",
+      "carrera": "BACHILLERATO UNIVERSITARIO EN CIENCIAS DE LA INGENIERÍA",
+      "actividad": "Cálculo I - Cálculo I Nueva Cursada",
+      "actividad_completa": "1º año - Cálculo I - Cálculo I Nueva Cursada",
+      "comision": "0",
+      "id_comision": "0",
+      "horario": "15:30 - 19:30",
+      "horario_ini": "15:30",
+      "horario_fin": "19:30",
+      "turno": "Turno Vespertino",
+      "ubicacion": "SARMIENTO 1853",
+      "aula": "B403",
+      "docente": "CASCIARO, Mariano Ezequiel",
+      "dia_semana": "Lunes",
+      "observacion": "",
+      "es_clase_virtual": false,
+      "origen_db": "sql_server",
+      "insert_ts": "19/10/2026, 07:53:46"
+    },
+    {
+      "fecha": "2026-10-19",
+      "año": "5º año",
+      "carrera": "INGENIERÍA EN FÍSICA MÉDICA",
+      "actividad": "Control de Calidad en Diagnóstico por Imágenes",
+      "actividad_completa": "5º año - Control de Calidad en Diagnóstico por Imágenes",
+      "comision": "0",
+      "id_comision": "0",
+      "horario": "15:30 - 19:30",
+      "horario_ini": "15:30",
+      "horario_fin": "19:30",
+      "turno": "Turno Vespertino",
+      "ubicacion": "Virtual (Zoom)",
+      "aula": "z_ficen_ing5",
+      "docente": "ANDISCO, Daniel Enrique",
+      "dia_semana": "Lunes",
+      "observacion": "Clase virtual",
+      "es_clase_virtual": true,
+      "origen_db": "sql_server",
+      "insert_ts": "19/10/2026, 07:53:46"
+    },
+    {
+      "fecha": "2026-10-19",
+      "año": "3º año",
+      "carrera": "LICENCIATURA EN CIENCIAS BIOLÓGICAS",
+      "actividad": "Genética. - Genética",
+      "actividad_completa": "3º año - Genética. - Genética",
+      "comision": "0",
+      "id_comision": "0",
+      "horario": "16:00 - 19:00",
+      "horario_ini": "16:00",
+      "horario_fin": "19:00",
+      "turno": "Turno Vespertino",
+      "ubicacion": "SARMIENTO 1853",
+      "aula": "B502",
+      "docente": "GONZALEZ, Marina Alejandra",
+      "dia_semana": "Lunes",
+      "observacion": "",
+      "es_clase_virtual": false,
+      "origen_db": "sql_server",
+      "insert_ts": "19/10/2026, 07:53:46"
+    },
+    {
+      "fecha": "2026-10-19",
+      "año": "4º año",
+      "carrera": "LICENCIATURA EN CIENCIAS BIOLÓGICAS",
+      "actividad": "Ecología Aplicada",
+      "actividad_completa": "4º año - Ecología Aplicada",
+      "comision": "0",
+      "id_comision": "0",
+      "horario": "16:00 - 20:00",
+      "horario_ini": "16:00",
+      "horario_fin": "20:00",
+      "turno": "Turno Vespertino",
+      "ubicacion": "Virtual (Zoom)",
+      "aula": "z_ficen_bio1",
+      "docente": "FALCÓN, Miguel",
+      "dia_semana": "Lunes",
+      "observacion": "Clase virtual",
+      "es_clase_virtual": true,
+      "origen_db": "sql_server",
+      "insert_ts": "19/10/2026, 07:53:46"
     },
     {
       "fecha": "2026-10-19",
@@ -317,7 +2249,49 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "19/10/2026, 07:40:10"
+      "insert_ts": "19/10/2026, 07:53:46"
+    },
+    {
+      "fecha": "2026-10-19",
+      "año": "1º año",
+      "carrera": "LICENCIATURA EN PRODUCCIÓN DE BIOIMÁGENES",
+      "actividad": "Anatomía II - Anatomía II",
+      "actividad_completa": "1º año - Anatomía II - Anatomía II",
+      "comision": "0",
+      "id_comision": "0",
+      "horario": "16:00 - 18:00",
+      "horario_ini": "16:00",
+      "horario_fin": "18:00",
+      "turno": "Turno Vespertino",
+      "ubicacion": "SOLÍS 453",
+      "aula": "A104",
+      "docente": "PRÓ, Eduardo Adrián",
+      "dia_semana": "Lunes",
+      "observacion": "",
+      "es_clase_virtual": false,
+      "origen_db": "sql_server",
+      "insert_ts": "19/10/2026, 07:53:46"
+    },
+    {
+      "fecha": "2026-10-19",
+      "año": "4º año",
+      "carrera": "LICENCIATURA EN PRODUCCIÓN DE BIOIMÁGENES",
+      "actividad": "Taller de Trabajo Final",
+      "actividad_completa": "4º año - Taller de Trabajo Final",
+      "comision": "0",
+      "id_comision": "0",
+      "horario": "16:00 - 20:00",
+      "horario_ini": "16:00",
+      "horario_fin": "20:00",
+      "turno": "Turno Vespertino",
+      "ubicacion": "AV. BELGRANO 1670",
+      "aula": "E702",
+      "docente": "RAPACIOLI, Melina Paola",
+      "dia_semana": "Lunes",
+      "observacion": "",
+      "es_clase_virtual": false,
+      "origen_db": "sql_server",
+      "insert_ts": "19/10/2026, 07:53:46"
     },
     {
       "fecha": "2026-10-19",
@@ -338,7 +2312,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "19/10/2026, 07:40:10"
+      "insert_ts": "19/10/2026, 07:53:46"
     },
     {
       "fecha": "2026-10-19",
@@ -359,7 +2333,133 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "19/10/2026, 07:40:10"
+      "insert_ts": "19/10/2026, 07:53:46"
+    },
+    {
+      "fecha": "2026-10-19",
+      "año": "4º año",
+      "carrera": "INGENIERÍA EN FÍSICA MÉDICA",
+      "actividad": "Introducción a los Aceleradores de Partículas",
+      "actividad_completa": "4º año - Introducción a los Aceleradores de Partículas",
+      "comision": "0",
+      "id_comision": "0",
+      "horario": "17:00 - 21:00",
+      "horario_ini": "17:00",
+      "horario_fin": "21:00",
+      "turno": "Turno Vespertino",
+      "ubicacion": "Virtual (Zoom)",
+      "aula": "z_ficen_ing4",
+      "docente": "ARAZI, Andrés",
+      "dia_semana": "Lunes",
+      "observacion": "Clase virtual",
+      "es_clase_virtual": true,
+      "origen_db": "sql_server",
+      "insert_ts": "19/10/2026, 07:53:46"
+    },
+    {
+      "fecha": "2026-10-19",
+      "año": "3º año",
+      "carrera": "MEDICINA",
+      "actividad": "Patología",
+      "actividad_completa": "3º año - Patología",
+      "comision": "0",
+      "id_comision": "0",
+      "horario": "17:00 - 18:00",
+      "horario_ini": "17:00",
+      "horario_fin": "18:00",
+      "turno": "Turno Vespertino",
+      "ubicacion": "SOLÍS 453",
+      "aula": "A101",
+      "docente": "VIGLIANO, Carlos Adolfo",
+      "dia_semana": "Lunes",
+      "observacion": "",
+      "es_clase_virtual": false,
+      "origen_db": "sql_server",
+      "insert_ts": "19/10/2026, 07:53:46"
+    },
+    {
+      "fecha": "2026-10-19",
+      "año": "",
+      "carrera": "ATENEOS Y/O EVENTOS ESPECIALES",
+      "actividad": "UF - medINHE26",
+      "actividad_completa": "- UF - medINHE26",
+      "comision": "1",
+      "id_comision": "1",
+      "horario": "18:00 - 21:00",
+      "horario_ini": "18:00",
+      "horario_fin": "21:00",
+      "turno": "Turno Vespertino",
+      "ubicacion": "Virtual (Zoom)",
+      "aula": "z_fcm_16",
+      "docente": "TISSERA, Jorge Horacio",
+      "dia_semana": "Lunes",
+      "observacion": "Clase virtual",
+      "es_clase_virtual": true,
+      "origen_db": "sql_server",
+      "insert_ts": "19/10/2026, 07:53:46"
+    },
+    {
+      "fecha": "2026-10-19",
+      "año": "",
+      "carrera": "INSTITUTO DE CIENCIAS DEL DEPORTE",
+      "actividad": "icdBNUT26  - Curso de Bases de Nutrición y Suplementación Deportiva. Método y Gestión en la Planificación",
+      "actividad_completa": "- icdBNUT26  - Curso de Bases de Nutrición y Suplementación Deportiva. Método y Gestión en la Planificación",
+      "comision": "1",
+      "id_comision": "1",
+      "horario": "18:00 - 20:00",
+      "horario_ini": "18:00",
+      "horario_fin": "20:00",
+      "turno": "Turno Vespertino",
+      "ubicacion": "Virtual (Zoom)",
+      "aula": "z_fcm_17",
+      "docente": "NICOLAO, Patricia Alejandra",
+      "dia_semana": "Lunes",
+      "observacion": "Clase virtual",
+      "es_clase_virtual": true,
+      "origen_db": "sql_server",
+      "insert_ts": "19/10/2026, 07:53:46"
+    },
+    {
+      "fecha": "2026-10-19",
+      "año": "3º año",
+      "carrera": "LICENCIATURA EN CIENCIAS BIOLÓGICAS",
+      "actividad": "Biología Molecular",
+      "actividad_completa": "3º año - Biología Molecular",
+      "comision": "0",
+      "id_comision": "0",
+      "horario": "18:00 - 20:00",
+      "horario_ini": "18:00",
+      "horario_fin": "20:00",
+      "turno": "Turno Vespertino",
+      "ubicacion": "Virtual (Zoom)",
+      "aula": "z_ficen_bio3",
+      "docente": "GONZALEZ, Marina Alejandra",
+      "dia_semana": "Lunes",
+      "observacion": "Clase virtual",
+      "es_clase_virtual": true,
+      "origen_db": "sql_server",
+      "insert_ts": "19/10/2026, 07:53:46"
+    },
+    {
+      "fecha": "2026-10-19",
+      "año": "1º año",
+      "carrera": "LICENCIATURA EN ENFERMERÍA",
+      "actividad": "Nutrición",
+      "actividad_completa": "1º año - Nutrición",
+      "comision": "2",
+      "id_comision": "2",
+      "horario": "18:00 - 20:00",
+      "horario_ini": "18:00",
+      "horario_fin": "20:00",
+      "turno": "Turno Vespertino",
+      "ubicacion": "AV. BELGRANO 1670",
+      "aula": "E602",
+      "docente": "CAMIO, Verónica",
+      "dia_semana": "Lunes",
+      "observacion": "",
+      "es_clase_virtual": false,
+      "origen_db": "sql_server",
+      "insert_ts": "19/10/2026, 07:53:46"
     },
     {
       "fecha": "2026-10-19",
@@ -380,7 +2480,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "19/10/2026, 07:40:10"
+      "insert_ts": "19/10/2026, 07:53:46"
     },
     {
       "fecha": "2026-10-19",
@@ -401,7 +2501,70 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "19/10/2026, 07:40:10"
+      "insert_ts": "19/10/2026, 07:53:46"
+    },
+    {
+      "fecha": "2026-10-19",
+      "año": "1º año",
+      "carrera": "LICENCIATURA EN PRODUCCIÓN DE BIOIMÁGENES",
+      "actividad": "Anatomía II - Anatomía II",
+      "actividad_completa": "1º año - Anatomía II - Anatomía II",
+      "comision": "0",
+      "id_comision": "0",
+      "horario": "18:00 - 20:00",
+      "horario_ini": "18:00",
+      "horario_fin": "20:00",
+      "turno": "Turno Vespertino",
+      "ubicacion": "SOLÍS 453",
+      "aula": "A104",
+      "docente": "PRÓ, Eduardo Adrián",
+      "dia_semana": "Lunes",
+      "observacion": "",
+      "es_clase_virtual": false,
+      "origen_db": "sql_server",
+      "insert_ts": "19/10/2026, 07:53:46"
+    },
+    {
+      "fecha": "2026-10-19",
+      "año": "3º año",
+      "carrera": "LICENCIATURA EN PRODUCCIÓN DE BIOIMÁGENES",
+      "actividad": "Ética y Ejercicio Legal de la Profesión",
+      "actividad_completa": "3º año - Ética y Ejercicio Legal de la Profesión",
+      "comision": "0",
+      "id_comision": "0",
+      "horario": "18:00 - 20:00",
+      "horario_ini": "18:00",
+      "horario_fin": "20:00",
+      "turno": "Turno Vespertino",
+      "ubicacion": "Virtual (Zoom)",
+      "aula": "z_fcm_14",
+      "docente": "CAMBARIERE, Roberto",
+      "dia_semana": "Lunes",
+      "observacion": "Clase virtual",
+      "es_clase_virtual": true,
+      "origen_db": "sql_server",
+      "insert_ts": "19/10/2026, 07:53:46"
+    },
+    {
+      "fecha": "2026-10-19",
+      "año": "1º año",
+      "carrera": "LICENCIATURA EN PSICOLOGÍA",
+      "actividad": "Epistemología",
+      "actividad_completa": "1º año - Epistemología",
+      "comision": "1",
+      "id_comision": "1",
+      "horario": "18:00 - 20:00",
+      "horario_ini": "18:00",
+      "horario_fin": "20:00",
+      "turno": "Turno Vespertino",
+      "ubicacion": "SARMIENTO 1853",
+      "aula": "B404",
+      "docente": "ALINOVI, Matías Javier",
+      "dia_semana": "Lunes",
+      "observacion": "",
+      "es_clase_virtual": false,
+      "origen_db": "sql_server",
+      "insert_ts": "19/10/2026, 07:53:46"
     },
     {
       "fecha": "2026-10-19",
@@ -422,7 +2585,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "19/10/2026, 07:40:10"
+      "insert_ts": "19/10/2026, 07:53:46"
     },
     {
       "fecha": "2026-10-19",
@@ -443,7 +2606,28 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "19/10/2026, 07:40:10"
+      "insert_ts": "19/10/2026, 07:53:46"
+    },
+    {
+      "fecha": "2026-10-19",
+      "año": "4º año",
+      "carrera": "LICENCIATURA EN PSICOLOGÍA",
+      "actividad": "Psicología Clínica: Orientación Sistémica",
+      "actividad_completa": "4º año - Psicología Clínica: Orientación Sistémica",
+      "comision": "1",
+      "id_comision": "1",
+      "horario": "18:00 - 21:00",
+      "horario_ini": "18:00",
+      "horario_fin": "21:00",
+      "turno": "Turno Vespertino",
+      "ubicacion": "SARMIENTO 1853",
+      "aula": "B203",
+      "docente": "ENRIQUEZ, Ignacio Javier",
+      "dia_semana": "Lunes",
+      "observacion": "",
+      "es_clase_virtual": false,
+      "origen_db": "sql_server",
+      "insert_ts": "19/10/2026, 07:53:46"
     },
     {
       "fecha": "2026-10-19",
@@ -464,7 +2648,28 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "19/10/2026, 07:40:10"
+      "insert_ts": "19/10/2026, 07:53:46"
+    },
+    {
+      "fecha": "2026-10-19",
+      "año": "",
+      "carrera": "ATENEOS Y/O EVENTOS ESPECIALES",
+      "actividad": "UF - kinQUIRO26",
+      "actividad_completa": "- UF - kinQUIRO26",
+      "comision": "1",
+      "id_comision": "1",
+      "horario": "19:00 - 21:30",
+      "horario_ini": "19:00",
+      "horario_fin": "21:30",
+      "turno": "Turno Vespertino",
+      "ubicacion": "Virtual (Zoom)",
+      "aula": "z_fcm_10",
+      "docente": "TISSERA, Jorge Horacio",
+      "dia_semana": "Lunes",
+      "observacion": "Clase virtual",
+      "es_clase_virtual": true,
+      "origen_db": "sql_server",
+      "insert_ts": "19/10/2026, 07:53:46"
     },
     {
       "fecha": "2026-10-19",
@@ -485,7 +2690,28 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "19/10/2026, 07:40:10"
+      "insert_ts": "19/10/2026, 07:53:46"
+    },
+    {
+      "fecha": "2026-10-19",
+      "año": "1º año",
+      "carrera": "LICENCIATURA EN PSICOLOGÍA",
+      "actividad": "Inglés Científico",
+      "actividad_completa": "1º año - Inglés Científico",
+      "comision": "1",
+      "id_comision": "1",
+      "horario": "20:00 - 22:00",
+      "horario_ini": "20:00",
+      "horario_fin": "22:00",
+      "turno": "Turno Vespertino",
+      "ubicacion": "SARMIENTO 1853",
+      "aula": "B501",
+      "docente": "OTERO, Marcela Lorena",
+      "dia_semana": "Lunes",
+      "observacion": "",
+      "es_clase_virtual": false,
+      "origen_db": "sql_server",
+      "insert_ts": "19/10/2026, 07:53:46"
     },
     {
       "fecha": "2026-10-20",
@@ -506,7 +2732,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "19/10/2026, 07:40:10"
+      "insert_ts": "19/10/2026, 07:53:46"
     },
     {
       "fecha": "2026-10-20",
@@ -527,7 +2753,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "19/10/2026, 07:40:10"
+      "insert_ts": "19/10/2026, 07:53:46"
     },
     {
       "fecha": "2026-10-20",
@@ -548,7 +2774,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "19/10/2026, 07:40:10"
+      "insert_ts": "19/10/2026, 07:53:46"
     },
     {
       "fecha": "2026-10-20",
@@ -569,7 +2795,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "19/10/2026, 07:40:10"
+      "insert_ts": "19/10/2026, 07:53:46"
     },
     {
       "fecha": "2026-10-20",
@@ -590,7 +2816,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "19/10/2026, 07:40:10"
+      "insert_ts": "19/10/2026, 07:53:46"
     },
     {
       "fecha": "2026-10-20",
@@ -611,7 +2837,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "19/10/2026, 07:40:10"
+      "insert_ts": "19/10/2026, 07:53:46"
     },
     {
       "fecha": "2026-10-20",
@@ -632,7 +2858,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "19/10/2026, 07:40:10"
+      "insert_ts": "19/10/2026, 07:53:46"
     },
     {
       "fecha": "2026-10-20",
@@ -653,7 +2879,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "19/10/2026, 07:40:10"
+      "insert_ts": "19/10/2026, 07:53:46"
     },
     {
       "fecha": "2026-10-20",
@@ -674,7 +2900,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "19/10/2026, 07:40:10"
+      "insert_ts": "19/10/2026, 07:53:46"
     },
     {
       "fecha": "2026-10-20",
@@ -695,7 +2921,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "19/10/2026, 07:40:10"
+      "insert_ts": "19/10/2026, 07:53:46"
     },
     {
       "fecha": "2026-10-20",
@@ -716,7 +2942,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "19/10/2026, 07:40:10"
+      "insert_ts": "19/10/2026, 07:53:46"
     },
     {
       "fecha": "2026-10-20",
@@ -737,7 +2963,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "19/10/2026, 07:40:10"
+      "insert_ts": "19/10/2026, 07:53:46"
     },
     {
       "fecha": "2026-10-20",
@@ -758,7 +2984,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "19/10/2026, 07:40:10"
+      "insert_ts": "19/10/2026, 07:53:46"
     },
     {
       "fecha": "2026-10-20",
@@ -779,7 +3005,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "19/10/2026, 07:40:10"
+      "insert_ts": "19/10/2026, 07:53:46"
     },
     {
       "fecha": "2026-10-20",
@@ -800,7 +3026,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "19/10/2026, 07:40:10"
+      "insert_ts": "19/10/2026, 07:53:46"
     },
     {
       "fecha": "2026-10-20",
@@ -821,7 +3047,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "19/10/2026, 07:40:10"
+      "insert_ts": "19/10/2026, 07:53:46"
     },
     {
       "fecha": "2026-10-20",
@@ -842,7 +3068,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "19/10/2026, 07:40:10"
+      "insert_ts": "19/10/2026, 07:53:46"
     },
     {
       "fecha": "2026-10-20",
@@ -863,7 +3089,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "19/10/2026, 07:40:10"
+      "insert_ts": "19/10/2026, 07:53:46"
     },
     {
       "fecha": "2026-10-20",
@@ -884,7 +3110,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "19/10/2026, 07:40:10"
+      "insert_ts": "19/10/2026, 07:53:46"
     },
     {
       "fecha": "2026-10-20",
@@ -905,7 +3131,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "19/10/2026, 07:40:10"
+      "insert_ts": "19/10/2026, 07:53:46"
     },
     {
       "fecha": "2026-10-20",
@@ -926,7 +3152,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "19/10/2026, 07:40:10"
+      "insert_ts": "19/10/2026, 07:53:46"
     },
     {
       "fecha": "2026-10-20",
@@ -947,7 +3173,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "19/10/2026, 07:40:10"
+      "insert_ts": "19/10/2026, 07:53:46"
     },
     {
       "fecha": "2026-10-20",
@@ -968,7 +3194,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "19/10/2026, 07:40:10"
+      "insert_ts": "19/10/2026, 07:53:46"
     },
     {
       "fecha": "2026-10-20",
@@ -989,7 +3215,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "19/10/2026, 07:40:10"
+      "insert_ts": "19/10/2026, 07:53:46"
     },
     {
       "fecha": "2026-10-20",
@@ -1010,7 +3236,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "19/10/2026, 07:40:10"
+      "insert_ts": "19/10/2026, 07:53:46"
     },
     {
       "fecha": "2026-10-21",
@@ -1031,7 +3257,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "19/10/2026, 07:40:10"
+      "insert_ts": "19/10/2026, 07:53:46"
     },
     {
       "fecha": "2026-10-21",
@@ -1052,7 +3278,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "19/10/2026, 07:40:10"
+      "insert_ts": "19/10/2026, 07:53:46"
     },
     {
       "fecha": "2026-10-21",
@@ -1073,7 +3299,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "19/10/2026, 07:40:10"
+      "insert_ts": "19/10/2026, 07:53:46"
     },
     {
       "fecha": "2026-10-21",
@@ -1094,7 +3320,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "19/10/2026, 07:40:10"
+      "insert_ts": "19/10/2026, 07:53:46"
     },
     {
       "fecha": "2026-10-21",
@@ -1115,7 +3341,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "19/10/2026, 07:40:10"
+      "insert_ts": "19/10/2026, 07:53:46"
     },
     {
       "fecha": "2026-10-21",
@@ -1136,7 +3362,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "19/10/2026, 07:40:10"
+      "insert_ts": "19/10/2026, 07:53:46"
     },
     {
       "fecha": "2026-10-21",
@@ -1157,7 +3383,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "19/10/2026, 07:40:10"
+      "insert_ts": "19/10/2026, 07:53:46"
     },
     {
       "fecha": "2026-10-21",
@@ -1178,7 +3404,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "19/10/2026, 07:40:10"
+      "insert_ts": "19/10/2026, 07:53:46"
     },
     {
       "fecha": "2026-10-21",
@@ -1199,7 +3425,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "19/10/2026, 07:40:10"
+      "insert_ts": "19/10/2026, 07:53:46"
     },
     {
       "fecha": "2026-10-21",
@@ -1220,7 +3446,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "19/10/2026, 07:40:10"
+      "insert_ts": "19/10/2026, 07:53:46"
     },
     {
       "fecha": "2026-10-21",
@@ -1241,7 +3467,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "19/10/2026, 07:40:10"
+      "insert_ts": "19/10/2026, 07:53:46"
     },
     {
       "fecha": "2026-10-21",
@@ -1262,7 +3488,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "19/10/2026, 07:40:10"
+      "insert_ts": "19/10/2026, 07:53:46"
     },
     {
       "fecha": "2026-10-21",
@@ -1283,7 +3509,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "19/10/2026, 07:40:10"
+      "insert_ts": "19/10/2026, 07:53:46"
     },
     {
       "fecha": "2026-10-21",
@@ -1304,7 +3530,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "19/10/2026, 07:40:10"
+      "insert_ts": "19/10/2026, 07:53:46"
     },
     {
       "fecha": "2026-10-21",
@@ -1325,7 +3551,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "19/10/2026, 07:40:10"
+      "insert_ts": "19/10/2026, 07:53:46"
     },
     {
       "fecha": "2026-10-22",
@@ -1346,7 +3572,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "19/10/2026, 07:40:10"
+      "insert_ts": "19/10/2026, 07:53:46"
     },
     {
       "fecha": "2026-10-22",
@@ -1367,7 +3593,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "19/10/2026, 07:40:10"
+      "insert_ts": "19/10/2026, 07:53:46"
     },
     {
       "fecha": "2026-10-22",
@@ -1388,7 +3614,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "19/10/2026, 07:40:10"
+      "insert_ts": "19/10/2026, 07:53:46"
     },
     {
       "fecha": "2026-10-22",
@@ -1409,7 +3635,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "19/10/2026, 07:40:10"
+      "insert_ts": "19/10/2026, 07:53:46"
     },
     {
       "fecha": "2026-10-22",
@@ -1430,7 +3656,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "19/10/2026, 07:40:10"
+      "insert_ts": "19/10/2026, 07:53:46"
     },
     {
       "fecha": "2026-10-22",
@@ -1451,7 +3677,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "19/10/2026, 07:40:10"
+      "insert_ts": "19/10/2026, 07:53:46"
     },
     {
       "fecha": "2026-10-22",
@@ -1472,7 +3698,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "19/10/2026, 07:40:10"
+      "insert_ts": "19/10/2026, 07:53:46"
     },
     {
       "fecha": "2026-10-22",
@@ -1493,7 +3719,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "19/10/2026, 07:40:10"
+      "insert_ts": "19/10/2026, 07:53:46"
     },
     {
       "fecha": "2026-10-22",
@@ -1514,7 +3740,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "19/10/2026, 07:40:10"
+      "insert_ts": "19/10/2026, 07:53:46"
     },
     {
       "fecha": "2026-10-22",
@@ -1535,7 +3761,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "19/10/2026, 07:40:10"
+      "insert_ts": "19/10/2026, 07:53:46"
     },
     {
       "fecha": "2026-10-22",
@@ -1556,7 +3782,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "19/10/2026, 07:40:10"
+      "insert_ts": "19/10/2026, 07:53:46"
     },
     {
       "fecha": "2026-10-22",
@@ -1577,7 +3803,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "19/10/2026, 07:40:10"
+      "insert_ts": "19/10/2026, 07:53:46"
     },
     {
       "fecha": "2026-10-22",
@@ -1598,7 +3824,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "19/10/2026, 07:40:10"
+      "insert_ts": "19/10/2026, 07:53:46"
     },
     {
       "fecha": "2026-10-22",
@@ -1619,7 +3845,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "19/10/2026, 07:40:10"
+      "insert_ts": "19/10/2026, 07:53:46"
     },
     {
       "fecha": "2026-10-22",
@@ -1640,7 +3866,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "19/10/2026, 07:40:10"
+      "insert_ts": "19/10/2026, 07:53:46"
     },
     {
       "fecha": "2026-10-22",
@@ -1661,7 +3887,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "19/10/2026, 07:40:10"
+      "insert_ts": "19/10/2026, 07:53:46"
     },
     {
       "fecha": "2026-10-22",
@@ -1682,7 +3908,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "19/10/2026, 07:40:10"
+      "insert_ts": "19/10/2026, 07:53:46"
     },
     {
       "fecha": "2026-10-22",
@@ -1703,7 +3929,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "19/10/2026, 07:40:10"
+      "insert_ts": "19/10/2026, 07:53:46"
     },
     {
       "fecha": "2026-10-22",
@@ -1724,7 +3950,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "19/10/2026, 07:40:10"
+      "insert_ts": "19/10/2026, 07:53:46"
     },
     {
       "fecha": "2026-10-22",
@@ -1745,7 +3971,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "19/10/2026, 07:40:10"
+      "insert_ts": "19/10/2026, 07:53:46"
     },
     {
       "fecha": "2026-10-22",
@@ -1766,7 +3992,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "19/10/2026, 07:40:10"
+      "insert_ts": "19/10/2026, 07:53:46"
     },
     {
       "fecha": "2026-10-22",
@@ -1787,7 +4013,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "19/10/2026, 07:40:10"
+      "insert_ts": "19/10/2026, 07:53:46"
     },
     {
       "fecha": "2026-10-22",
@@ -1808,7 +4034,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "19/10/2026, 07:40:10"
+      "insert_ts": "19/10/2026, 07:53:46"
     },
     {
       "fecha": "2026-10-22",
@@ -1829,7 +4055,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "19/10/2026, 07:40:10"
+      "insert_ts": "19/10/2026, 07:53:46"
     },
     {
       "fecha": "2026-10-22",
@@ -1850,7 +4076,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "19/10/2026, 07:40:10"
+      "insert_ts": "19/10/2026, 07:53:46"
     },
     {
       "fecha": "2026-10-23",
@@ -1871,7 +4097,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "19/10/2026, 07:40:10"
+      "insert_ts": "19/10/2026, 07:53:46"
     },
     {
       "fecha": "2026-10-23",
@@ -1892,7 +4118,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "19/10/2026, 07:40:10"
+      "insert_ts": "19/10/2026, 07:53:46"
     },
     {
       "fecha": "2026-10-23",
@@ -1913,7 +4139,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "19/10/2026, 07:40:10"
+      "insert_ts": "19/10/2026, 07:53:46"
     },
     {
       "fecha": "2026-10-23",
@@ -1934,7 +4160,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "19/10/2026, 07:40:10"
+      "insert_ts": "19/10/2026, 07:53:46"
     },
     {
       "fecha": "2026-10-23",
@@ -1955,7 +4181,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "19/10/2026, 07:40:10"
+      "insert_ts": "19/10/2026, 07:53:46"
     },
     {
       "fecha": "2026-10-23",
@@ -1976,7 +4202,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "19/10/2026, 07:40:10"
+      "insert_ts": "19/10/2026, 07:53:46"
     },
     {
       "fecha": "2026-10-23",
@@ -1997,7 +4223,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "19/10/2026, 07:40:10"
+      "insert_ts": "19/10/2026, 07:53:46"
     },
     {
       "fecha": "2026-10-23",
@@ -2018,7 +4244,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "19/10/2026, 07:40:10"
+      "insert_ts": "19/10/2026, 07:53:46"
     },
     {
       "fecha": "2026-10-26",
@@ -2039,7 +4265,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "19/10/2026, 07:40:10"
+      "insert_ts": "19/10/2026, 07:53:46"
     },
     {
       "fecha": "2026-10-26",
@@ -2060,7 +4286,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "19/10/2026, 07:40:10"
+      "insert_ts": "19/10/2026, 07:53:46"
     },
     {
       "fecha": "2026-10-26",
@@ -2081,7 +4307,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "19/10/2026, 07:40:10"
+      "insert_ts": "19/10/2026, 07:53:46"
     },
     {
       "fecha": "2026-10-26",
@@ -2102,7 +4328,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "19/10/2026, 07:40:10"
+      "insert_ts": "19/10/2026, 07:53:46"
     },
     {
       "fecha": "2026-10-26",
@@ -2123,7 +4349,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "19/10/2026, 07:40:10"
+      "insert_ts": "19/10/2026, 07:53:46"
     },
     {
       "fecha": "2026-10-26",
@@ -2144,7 +4370,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "19/10/2026, 07:40:10"
+      "insert_ts": "19/10/2026, 07:53:46"
     },
     {
       "fecha": "2026-10-26",
@@ -2165,7 +4391,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "19/10/2026, 07:40:10"
+      "insert_ts": "19/10/2026, 07:53:46"
     },
     {
       "fecha": "2026-10-26",
@@ -2186,7 +4412,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "19/10/2026, 07:40:10"
+      "insert_ts": "19/10/2026, 07:53:46"
     },
     {
       "fecha": "2026-10-26",
@@ -2207,7 +4433,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "19/10/2026, 07:40:10"
+      "insert_ts": "19/10/2026, 07:53:46"
     },
     {
       "fecha": "2026-10-26",
@@ -2228,7 +4454,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "19/10/2026, 07:40:10"
+      "insert_ts": "19/10/2026, 07:53:46"
     },
     {
       "fecha": "2026-10-26",
@@ -2249,7 +4475,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "19/10/2026, 07:40:10"
+      "insert_ts": "19/10/2026, 07:53:46"
     },
     {
       "fecha": "2026-10-26",
@@ -2270,7 +4496,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "19/10/2026, 07:40:10"
+      "insert_ts": "19/10/2026, 07:53:46"
     },
     {
       "fecha": "2026-10-26",
@@ -2291,7 +4517,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "19/10/2026, 07:40:10"
+      "insert_ts": "19/10/2026, 07:53:46"
     },
     {
       "fecha": "2026-10-26",
@@ -2312,7 +4538,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "19/10/2026, 07:40:10"
+      "insert_ts": "19/10/2026, 07:53:46"
     },
     {
       "fecha": "2026-10-26",
@@ -2333,7 +4559,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "19/10/2026, 07:40:10"
+      "insert_ts": "19/10/2026, 07:53:46"
     },
     {
       "fecha": "2026-10-26",
@@ -2354,7 +4580,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "19/10/2026, 07:40:10"
+      "insert_ts": "19/10/2026, 07:53:46"
     },
     {
       "fecha": "2026-10-26",
@@ -2375,7 +4601,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "19/10/2026, 07:40:10"
+      "insert_ts": "19/10/2026, 07:53:46"
     },
     {
       "fecha": "2026-10-26",
@@ -2396,7 +4622,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "19/10/2026, 07:40:10"
+      "insert_ts": "19/10/2026, 07:53:46"
     },
     {
       "fecha": "2026-10-26",
@@ -2417,7 +4643,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "19/10/2026, 07:40:10"
+      "insert_ts": "19/10/2026, 07:53:46"
     },
     {
       "fecha": "2026-10-26",
@@ -2438,7 +4664,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "19/10/2026, 07:40:10"
+      "insert_ts": "19/10/2026, 07:53:46"
     },
     {
       "fecha": "2026-10-26",
@@ -2459,7 +4685,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "19/10/2026, 07:40:10"
+      "insert_ts": "19/10/2026, 07:53:46"
     },
     {
       "fecha": "2026-10-26",
@@ -2480,7 +4706,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "19/10/2026, 07:40:10"
+      "insert_ts": "19/10/2026, 07:53:46"
     },
     {
       "fecha": "2026-10-26",
@@ -2501,7 +4727,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "19/10/2026, 07:40:10"
+      "insert_ts": "19/10/2026, 07:53:46"
     },
     {
       "fecha": "2026-10-26",
@@ -2522,7 +4748,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "19/10/2026, 07:40:10"
+      "insert_ts": "19/10/2026, 07:53:46"
     }
   ]
 }
