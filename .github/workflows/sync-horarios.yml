@@ -1,0 +1,43 @@
+name: Sincronizar Horarios Favaloro
+
+on:
+  schedule:
+    # Se ejecuta cada 30 minutos todos los días
+    - cron: '*/30 * * * *'
+  workflow_dispatch: # Permite ejecutarlo manualmente desde la pestaña Actions en GitHub
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout del repositorio
+        uses: actions/checkout@v4
+
+      - name: Configurar Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: 'npm'
+
+      - name: Instalar dependencias
+        run: npm ci
+
+      - name: Consultar API oficial de Cartelera y actualizar JSON/CSV
+        env:
+          NODE_TLS_REJECT_UNAUTHORIZED: '0'
+        run: npm run sync
+
+      - name: Guardar y subir cambios si hubo actualizaciones
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add public/horarios.json public/horarios.csv
+          if git diff --staged --quiet; then
+            echo "No hay cambios en los horarios."
+          else
+            git commit -m "chore(data): actualizar horarios desde Cartelera Favaloro [skip ci]"
+            git push
+          fi

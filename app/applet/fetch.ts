@@ -1,10 +1,12 @@
-import fs from 'fs';
+import { fetchCarteleraHorarios, CARTELERA_DIRECT_URL } from '../../lib/cartelera';
 
-async function fetchCSV() {
-  const url = 'https://docs.google.com/spreadsheets/d/1DitIlALFPxnugFLLwxpSEOpEs1FS6H5ewVCj4ne2jZY/export?format=csv';
-  const response = await fetch(url);
-  const text = await response.text();
-  console.log(text.substring(0, 1000));
+async function fetchCartelera() {
+  const result = await fetchCarteleraHorarios({
+    baseUrl: CARTELERA_DIRECT_URL,
+    modo: 'normal',
+  });
+  console.log(`Total clases obtenidas: ${result.totalItems} (fuente: ${result.source})`);
+  console.log(JSON.stringify(result.rows.slice(0, 5), null, 2));
 }
 
-fetchCSV();
+fetchCartelera();

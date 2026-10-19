@@ -1,4 +1,4 @@
-import { useEffect, useState, useMemo } from 'react';
+import { useEffect, useState, useMemo, useCallback } from 'react';
 import Papa from 'papaparse';
 import {
   Table,
@@ -12,119 +12,226 @@ import { Input } from '@/components/ui/input';
 import { Label } from '@/components/ui/label';
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
-import { Calendar, Clock, MapPin, User, BookOpen, FilterX } from 'lucide-react';
+import {
+  Calendar,
+  Clock,
+  MapPin,
+  User,
+  BookOpen,
+  FilterX,
+  RefreshCw,
+  Video,
+  Database,
+  Hash,
+} from 'lucide-react';
 import { Button } from '@/components/ui/button';
+import {
+  fetchHorariosConsolidados,
+  normalizarAnio,
+  type ScheduleRow,
+} from '@/lib/cartelera';
 
-interface ScheduleRow {
-  fecha: string;
-  año: string;
-  carrera: string;
-  actividad: string;
-  horario: string;
-  turno: string;
-  ubicacion: string;
-  aula: string;
-  docente: string;
-  dia_semana: string;
-  observacion: string;
-  insert_ts: string;
+const LEGACY_CSV_URL =
+  'https://docs.google.com/spreadsheets/d/1DitIlALFPxnugFLLwxpSEOpEs1FS6H5ewVCj4ne2jZY/export?format=csv';
+
+function getBuenosAiresDatePlusDays(daysOffset = 0): string {
+  const target = new Date(Date.now() + daysOffset * 86400000);
+  const formatter = new Intl.DateTimeFormat('en-US', {
+    timeZone: 'America/Argentina/Buenos_Aires',
+    year: 'numeric',
+    month: '2-digit',
+    day: '2-digit',
+  });
+  const parts = formatter.formatToParts(target);
+  const year = parts.find((p) => p.type === 'year')?.value;
+  const month = parts.find((p) => p.type === 'month')?.value;
+  const day = parts.find((p) => p.type === 'day')?.value;
+  return `${year}-${month}-${day}`;
 }
-
-const CSV_URL = 'https://docs.google.com/spreadsheets/d/1DitIlALFPxnugFLLwxpSEOpEs1FS6H5ewVCj4ne2jZY/export?format=csv';
 
 export default function App() {
   const [data, setData] = useState<ScheduleRow[]>([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
+  const [dataSourceLabel, setDataSourceLabel] = useState<string>('API Oficial Cartelera UF');
+  const [lastUpdated, setLastUpdated] = useState<string | null>(null);
 
   // Filters
   const [filterTurno, setFilterTurno] = useState<string>('');
   const [filterFecha, setFilterFecha] = useState<string>('');
   const [filterCarrera, setFilterCarrera] = useState<string>('');
   const [filterAño, setFilterAño] = useState<string>('');
+  const [filterModalidad, setFilterModalidad] = useState<string>('');
+  const [filterComision, setFilterComision] = useState<string>('');
   const [searchQuery, setSearchQuery] = useState<string>('');
 
-  useEffect(() => {
-    const fetchData = async () => {
+  const todayBA = useMemo(() => getBuenosAiresDatePlusDays(0), []);
+  const endOfWeekBA = useMemo(() => getBuenosAiresDatePlusDays(7), []);
+
+  const loadSchedule = useCallback(async () => {
+    try {
+      setLoading(true);
+      setError(null);
+
+      // 1. Consultar horarios consolidados (Proxy en vivo -> GitHub Actions JSON -> Local JSON)
+      const result = await fetchHorariosConsolidados({
+        fechaInicio: todayBA,
+        fechaFin: endOfWeekBA,
+        modo: 'normal',
+      });
+
+      setData(result.rows);
+      const labelMap = {
+        live_api: `Cartelera UF en vivo (${result.source})`,
+        github_json: `GitHub Sync (${result.source})`,
+        local_json: `Snapshot Local (${result.source})`,
+      };
+      setDataSourceLabel(labelMap[result.originType]);
+      setLastUpdated(
+        result.generatedAt
+          ? new Date(result.generatedAt).toLocaleString('es-AR', {
+              timeZone: 'America/Argentina/Buenos_Aires',
+            })
+          : new Date().toLocaleString('es-AR', {
+              timeZone: 'America/Argentina/Buenos_Aires',
+            })
+      );
+      setLoading(false);
+    } catch (apiErr: any) {
+      console.warn('No se pudo conectar directo al proxy de la API oficial, usando respaldo CSV:', apiErr);
       try {
-        setLoading(true);
-        const response = await fetch(CSV_URL);
-        if (!response.ok) throw new Error('Failed to fetch data');
+        const response = await fetch(LEGACY_CSV_URL);
+        if (!response.ok) throw new Error('Error al cargar respaldo CSV');
         const csvText = await response.text();
-        
-        Papa.parse<ScheduleRow>(csvText, {
+
+        Papa.parse<any>(csvText, {
           header: true,
           skipEmptyLines: true,
           complete: (results) => {
-            setData(results.data);
+            const normalizedFallback: ScheduleRow[] = results.data.map((r: any) => ({
+              fecha: r.fecha || '',
+              año: normalizarAnio(r.año),
+              carrera: r.carrera || '',
+              actividad: r.actividad || '',
+              actividad_completa: r.actividad || '',
+              comision: '',
+              id_comision: '',
+              horario: r.horario || '',
+              horario_ini: (r.horario || '').split(' - ')[0] || '',
+              horario_fin: (r.horario || '').split(' - ')[1] || '',
+              turno: r.turno || '',
+              ubicacion: r.ubicacion || '',
+              aula: r.aula || '',
+              docente: r.docente || '',
+              dia_semana: r.dia_semana || '',
+              observacion: r.observacion || '',
+              es_clase_virtual: false,
+              origen_db: 'csv_fallback',
+              insert_ts: r.insert_ts || '',
+            }));
+            setData(normalizedFallback);
+            setDataSourceLabel('Respaldo Google Sheets (Desactualizado)');
+            setLastUpdated(normalizedFallback[0]?.insert_ts || null);
             setLoading(false);
           },
           error: (err: any) => {
             setError(err.message);
             setLoading(false);
-          }
+          },
         });
-      } catch (err: any) {
-        setError(err.message);
+      } catch (fallbackErr: any) {
+        setError(apiErr?.message || fallbackErr?.message || 'Error al cargar horarios');
         setLoading(false);
       }
-    };
+    }
+  }, [todayBA, endOfWeekBA]);
 
-    fetchData();
-  }, []);
+  useEffect(() => {
+    loadSchedule();
+  }, [loadSchedule]);
 
   // Compute unique values for filters
-  const uniqueTurnos = useMemo(() => Array.from(new Set(data.map(d => d.turno).filter(Boolean))).sort(), [data]);
-  const uniqueFechas = useMemo(() => Array.from(new Set(data.map(d => d.fecha).filter(Boolean))).sort(), [data]);
-  const uniqueCarreras = useMemo(() => Array.from(new Set(data.map(d => d.carrera).filter(Boolean))).sort(), [data]);
-  const uniqueAños = useMemo(() => Array.from(new Set(data.map(d => d.año).filter(Boolean))).sort(), [data]);
+  const uniqueTurnos = useMemo(
+    () => Array.from(new Set(data.map((d) => d.turno).filter(Boolean))).sort(),
+    [data]
+  );
+  const uniqueFechas = useMemo(
+    () => Array.from(new Set(data.map((d) => d.fecha).filter(Boolean))).sort(),
+    [data]
+  );
+  const uniqueCarreras = useMemo(
+    () => Array.from(new Set(data.map((d) => d.carrera).filter(Boolean))).sort(),
+    [data]
+  );
+  const uniqueAños = useMemo(
+    () => Array.from(new Set(data.map((d) => d.año).filter(Boolean))).sort(),
+    [data]
+  );
 
-  // Get today's date in Buenos Aires timezone
-  const todayBA = useMemo(() => {
-    const formatter = new Intl.DateTimeFormat('en-US', {
-      timeZone: 'America/Argentina/Buenos_Aires',
-      year: 'numeric',
-      month: '2-digit',
-      day: '2-digit'
-    });
-    const parts = formatter.formatToParts(new Date());
-    const year = parts.find(p => p.type === 'year')?.value;
-    const month = parts.find(p => p.type === 'month')?.value;
-    const day = parts.find(p => p.type === 'day')?.value;
-    return `${year}-${month}-${day}`;
-  }, []);
-
-  // Filter data
+  // Filter and sort data
   const filteredData = useMemo(() => {
-    return data.filter(row => {
-      const matchTurno = filterTurno ? row.turno === filterTurno : true;
-      const matchFecha = filterFecha ? row.fecha === filterFecha : true;
-      const matchCarrera = filterCarrera ? row.carrera === filterCarrera : true;
-      const matchAño = filterAño ? row.año === filterAño : true;
-      
-      const searchLower = searchQuery.toLowerCase();
-      const matchSearch = searchQuery ? (
-        (row.actividad?.toLowerCase().includes(searchLower)) ||
-        (row.docente?.toLowerCase().includes(searchLower)) ||
-        (row.ubicacion?.toLowerCase().includes(searchLower)) ||
-        (row.aula?.toLowerCase().includes(searchLower))
-      ) : true;
+    return data
+      .filter((row) => {
+        const matchTurno = filterTurno ? row.turno === filterTurno : true;
+        const matchFecha = filterFecha ? row.fecha === filterFecha : true;
+        const matchCarrera = filterCarrera ? row.carrera === filterCarrera : true;
+        const matchAño = filterAño ? row.año === filterAño : true;
+        const matchModalidad =
+          filterModalidad === 'virtual'
+            ? row.es_clase_virtual
+            : filterModalidad === 'presencial'
+              ? !row.es_clase_virtual
+              : true;
 
-      return matchTurno && matchFecha && matchCarrera && matchAño && matchSearch;
-    });
-  }, [data, filterTurno, filterFecha, filterCarrera, filterAño, searchQuery]);
+        const comisionLower = filterComision.trim().toLowerCase();
+        const matchComision = comisionLower
+          ? row.comision.toLowerCase().includes(comisionLower) ||
+            row.id_comision.toLowerCase().includes(comisionLower)
+          : true;
 
-  // Compute latest update timestamp
-  const latestUpdate = useMemo(() => {
-    if (!data || data.length === 0) return null;
-    return data.reduce((max, row) => (row.insert_ts && row.insert_ts > max ? row.insert_ts : max), data[0].insert_ts || '');
-  }, [data]);
+        const searchLower = searchQuery.toLowerCase();
+        const matchSearch = searchQuery
+          ? row.actividad?.toLowerCase().includes(searchLower) ||
+            row.actividad_completa?.toLowerCase().includes(searchLower) ||
+            row.docente?.toLowerCase().includes(searchLower) ||
+            row.ubicacion?.toLowerCase().includes(searchLower) ||
+            row.aula?.toLowerCase().includes(searchLower) ||
+            row.observacion?.toLowerCase().includes(searchLower)
+          : true;
+
+        return (
+          matchTurno &&
+          matchFecha &&
+          matchCarrera &&
+          matchAño &&
+          matchModalidad &&
+          matchComision &&
+          matchSearch
+        );
+      })
+      .sort((a, b) => {
+        if (a.fecha !== b.fecha) return a.fecha.localeCompare(b.fecha);
+        if (a.horario_ini !== b.horario_ini) return a.horario_ini.localeCompare(b.horario_ini);
+        return a.carrera.localeCompare(b.carrera);
+      });
+  }, [
+    data,
+    filterTurno,
+    filterFecha,
+    filterCarrera,
+    filterAño,
+    filterModalidad,
+    filterComision,
+    searchQuery,
+  ]);
 
   const clearFilters = () => {
     setFilterTurno('');
     setFilterFecha('');
     setFilterCarrera('');
     setFilterAño('');
+    setFilterModalidad('');
+    setFilterComision('');
     setSearchQuery('');
   };
 
@@ -133,7 +240,9 @@ export default function App() {
       <div className="flex items-center justify-center min-h-screen bg-slate-50">
         <div className="flex flex-col items-center gap-4">
           <div className="w-12 h-12 border-4 border-primary border-t-transparent rounded-full animate-spin"></div>
-          <p className="text-muted-foreground font-medium">Cargando horarios...</p>
+          <p className="text-muted-foreground font-medium">
+            Cargando horarios desde Cartelera Favaloro...
+          </p>
         </div>
       </div>
     );
@@ -147,6 +256,11 @@ export default function App() {
             <CardTitle className="text-destructive">Error al cargar datos</CardTitle>
             <CardDescription>{error}</CardDescription>
           </CardHeader>
+          <CardContent>
+            <Button onClick={loadSchedule} variant="outline" className="w-full">
+              Reintentar
+            </Button>
+          </CardContent>
         </Card>
       </div>
     );
@@ -155,21 +269,49 @@ export default function App() {
   return (
     <div className="min-h-screen bg-slate-50 p-4 md:p-8 font-sans">
       <div className="max-w-7xl mx-auto space-y-6">
-        
         <div className="flex flex-col md:flex-row md:items-center justify-between gap-4">
           <div>
-            <h1 className="text-3xl font-bold tracking-tight text-slate-900">Horarios de Facultad</h1>
-            <p className="text-slate-500 mt-1">Consulta y filtra los horarios de clases, docentes y aulas.</p>
+            <h1 className="text-3xl font-bold tracking-tight text-slate-900">
+              Horarios de Facultad
+            </h1>
+            <p className="text-slate-500 mt-1">
+              Consulta y filtra en vivo la Cartelera de Cursos de Universidad Favaloro (SQL Server +
+              SIU Guaraní).
+            </p>
           </div>
           <div className="flex flex-col items-start md:items-end gap-2">
-            <Badge variant="secondary" className="w-fit text-sm px-3 py-1">
-              {filteredData.length} {filteredData.length === 1 ? 'clase encontrada' : 'clases encontradas'}
-            </Badge>
-            {latestUpdate && (
-              <Badge variant="outline" className="w-fit text-xs font-normal text-slate-500 bg-slate-50">
-                Última actualización: {latestUpdate}
+            <div className="flex items-center gap-2">
+              <Badge variant="secondary" className="w-fit text-sm px-3 py-1">
+                {filteredData.length}{' '}
+                {filteredData.length === 1 ? 'clase encontrada' : 'clases encontradas'}
               </Badge>
-            )}
+              <Button
+                variant="outline"
+                size="sm"
+                onClick={loadSchedule}
+                className="gap-1.5 text-slate-700"
+              >
+                <RefreshCw className="w-3.5 h-3.5" />
+                Actualizar
+              </Button>
+            </div>
+            <div className="flex flex-wrap items-center gap-2">
+              <Badge
+                variant="outline"
+                className="w-fit text-xs font-normal text-emerald-700 bg-emerald-50 border-emerald-200 flex items-center gap-1"
+              >
+                <Database className="w-3 h-3" />
+                {dataSourceLabel}
+              </Badge>
+              {lastUpdated && (
+                <Badge
+                  variant="outline"
+                  className="w-fit text-xs font-normal text-slate-500 bg-slate-50"
+                >
+                  Actualizado: {lastUpdated}
+                </Badge>
+              )}
+            </div>
           </div>
         </div>
 
@@ -181,18 +323,17 @@ export default function App() {
             </CardTitle>
           </CardHeader>
           <CardContent>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-4">
-              
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-7 gap-4">
               <div className="space-y-2">
                 <Label htmlFor="fecha">Fecha</Label>
-                <select 
+                <select
                   id="fecha"
-                  className="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
+                  className="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
                   value={filterFecha}
                   onChange={(e) => setFilterFecha(e.target.value)}
                 >
                   <option value="">Todas las fechas</option>
-                  {uniqueFechas.map(f => (
+                  {uniqueFechas.map((f) => (
                     <option key={f} value={f}>
                       {f === todayBA ? `${f} (hoy)` : f}
                     </option>
@@ -202,55 +343,90 @@ export default function App() {
 
               <div className="space-y-2">
                 <Label htmlFor="carrera">Carrera</Label>
-                <select 
+                <select
                   id="carrera"
-                  className="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
+                  className="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
                   value={filterCarrera}
                   onChange={(e) => setFilterCarrera(e.target.value)}
                 >
                   <option value="">Todas las carreras</option>
-                  {uniqueCarreras.map(c => <option key={c} value={c}>{c}</option>)}
+                  {uniqueCarreras.map((c) => (
+                    <option key={c} value={c}>
+                      {c}
+                    </option>
+                  ))}
                 </select>
               </div>
 
               <div className="space-y-2">
                 <Label htmlFor="año">Año</Label>
-                <select 
+                <select
                   id="año"
-                  className="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
+                  className="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
                   value={filterAño}
                   onChange={(e) => setFilterAño(e.target.value)}
                 >
                   <option value="">Todos los años</option>
-                  {uniqueAños.map(a => <option key={a} value={a}>{a}</option>)}
+                  {uniqueAños.map((a) => (
+                    <option key={a} value={a}>
+                      {a}
+                    </option>
+                  ))}
                 </select>
               </div>
 
               <div className="space-y-2">
                 <Label htmlFor="turno">Turno</Label>
-                <select 
+                <select
                   id="turno"
-                  className="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
+                  className="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
                   value={filterTurno}
                   onChange={(e) => setFilterTurno(e.target.value)}
                 >
                   <option value="">Todos los turnos</option>
-                  {uniqueTurnos.map(t => <option key={t} value={t}>{t}</option>)}
+                  {uniqueTurnos.map((t) => (
+                    <option key={t} value={t}>
+                      {t}
+                    </option>
+                  ))}
                 </select>
               </div>
 
               <div className="space-y-2">
+                <Label htmlFor="modalidad">Modalidad</Label>
+                <select
+                  id="modalidad"
+                  className="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
+                  value={filterModalidad}
+                  onChange={(e) => setFilterModalidad(e.target.value)}
+                >
+                  <option value="">Todas (Presencial + Virtual)</option>
+                  <option value="presencial">Solo Presencial</option>
+                  <option value="virtual">Solo Virtual</option>
+                </select>
+              </div>
+
+              <div className="space-y-2">
+                <Label htmlFor="comision">Comisión</Label>
+                <Input
+                  id="comision"
+                  placeholder="Ej. 1, FYB, C2..."
+                  value={filterComision}
+                  onChange={(e) => setFilterComision(e.target.value)}
+                />
+              </div>
+
+              <div className="space-y-2">
                 <Label htmlFor="search">Búsqueda libre</Label>
-                <Input 
+                <Input
                   id="search"
-                  placeholder="Materia, docente, aula..." 
+                  placeholder="Materia, docente, aula..."
                   value={searchQuery}
                   onChange={(e) => setSearchQuery(e.target.value)}
                 />
               </div>
-
             </div>
-            
+
             <div className="mt-4 flex justify-end">
               <Button variant="outline" size="sm" onClick={clearFilters} className="text-slate-600">
                 Limpiar filtros
@@ -265,11 +441,11 @@ export default function App() {
               <TableHeader className="bg-slate-100/50">
                 <TableRow>
                   <TableHead className="w-[120px]">Fecha</TableHead>
-                  <TableHead className="w-[100px]">Horario</TableHead>
-                  <TableHead className="min-w-[200px]">Actividad / Materia</TableHead>
-                  <TableHead className="min-w-[150px]">Carrera & Año</TableHead>
-                  <TableHead className="min-w-[180px]">Docente</TableHead>
-                  <TableHead className="min-w-[150px]">Ubicación</TableHead>
+                  <TableHead className="w-[110px]">Horario</TableHead>
+                  <TableHead className="min-w-[220px]">Actividad / Materia</TableHead>
+                  <TableHead className="min-w-[160px]">Carrera & Año</TableHead>
+                  <TableHead className="min-w-[180px]">Docente / Responsable</TableHead>
+                  <TableHead className="min-w-[170px]">Ubicación & Detalle</TableHead>
                 </TableRow>
               </TableHeader>
               <TableBody>
@@ -299,34 +475,68 @@ export default function App() {
                       <TableCell>
                         <div className="flex flex-col gap-1">
                           <span className="font-semibold text-slate-900">{row.actividad}</span>
+                          <div className="flex flex-wrap items-center gap-1.5">
+                            {row.comision && (
+                              <span className="inline-flex items-center gap-1 text-xs text-slate-600 bg-slate-100 px-2 py-0.5 rounded">
+                                <Hash className="w-3 h-3 text-slate-400" />
+                                Com: {row.comision}
+                              </span>
+                            )}
+                            {row.origen_db === 'postgresql' && (
+                              <span className="text-[11px] text-indigo-600 bg-indigo-50 border border-indigo-200 px-1.5 py-0.5 rounded">
+                                SIU Guaraní
+                              </span>
+                            )}
+                          </div>
                         </div>
                       </TableCell>
                       <TableCell>
                         <div className="flex flex-col gap-1">
                           <div className="flex items-center gap-1.5">
-                            <BookOpen className="w-3.5 h-3.5 text-indigo-500" />
-                            <span className="text-sm font-medium text-slate-700">{row.carrera}</span>
+                            <BookOpen className="w-3.5 h-3.5 text-indigo-500 shrink-0" />
+                            <span className="text-sm font-medium text-slate-700">
+                              {row.carrera}
+                            </span>
                           </div>
-                          <Badge variant="outline" className="w-fit text-xs font-normal text-slate-600 bg-slate-50">
-                            {row.año}
-                          </Badge>
+                          {row.año && (
+                            <Badge
+                              variant="outline"
+                              className="w-fit text-xs font-normal text-slate-600 bg-slate-50"
+                            >
+                              {row.año}
+                            </Badge>
+                          )}
                         </div>
                       </TableCell>
                       <TableCell>
                         <div className="flex items-center gap-2">
-                          <User className="w-4 h-4 text-slate-400" />
+                          <User className="w-4 h-4 text-slate-400 shrink-0" />
                           <span className="text-sm text-slate-700">{row.docente || '-'}</span>
                         </div>
                       </TableCell>
                       <TableCell>
                         <div className="flex flex-col gap-1">
                           <div className="flex items-center gap-1.5">
-                            <MapPin className="w-3.5 h-3.5 text-emerald-500" />
-                            <span className="text-sm font-medium text-slate-700">{row.ubicacion}</span>
+                            {row.es_clase_virtual ? (
+                              <Video className="w-3.5 h-3.5 text-sky-500 shrink-0" />
+                            ) : (
+                              <MapPin className="w-3.5 h-3.5 text-emerald-500 shrink-0" />
+                            )}
+                            <span className="text-sm font-medium text-slate-700">
+                              {row.ubicacion || '-'}
+                            </span>
                           </div>
-                          <span className="text-xs text-slate-500 ml-5">Aula: {row.aula || '-'}</span>
+                          <span className="text-xs text-slate-500 ml-5">
+                            Aula: {row.aula || '-'}
+                          </span>
                           {row.observacion && (
-                            <span className="text-xs text-amber-600 bg-amber-50 px-2 py-0.5 rounded-md w-fit border border-amber-200 ml-5 mt-1">
+                            <span
+                              className={`text-xs px-2 py-0.5 rounded-md w-fit border ml-5 mt-1 ${
+                                row.es_clase_virtual
+                                  ? 'text-sky-700 bg-sky-50 border-sky-200'
+                                  : 'text-amber-700 bg-amber-50 border-amber-200'
+                              }`}
+                            >
                               {row.observacion}
                             </span>
                           )}
