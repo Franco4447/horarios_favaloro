@@ -49,6 +49,26 @@ function getBuenosAiresDatePlusDays(daysOffset = 0): string {
   return `${year}-${month}-${day}`;
 }
 
+const STORAGE_KEY = 'horarios_favaloro_filters_v1';
+
+interface SavedFilters {
+  turno?: string;
+  carrera?: string;
+  año?: string;
+  modalidad?: string;
+  comision?: string;
+  search?: string;
+}
+
+function loadSavedFilters(): SavedFilters {
+  try {
+    const raw = localStorage.getItem(STORAGE_KEY);
+    return raw ? JSON.parse(raw) : {};
+  } catch {
+    return {};
+  }
+}
+
 export default function App() {
   const [data, setData] = useState<ScheduleRow[]>([]);
   const [loading, setLoading] = useState(true);
@@ -56,17 +76,37 @@ export default function App() {
   const [dataSourceLabel, setDataSourceLabel] = useState<string>('API Oficial Cartelera UF');
   const [lastUpdated, setLastUpdated] = useState<string | null>(null);
 
-  // Filters
-  const [filterTurno, setFilterTurno] = useState<string>('');
-  const [filterFecha, setFilterFecha] = useState<string>('');
-  const [filterCarrera, setFilterCarrera] = useState<string>('');
-  const [filterAño, setFilterAño] = useState<string>('');
-  const [filterModalidad, setFilterModalidad] = useState<string>('');
-  const [filterComision, setFilterComision] = useState<string>('');
-  const [searchQuery, setSearchQuery] = useState<string>('');
-
   const todayBA = useMemo(() => getBuenosAiresDatePlusDays(0), []);
   const endOfWeekBA = useMemo(() => getBuenosAiresDatePlusDays(7), []);
+  const initialSaved = useMemo(() => loadSavedFilters(), []);
+
+  // Filters: Fecha siempre inicia en "hoy" (todayBA); el resto se restaura desde localStorage
+  const [filterFecha, setFilterFecha] = useState<string>(() => getBuenosAiresDatePlusDays(0));
+  const [filterTurno, setFilterTurno] = useState<string>(() => initialSaved.turno || '');
+  const [filterCarrera, setFilterCarrera] = useState<string>(() => initialSaved.carrera || '');
+  const [filterAño, setFilterAño] = useState<string>(() => initialSaved.año || '');
+  const [filterModalidad, setFilterModalidad] = useState<string>(
+    () => initialSaved.modalidad || ''
+  );
+  const [filterComision, setFilterComision] = useState<string>(() => initialSaved.comision || '');
+  const [searchQuery, setSearchQuery] = useState<string>(() => initialSaved.search || '');
+
+  // Persistir selección de filtros del usuario en su navegador
+  useEffect(() => {
+    try {
+      const toSave: SavedFilters = {
+        turno: filterTurno,
+        carrera: filterCarrera,
+        año: filterAño,
+        modalidad: filterModalidad,
+        comision: filterComision,
+        search: searchQuery,
+      };
+      localStorage.setItem(STORAGE_KEY, JSON.stringify(toSave));
+    } catch {
+      // Ignorar errores de almacenamiento (modo incógnito restringido, etc.)
+    }
+  }, [filterTurno, filterCarrera, filterAño, filterModalidad, filterComision, searchQuery]);
 
   const loadSchedule = useCallback(async () => {
     try {
@@ -156,8 +196,9 @@ export default function App() {
     [data]
   );
   const uniqueFechas = useMemo(
-    () => Array.from(new Set(data.map((d) => d.fecha).filter(Boolean))).sort(),
-    [data]
+    () =>
+      Array.from(new Set([todayBA, ...data.map((d) => d.fecha).filter(Boolean)])).sort(),
+    [data, todayBA]
   );
   const uniqueCarreras = useMemo(
     () => Array.from(new Set(data.map((d) => d.carrera).filter(Boolean))).sort(),
@@ -227,12 +268,17 @@ export default function App() {
 
   const clearFilters = () => {
     setFilterTurno('');
-    setFilterFecha('');
+    setFilterFecha(todayBA);
     setFilterCarrera('');
     setFilterAño('');
     setFilterModalidad('');
     setFilterComision('');
     setSearchQuery('');
+    try {
+      localStorage.removeItem(STORAGE_KEY);
+    } catch {
+      // ignore
+    }
   };
 
   if (loading) {
