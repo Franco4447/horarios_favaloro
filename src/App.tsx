@@ -81,7 +81,7 @@ export default function App() {
   const endOfWeekBA = useMemo(() => getBuenosAiresDatePlusDays(7), []);
   const initialSaved = useMemo(() => loadSavedFilters(), []);
 
-  // Filters: Fecha siempre inicia en "hoy" (todayBA); el resto se restaura desde localStorage
+  // Filters: Fecha siempre inicia en "hoy" (todayBA); Origen por defecto es "sql_server" (Interno)
   const [filterFecha, setFilterFecha] = useState<string>(() => getBuenosAiresDatePlusDays(0));
   const [filterTurno, setFilterTurno] = useState<string>(() => initialSaved.turno || '');
   const [filterCarrera, setFilterCarrera] = useState<string>(() => initialSaved.carrera || '');
@@ -91,7 +91,11 @@ export default function App() {
   );
   const [filterComision, setFilterComision] = useState<string>(() => initialSaved.comision || '');
   const [searchQuery, setSearchQuery] = useState<string>(() => initialSaved.search || '');
-  const [filterOrigen, setFilterOrigen] = useState<string>(() => initialSaved.origen || '');
+  const [filterOrigen, setFilterOrigen] = useState<string>(() =>
+    initialSaved.origen === 'postgresql' || initialSaved.origen === 'sql_server'
+      ? initialSaved.origen
+      : 'sql_server'
+  );
 
   // Persistir selección de filtros del usuario en su navegador
   useEffect(() => {
@@ -294,7 +298,7 @@ export default function App() {
     setFilterModalidad('');
     setFilterComision('');
     setSearchQuery('');
-    setFilterOrigen('');
+    setFilterOrigen('sql_server');
     try {
       localStorage.removeItem(STORAGE_KEY);
     } catch {
@@ -501,9 +505,8 @@ export default function App() {
                   value={filterOrigen}
                   onChange={(e) => setFilterOrigen(e.target.value)}
                 >
-                  <option value="">Todos (SIU Guaraní + Interno)</option>
-                  <option value="postgresql">SIU Guaraní</option>
                   <option value="sql_server">Interno</option>
+                  <option value="postgresql">SIU Guaraní</option>
                 </select>
               </div>
             </div>
@@ -634,6 +637,29 @@ export default function App() {
             </Table>
           </div>
         </Card>
+
+        <footer className="pt-4 pb-6 flex flex-wrap items-center justify-center gap-2.5 text-sm text-slate-500">
+          <span>
+            Desarrollado por{' '}
+            <strong className="font-medium text-slate-700">Franco Méndez Casariego</strong>
+          </span>
+          <a
+            href="https://www.linkedin.com/in/francomendezc"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-medium bg-white text-slate-700 border border-slate-200 shadow-xs transition-all duration-200 hover:bg-[#0A66C2] hover:text-white hover:border-[#0A66C2] hover:shadow-sm"
+            aria-label="Perfil de LinkedIn de Franco Méndez Casariego"
+          >
+            <svg
+              className="w-3.5 h-3.5 fill-current"
+              viewBox="0 0 24 24"
+              aria-hidden="true"
+            >
+              <path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z" />
+            </svg>
+            <span>LinkedIn</span>
+          </a>
+        </footer>
       </div>
     </div>
   );
