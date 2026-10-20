@@ -191,6 +191,7 @@ export function normalizarItemCartelera(
     insert_ts: generatedAt
       ? new Date(generatedAt).toLocaleString('es-AR', {
           timeZone: 'America/Argentina/Buenos_Aires',
+          hour12: false,
         })
       : '',
   };
@@ -212,49 +213,8 @@ export interface FetchCarteleraResult {
   debug?: CarteleraApiResponse['debug'];
 }
 
-function normalizarClaveComparacion(texto?: string): string {
-  return (texto || '')
-    .toString()
-    .toLowerCase()
-    .normalize('NFD')
-    .replace(/[\u0300-\u036f]/g, '')
-    .trim();
-}
-
-function construirClaveDeduplicacion(row: ScheduleRow): string {
-  return [
-    normalizarClaveComparacion(row.fecha),
-    normalizarClaveComparacion(row.carrera),
-    normalizarClaveComparacion(row.año),
-    normalizarClaveComparacion(row.turno),
-    normalizarClaveComparacion(row.actividad),
-  ].join('|');
-}
-
 /**
- * Cuando existen registros tanto en 'postgresql' como en 'sql_server' que coinciden
- * en (fecha, carrera, año, turno, actividad), conserva los de 'postgresql' y descarta
- * los duplicados de 'sql_server', manteniendo el resto de registros de 'sql_server'.
- */
-export function deduplicarPriorizandoPostgres(rows: ScheduleRow[]): ScheduleRow[] {
-  const clavesPostgres = new Set<string>();
-
-  for (const row of rows) {
-    if (row.origen_db === 'postgresql') {
-      clavesPostgres.add(construirClaveDeduplicacion(row));
-    }
-  }
-
-  return rows.filter((row) => {
-    if (row.origen_db === 'sql_server') {
-      return !clavesPostgres.has(construirClaveDeduplicacion(row));
-    }
-    return true;
-  });
-}
-
-/**
- * Obtiene todas las páginas de la API oficial de Cartelera Favaloro y devuelve las filas normalizadas.
+ * Obtiene todas las páginas de la API oficial de Cartelera Favaloro y devuelve todas las filas normalizadas.
  */
 export async function fetchCarteleraHorarios(
   options: FetchCarteleraOptions = {}
@@ -310,10 +270,7 @@ export async function fetchCarteleraHorarios(
     currentPage++;
   } while (currentPage <= totalPages);
 
-  const normalizedRows = allRawItems.map((item) =>
-    normalizarItemCartelera(item, generatedAt)
-  );
-  const rows = deduplicarPriorizandoPostgres(normalizedRows);
+  const rows = allRawItems.map((item) => normalizarItemCartelera(item, generatedAt));
 
   return {
     rows,
@@ -354,17 +311,14 @@ export async function fetchHorariosConsolidados(
     });
     if (ghRes.ok) {
       const ghData = await ghRes.json();
-      if (ghData?.ok && Array.isArray(ghData.rows)) {
-        const dedupedRows = deduplicarPriorizandoPostgres(ghData.rows);
-        if (dedupedRows.length > 0) {
-          return {
-            rows: dedupedRows,
-            totalItems: dedupedRows.length,
-            generatedAt: ghData.generatedAt || '',
-            source: ghData.source || 'github_actions',
-            originType: 'github_json',
-          };
-        }
+      if (ghData?.ok && Array.isArray(ghData.rows) && ghData.rows.length > 0) {
+        return {
+          rows: ghData.rows,
+          totalItems: ghData.rows.length,
+          generatedAt: ghData.generatedAt || '',
+          source: ghData.source || 'github_actions',
+          originType: 'github_json',
+        };
       }
     }
   } catch {
@@ -383,11 +337,9 @@ export async function fetchHorariosConsolidados(
     throw new Error('Formato inválido en horarios.json');
   }
 
-  const dedupedLocalRows = deduplicarPriorizandoPostgres(localData.rows);
-
   return {
-    rows: dedupedLocalRows,
-    totalItems: dedupedLocalRows.length,
+    rows: localData.rows,
+    totalItems: localData.rows.length,
     generatedAt: localData.generatedAt || '',
     source: localData.source || 'local_json',
     originType: 'local_json',

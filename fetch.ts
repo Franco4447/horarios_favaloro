@@ -3,7 +3,6 @@ import path from 'path';
 import Papa from 'papaparse';
 import {
   fetchCarteleraHorarios,
-  deduplicarPriorizandoPostgres,
   CARTELERA_DIRECT_URL,
   type ScheduleRow,
 } from './lib/cartelera';
@@ -89,8 +88,6 @@ async function main() {
       // Si el JSON previo está corrupto, usamos directamente result.rows
     }
   }
-
-  mergedRows = deduplicarPriorizandoPostgres(mergedRows);
 
   // Ordenar de manera determinística para evitar diffs innecesarios en Git
   mergedRows.sort((a, b) => {

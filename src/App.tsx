@@ -58,6 +58,7 @@ interface SavedFilters {
   modalidad?: string;
   comision?: string;
   search?: string;
+  origen?: string;
 }
 
 function loadSavedFilters(): SavedFilters {
@@ -90,6 +91,7 @@ export default function App() {
   );
   const [filterComision, setFilterComision] = useState<string>(() => initialSaved.comision || '');
   const [searchQuery, setSearchQuery] = useState<string>(() => initialSaved.search || '');
+  const [filterOrigen, setFilterOrigen] = useState<string>(() => initialSaved.origen || '');
 
   // Persistir selección de filtros del usuario en su navegador
   useEffect(() => {
@@ -101,12 +103,21 @@ export default function App() {
         modalidad: filterModalidad,
         comision: filterComision,
         search: searchQuery,
+        origen: filterOrigen,
       };
       localStorage.setItem(STORAGE_KEY, JSON.stringify(toSave));
     } catch {
       // Ignorar errores de almacenamiento (modo incógnito restringido, etc.)
     }
-  }, [filterTurno, filterCarrera, filterAño, filterModalidad, filterComision, searchQuery]);
+  }, [
+    filterTurno,
+    filterCarrera,
+    filterAño,
+    filterModalidad,
+    filterComision,
+    searchQuery,
+    filterOrigen,
+  ]);
 
   const loadSchedule = useCallback(async () => {
     try {
@@ -131,14 +142,19 @@ export default function App() {
         result.generatedAt
           ? new Date(result.generatedAt).toLocaleString('es-AR', {
               timeZone: 'America/Argentina/Buenos_Aires',
+              hour12: false,
             })
           : new Date().toLocaleString('es-AR', {
               timeZone: 'America/Argentina/Buenos_Aires',
+              hour12: false,
             })
       );
       setLoading(false);
     } catch (apiErr: any) {
-      console.warn('No se pudo conectar directo al proxy de la API oficial, usando respaldo CSV:', apiErr);
+      console.warn(
+        'No se pudo conectar directo al proxy de la API oficial, usando respaldo CSV:',
+        apiErr
+      );
       try {
         const response = await fetch(LEGACY_CSV_URL);
         if (!response.ok) throw new Error('Error al cargar respaldo CSV');
@@ -224,6 +240,8 @@ export default function App() {
               ? !row.es_clase_virtual
               : true;
 
+        const matchOrigen = filterOrigen ? row.origen_db === filterOrigen : true;
+
         const comisionLower = filterComision.trim().toLowerCase();
         const matchComision = comisionLower
           ? row.comision.toLowerCase().includes(comisionLower) ||
@@ -247,7 +265,8 @@ export default function App() {
           matchAño &&
           matchModalidad &&
           matchComision &&
-          matchSearch
+          matchSearch &&
+          matchOrigen
         );
       })
       .sort((a, b) => {
@@ -264,6 +283,7 @@ export default function App() {
     filterModalidad,
     filterComision,
     searchQuery,
+    filterOrigen,
   ]);
 
   const clearFilters = () => {
@@ -274,6 +294,7 @@ export default function App() {
     setFilterModalidad('');
     setFilterComision('');
     setSearchQuery('');
+    setFilterOrigen('');
     try {
       localStorage.removeItem(STORAGE_KEY);
     } catch {
@@ -318,10 +339,10 @@ export default function App() {
         <div className="flex flex-col md:flex-row md:items-center justify-between gap-4">
           <div>
             <h1 className="text-3xl font-bold tracking-tight text-slate-900">
-              Horarios de Facultad
+              Horarios Universidad Favaloro (no oficial)
             </h1>
             <p className="text-slate-500 mt-1">
-              Consulta y filtra en vivo la Cartelera de Cursos de Universidad Favaloro (SQL Server +
+              Consulta y filtra en vivo la Cartelera de Cursos de Universidad Favaloro (Interno +
               SIU Guaraní).
             </p>
           </div>
@@ -369,7 +390,7 @@ export default function App() {
             </CardTitle>
           </CardHeader>
           <CardContent>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-7 gap-4">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-8 gap-4">
               <div className="space-y-2">
                 <Label htmlFor="fecha">Fecha</Label>
                 <select
@@ -471,6 +492,20 @@ export default function App() {
                   onChange={(e) => setSearchQuery(e.target.value)}
                 />
               </div>
+
+              <div className="space-y-2">
+                <Label htmlFor="origen">Origen</Label>
+                <select
+                  id="origen"
+                  className="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
+                  value={filterOrigen}
+                  onChange={(e) => setFilterOrigen(e.target.value)}
+                >
+                  <option value="">Todos (SIU Guaraní + Interno)</option>
+                  <option value="postgresql">SIU Guaraní</option>
+                  <option value="sql_server">Interno</option>
+                </select>
+              </div>
             </div>
 
             <div className="mt-4 flex justify-end">
@@ -528,11 +563,15 @@ export default function App() {
                                 Com: {row.comision}
                               </span>
                             )}
-                            {row.origen_db === 'postgresql' && (
+                            {row.origen_db === 'postgresql' ? (
                               <span className="text-[11px] text-indigo-600 bg-indigo-50 border border-indigo-200 px-1.5 py-0.5 rounded">
                                 SIU Guaraní
                               </span>
-                            )}
+                            ) : row.origen_db === 'sql_server' ? (
+                              <span className="text-[11px] text-slate-600 bg-slate-100 border border-slate-200 px-1.5 py-0.5 rounded">
+                                Interno
+                              </span>
+                            ) : null}
                           </div>
                         </div>
                       </TableCell>
