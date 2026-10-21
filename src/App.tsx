@@ -23,6 +23,7 @@ import {
   Video,
   Database,
   Hash,
+  Sparkles,
 } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import {
@@ -337,6 +338,8 @@ export default function App() {
     );
   }
 
+  const singleRow = filteredData.length === 1 ? filteredData[0] : null;
+
   return (
     <div className="min-h-screen bg-slate-50 p-4 md:p-8 font-sans">
       <div className="max-w-7xl mx-auto space-y-6">
@@ -519,124 +522,257 @@ export default function App() {
           </CardContent>
         </Card>
 
-        <Card className="border-slate-200 shadow-sm overflow-hidden">
-          <div className="overflow-x-auto">
-            <Table>
-              <TableHeader className="bg-slate-100/50">
-                <TableRow>
-                  <TableHead className="w-[120px]">Fecha</TableHead>
-                  <TableHead className="w-[110px]">Horario</TableHead>
-                  <TableHead className="min-w-[220px]">Actividad / Materia</TableHead>
-                  <TableHead className="min-w-[160px]">Carrera & Año</TableHead>
-                  <TableHead className="min-w-[180px]">Docente / Responsable</TableHead>
-                  <TableHead className="min-w-[170px]">Ubicación & Detalle</TableHead>
-                </TableRow>
-              </TableHeader>
-              <TableBody>
-                {filteredData.length === 0 ? (
+        {singleRow ? (
+          <Card className="border-slate-200 shadow-md overflow-hidden py-0 gap-0">
+            <div className="grid grid-cols-1 md:grid-cols-3">
+              {/* Columna izquierda (2/3): Materia, Horario, Docente y Detalles */}
+              <div className="p-6 md:p-8 md:col-span-2 flex flex-col justify-between space-y-6 border-b md:border-b-0 md:border-r border-dashed border-slate-200 bg-white">
+                <div className="space-y-3">
+                  <div className="flex flex-wrap items-center gap-2">
+                    <span className="inline-flex items-center gap-1.5 text-xs font-semibold text-indigo-700 bg-indigo-50 border border-indigo-200 px-3 py-1 rounded-full">
+                      <BookOpen className="w-3.5 h-3.5 text-indigo-600 shrink-0" />
+                      {singleRow.carrera}
+                    </span>
+                    {singleRow.año && (
+                      <span className="text-xs font-medium text-slate-700 bg-slate-100 border border-slate-200 px-2.5 py-1 rounded-full">
+                        {singleRow.año}
+                      </span>
+                    )}
+                    {singleRow.comision && (
+                      <span className="inline-flex items-center gap-1 text-xs font-medium text-slate-700 bg-slate-100 border border-slate-200 px-2.5 py-1 rounded-full">
+                        <Hash className="w-3 h-3 text-slate-500" />
+                        Com: {singleRow.comision}
+                      </span>
+                    )}
+                    {singleRow.origen_db === 'postgresql' ? (
+                      <span className="text-xs font-medium text-indigo-600 bg-indigo-50/70 border border-indigo-200 px-2.5 py-1 rounded-full">
+                        SIU Guaraní
+                      </span>
+                    ) : singleRow.origen_db === 'sql_server' ? (
+                      <span className="text-xs font-medium text-slate-600 bg-slate-50 border border-slate-200 px-2.5 py-1 rounded-full">
+                        Interno
+                      </span>
+                    ) : null}
+                  </div>
+
+                  <h2 className="text-2xl md:text-3xl font-bold text-slate-900 tracking-tight leading-snug">
+                    {singleRow.actividad}
+                  </h2>
+                </div>
+
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                  <div className="flex items-start gap-3.5 bg-slate-50/80 p-4 rounded-xl border border-slate-200/80">
+                    <div className="p-2.5 rounded-lg bg-white border border-slate-200 text-indigo-600 shadow-2xs shrink-0">
+                      <Clock className="w-5 h-5" />
+                    </div>
+                    <div className="space-y-0.5">
+                      <div className="text-xs text-slate-500 font-medium">Horario y Fecha</div>
+                      <div className="text-lg font-bold text-slate-900">
+                        {singleRow.horario || '-'}
+                      </div>
+                      <div className="text-xs text-slate-600 flex items-center gap-1.5 pt-0.5">
+                        <Calendar className="w-3.5 h-3.5 text-slate-400" />
+                        <span>
+                          {singleRow.turno ? `${singleRow.turno} · ` : ''}
+                          {singleRow.dia_semana} {singleRow.fecha}
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="flex items-start gap-3.5 bg-slate-50/80 p-4 rounded-xl border border-slate-200/80">
+                    <div className="p-2.5 rounded-lg bg-white border border-slate-200 text-indigo-600 shadow-2xs shrink-0">
+                      <User className="w-5 h-5" />
+                    </div>
+                    <div className="space-y-0.5">
+                      <div className="text-xs text-slate-500 font-medium">
+                        Docente / Responsable
+                      </div>
+                      <div className="text-base font-semibold text-slate-900 leading-snug pt-0.5">
+                        {singleRow.docente || 'Sin especificar'}
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                {singleRow.observacion && (
+                  <div
+                    className={`flex items-center gap-2.5 text-sm font-medium px-4 py-3 rounded-xl border ${
+                      singleRow.es_clase_virtual
+                        ? 'text-sky-800 bg-sky-50 border-sky-200'
+                        : 'text-amber-800 bg-amber-50 border-amber-200'
+                    }`}
+                  >
+                    <Sparkles className="w-4 h-4 shrink-0" />
+                    <span>{singleRow.observacion}</span>
+                  </div>
+                )}
+              </div>
+
+              {/* Columna derecha (1/3): Bloque Destacado de Aula y Ubicación */}
+              <div
+                className={`p-6 md:p-8 flex flex-col items-center justify-center text-center space-y-3 ${
+                  singleRow.es_clase_virtual ? 'bg-sky-50/70' : 'bg-emerald-50/70'
+                }`}
+              >
+                <span
+                  className={`inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-semibold border ${
+                    singleRow.es_clase_virtual
+                      ? 'bg-sky-100 text-sky-800 border-sky-200'
+                      : 'bg-emerald-100 text-emerald-800 border-emerald-200'
+                  }`}
+                >
+                  {singleRow.es_clase_virtual ? (
+                    <>
+                      <Video className="w-3.5 h-3.5" />
+                      Clase Virtual
+                    </>
+                  ) : (
+                    <>
+                      <MapPin className="w-3.5 h-3.5" />
+                      Clase Presencial
+                    </>
+                  )}
+                </span>
+
+                <div className="text-xs uppercase tracking-wider text-slate-500 font-semibold pt-1">
+                  Aula asignada
+                </div>
+
+                <div
+                  className={`text-4xl md:text-5xl font-extrabold tracking-tight wrap-break-word max-w-full ${
+                    singleRow.es_clase_virtual ? 'text-sky-700' : 'text-emerald-700'
+                  }`}
+                >
+                  {singleRow.aula || '-'}
+                </div>
+
+                <div className="text-base font-semibold text-slate-800 pt-1">
+                  {singleRow.ubicacion || '-'}
+                </div>
+              </div>
+            </div>
+          </Card>
+        ) : (
+          <Card className="border-slate-200 shadow-sm overflow-hidden">
+            <div className="overflow-x-auto">
+              <Table>
+                <TableHeader className="bg-slate-100/50">
                   <TableRow>
-                    <TableCell colSpan={6} className="h-32 text-center text-slate-500">
-                      No se encontraron clases con los filtros seleccionados.
-                    </TableCell>
+                    <TableHead className="w-[120px]">Fecha</TableHead>
+                    <TableHead className="w-[110px]">Horario</TableHead>
+                    <TableHead className="min-w-[220px]">Actividad / Materia</TableHead>
+                    <TableHead className="min-w-[160px]">Carrera & Año</TableHead>
+                    <TableHead className="min-w-[180px]">Docente / Responsable</TableHead>
+                    <TableHead className="min-w-[170px]">Ubicación & Detalle</TableHead>
                   </TableRow>
-                ) : (
-                  filteredData.map((row, i) => (
-                    <TableRow key={i} className="hover:bg-slate-50/50 transition-colors">
-                      <TableCell className="font-medium">
-                        <div className="flex items-center gap-2">
-                          <Calendar className="w-4 h-4 text-slate-400" />
-                          <span className="whitespace-nowrap">{row.fecha}</span>
-                        </div>
-                        <div className="text-xs text-slate-500 ml-6">{row.dia_semana}</div>
-                      </TableCell>
-                      <TableCell>
-                        <div className="flex items-center gap-2">
-                          <Clock className="w-4 h-4 text-slate-400" />
-                          <span className="whitespace-nowrap">{row.horario}</span>
-                        </div>
-                        <div className="text-xs text-slate-500 ml-6">{row.turno}</div>
-                      </TableCell>
-                      <TableCell>
-                        <div className="flex flex-col gap-1">
-                          <span className="font-semibold text-slate-900">{row.actividad}</span>
-                          <div className="flex flex-wrap items-center gap-1.5">
-                            {row.comision && (
-                              <span className="inline-flex items-center gap-1 text-xs text-slate-600 bg-slate-100 px-2 py-0.5 rounded">
-                                <Hash className="w-3 h-3 text-slate-400" />
-                                Com: {row.comision}
-                              </span>
-                            )}
-                            {row.origen_db === 'postgresql' ? (
-                              <span className="text-[11px] text-indigo-600 bg-indigo-50 border border-indigo-200 px-1.5 py-0.5 rounded">
-                                SIU Guaraní
-                              </span>
-                            ) : row.origen_db === 'sql_server' ? (
-                              <span className="text-[11px] text-slate-600 bg-slate-100 border border-slate-200 px-1.5 py-0.5 rounded">
-                                Interno
-                              </span>
-                            ) : null}
-                          </div>
-                        </div>
-                      </TableCell>
-                      <TableCell>
-                        <div className="flex flex-col gap-1">
-                          <div className="flex items-center gap-1.5">
-                            <BookOpen className="w-3.5 h-3.5 text-indigo-500 shrink-0" />
-                            <span className="text-sm font-medium text-slate-700">
-                              {row.carrera}
-                            </span>
-                          </div>
-                          {row.año && (
-                            <Badge
-                              variant="outline"
-                              className="w-fit text-xs font-normal text-slate-600 bg-slate-50"
-                            >
-                              {row.año}
-                            </Badge>
-                          )}
-                        </div>
-                      </TableCell>
-                      <TableCell>
-                        <div className="flex items-center gap-2">
-                          <User className="w-4 h-4 text-slate-400 shrink-0" />
-                          <span className="text-sm text-slate-700">{row.docente || '-'}</span>
-                        </div>
-                      </TableCell>
-                      <TableCell>
-                        <div className="flex flex-col gap-1">
-                          <div className="flex items-center gap-1.5">
-                            {row.es_clase_virtual ? (
-                              <Video className="w-3.5 h-3.5 text-sky-500 shrink-0" />
-                            ) : (
-                              <MapPin className="w-3.5 h-3.5 text-emerald-500 shrink-0" />
-                            )}
-                            <span className="text-sm font-medium text-slate-700">
-                              {row.ubicacion || '-'}
-                            </span>
-                          </div>
-                          <span className="text-xs text-slate-500 ml-5">
-                            Aula: {row.aula || '-'}
-                          </span>
-                          {row.observacion && (
-                            <span
-                              className={`text-xs px-2 py-0.5 rounded-md w-fit border ml-5 mt-1 ${
-                                row.es_clase_virtual
-                                  ? 'text-sky-700 bg-sky-50 border-sky-200'
-                                  : 'text-amber-700 bg-amber-50 border-amber-200'
-                              }`}
-                            >
-                              {row.observacion}
-                            </span>
-                          )}
-                        </div>
+                </TableHeader>
+                <TableBody>
+                  {filteredData.length === 0 ? (
+                    <TableRow>
+                      <TableCell colSpan={6} className="h-32 text-center text-slate-500">
+                        No se encontraron clases con los filtros seleccionados.
                       </TableCell>
                     </TableRow>
-                  ))
-                )}
-              </TableBody>
-            </Table>
-          </div>
-        </Card>
+                  ) : (
+                    filteredData.map((row, i) => (
+                      <TableRow key={i} className="hover:bg-slate-50/50 transition-colors">
+                        <TableCell className="font-medium">
+                          <div className="flex items-center gap-2">
+                            <Calendar className="w-4 h-4 text-slate-400" />
+                            <span className="whitespace-nowrap">{row.fecha}</span>
+                          </div>
+                          <div className="text-xs text-slate-500 ml-6">{row.dia_semana}</div>
+                        </TableCell>
+                        <TableCell>
+                          <div className="flex items-center gap-2">
+                            <Clock className="w-4 h-4 text-slate-400" />
+                            <span className="whitespace-nowrap">{row.horario}</span>
+                          </div>
+                          <div className="text-xs text-slate-500 ml-6">{row.turno}</div>
+                        </TableCell>
+                        <TableCell>
+                          <div className="flex flex-col gap-1">
+                            <span className="font-semibold text-slate-900">{row.actividad}</span>
+                            <div className="flex flex-wrap items-center gap-1.5">
+                              {row.comision && (
+                                <span className="inline-flex items-center gap-1 text-xs text-slate-600 bg-slate-100 px-2 py-0.5 rounded">
+                                  <Hash className="w-3 h-3 text-slate-400" />
+                                  Com: {row.comision}
+                                </span>
+                              )}
+                              {row.origen_db === 'postgresql' ? (
+                                <span className="text-[11px] text-indigo-600 bg-indigo-50 border border-indigo-200 px-1.5 py-0.5 rounded">
+                                  SIU Guaraní
+                                </span>
+                              ) : row.origen_db === 'sql_server' ? (
+                                <span className="text-[11px] text-slate-600 bg-slate-100 border border-slate-200 px-1.5 py-0.5 rounded">
+                                  Interno
+                                </span>
+                              ) : null}
+                            </div>
+                          </div>
+                        </TableCell>
+                        <TableCell>
+                          <div className="flex flex-col gap-1">
+                            <div className="flex items-center gap-1.5">
+                              <BookOpen className="w-3.5 h-3.5 text-indigo-500 shrink-0" />
+                              <span className="text-sm font-medium text-slate-700">
+                                {row.carrera}
+                              </span>
+                            </div>
+                            {row.año && (
+                              <Badge
+                                variant="outline"
+                                className="w-fit text-xs font-normal text-slate-600 bg-slate-50"
+                              >
+                                {row.año}
+                              </Badge>
+                            )}
+                          </div>
+                        </TableCell>
+                        <TableCell>
+                          <div className="flex items-center gap-2">
+                            <User className="w-4 h-4 text-slate-400 shrink-0" />
+                            <span className="text-sm text-slate-700">{row.docente || '-'}</span>
+                          </div>
+                        </TableCell>
+                        <TableCell>
+                          <div className="flex flex-col gap-1">
+                            <div className="flex items-center gap-1.5">
+                              {row.es_clase_virtual ? (
+                                <Video className="w-3.5 h-3.5 text-sky-500 shrink-0" />
+                              ) : (
+                                <MapPin className="w-3.5 h-3.5 text-emerald-500 shrink-0" />
+                              )}
+                              <span className="text-sm font-medium text-slate-700">
+                                {row.ubicacion || '-'}
+                              </span>
+                            </div>
+                            <span className="text-xs text-slate-500 ml-5">
+                              Aula: {row.aula || '-'}
+                            </span>
+                            {row.observacion && (
+                              <span
+                                className={`text-xs px-2 py-0.5 rounded-md w-fit border ml-5 mt-1 ${
+                                  row.es_clase_virtual
+                                    ? 'text-sky-700 bg-sky-50 border-sky-200'
+                                    : 'text-amber-700 bg-amber-50 border-amber-200'
+                                }`}
+                              >
+                                {row.observacion}
+                              </span>
+                            )}
+                          </div>
+                        </TableCell>
+                      </TableRow>
+                    ))
+                  )}
+                </TableBody>
+              </Table>
+            </div>
+          </Card>
+        )}
 
         <footer className="pt-4 pb-6 flex flex-wrap items-center justify-center gap-2.5 text-sm text-slate-500">
           <span>
