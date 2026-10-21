@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "generatedAt": "2026-10-21T07:11:03+00:00",
+  "generatedAt": "2026-10-21T13:05:04+00:00",
   "source": "multi_db",
   "totalItems": 254,
   "rows": [
@@ -23,28 +23,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "sql_server",
-      "insert_ts": "21/10/2026, 04:11:03"
-    },
-    {
-      "fecha": "2026-10-21",
-      "año": "",
-      "carrera": "ATENEOS Y/O EVENTOS ESPECIALES",
-      "actividad": "HUFF - Exámenes Periódicos HUFF",
-      "actividad_completa": "- HUFF - Exámenes Periódicos HUFF",
-      "comision": "1",
-      "id_comision": "1",
-      "horario": "08:00 - 18:00",
-      "horario_ini": "08:00",
-      "horario_fin": "18:00",
-      "turno": "Turno Mañana",
-      "ubicacion": "SOLÍS 453",
-      "aula": "A104",
-      "docente": "TISSERA, Jorge Horacio",
-      "dia_semana": "Miércoles",
-      "observacion": "",
-      "es_clase_virtual": false,
-      "origen_db": "sql_server",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-21",
@@ -65,7 +44,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "sql_server",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-21",
@@ -86,7 +65,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "sql_server",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-21",
@@ -107,7 +86,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "sql_server",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-21",
@@ -128,7 +107,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "sql_server",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-21",
@@ -149,7 +128,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "sql_server",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-21",
@@ -170,7 +149,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "sql_server",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-21",
@@ -191,7 +170,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "sql_server",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-21",
@@ -212,7 +191,7 @@
       "observacion": "Clase virtual",
       "es_clase_virtual": true,
       "origen_db": "sql_server",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-21",
@@ -233,7 +212,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "sql_server",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-21",
@@ -254,7 +233,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "sql_server",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-21",
@@ -275,7 +254,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "sql_server",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-21",
@@ -296,7 +275,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "sql_server",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-21",
@@ -317,7 +296,7 @@
       "observacion": "Clase virtual",
       "es_clase_virtual": true,
       "origen_db": "sql_server",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-21",
@@ -338,7 +317,7 @@
       "observacion": "Clase virtual",
       "es_clase_virtual": true,
       "origen_db": "sql_server",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-21",
@@ -359,7 +338,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "sql_server",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-21",
@@ -380,7 +359,7 @@
       "observacion": "Clase virtual",
       "es_clase_virtual": true,
       "origen_db": "sql_server",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-21",
@@ -401,7 +380,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "sql_server",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-21",
@@ -422,7 +401,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "sql_server",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-21",
@@ -443,7 +422,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "sql_server",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-21",
@@ -464,7 +443,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "sql_server",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-21",
@@ -485,7 +464,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "sql_server",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-21",
@@ -506,7 +485,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "sql_server",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-21",
@@ -527,7 +506,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "sql_server",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-21",
@@ -548,7 +527,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "sql_server",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-21",
@@ -569,7 +548,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "sql_server",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-21",
@@ -590,7 +569,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "sql_server",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-21",
@@ -611,7 +590,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "sql_server",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-21",
@@ -632,7 +611,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "sql_server",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-21",
@@ -653,7 +632,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "sql_server",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-21",
@@ -674,7 +653,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "sql_server",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-21",
@@ -689,13 +668,13 @@
       "horario_fin": "10:00",
       "turno": "Turno Mañana",
       "ubicacion": "SOLÍS 453",
-      "aula": "A101",
+      "aula": "A301",
       "docente": "VIGLIANO, Carlos Adolfo",
       "dia_semana": "Miércoles",
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "sql_server",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-21",
@@ -716,7 +695,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "sql_server",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-21",
@@ -737,7 +716,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "sql_server",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-21",
@@ -758,7 +737,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "sql_server",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-21",
@@ -779,7 +758,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "sql_server",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-21",
@@ -800,7 +779,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-21",
@@ -821,7 +800,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-21",
@@ -842,7 +821,7 @@
       "observacion": "Htal Fernandez - Htal. Pirovano - Htal Piñero",
       "es_clase_virtual": false,
       "origen_db": "sql_server",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-21",
@@ -863,7 +842,7 @@
       "observacion": "Htal. Fernandez - Htal. Pirovano - Htal. Piñero",
       "es_clase_virtual": false,
       "origen_db": "sql_server",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-21",
@@ -884,7 +863,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "sql_server",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-21",
@@ -905,7 +884,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "sql_server",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-21",
@@ -926,7 +905,7 @@
       "observacion": "Clase virtual",
       "es_clase_virtual": true,
       "origen_db": "sql_server",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-21",
@@ -947,7 +926,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "sql_server",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-21",
@@ -968,7 +947,28 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "sql_server",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
+    },
+    {
+      "fecha": "2026-10-21",
+      "año": "",
+      "carrera": "ATENEOS Y/O EVENTOS ESPECIALES",
+      "actividad": "HUFF - Ingresos",
+      "actividad_completa": "- HUFF - Ingresos",
+      "comision": "1",
+      "id_comision": "1",
+      "horario": "09:00 - 12:00",
+      "horario_ini": "09:00",
+      "horario_fin": "12:00",
+      "turno": "Turno Mañana",
+      "ubicacion": "SOLÍS 453",
+      "aula": "A102",
+      "docente": "TISSERA, Jorge Horacio",
+      "dia_semana": "Miércoles",
+      "observacion": "",
+      "es_clase_virtual": false,
+      "origen_db": "sql_server",
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-21",
@@ -989,7 +989,7 @@
       "observacion": "Clase virtual",
       "es_clase_virtual": true,
       "origen_db": "sql_server",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-21",
@@ -1010,7 +1010,7 @@
       "observacion": "Clase virtual",
       "es_clase_virtual": true,
       "origen_db": "sql_server",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-21",
@@ -1031,7 +1031,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "sql_server",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-21",
@@ -1052,7 +1052,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "sql_server",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-21",
@@ -1073,7 +1073,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "sql_server",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-21",
@@ -1094,7 +1094,7 @@
       "observacion": "Clase virtual",
       "es_clase_virtual": true,
       "origen_db": "sql_server",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-21",
@@ -1115,7 +1115,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "sql_server",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-21",
@@ -1136,7 +1136,7 @@
       "observacion": "Clase virtual",
       "es_clase_virtual": true,
       "origen_db": "sql_server",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-21",
@@ -1157,7 +1157,7 @@
       "observacion": "Clase virtual",
       "es_clase_virtual": true,
       "origen_db": "sql_server",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-21",
@@ -1178,7 +1178,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "sql_server",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-21",
@@ -1199,7 +1199,7 @@
       "observacion": "Clase virtual",
       "es_clase_virtual": true,
       "origen_db": "sql_server",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-21",
@@ -1220,7 +1220,7 @@
       "observacion": "Clase virtual",
       "es_clase_virtual": true,
       "origen_db": "sql_server",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-21",
@@ -1241,7 +1241,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "sql_server",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-21",
@@ -1262,7 +1262,7 @@
       "observacion": "Clase virtual",
       "es_clase_virtual": true,
       "origen_db": "sql_server",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-21",
@@ -1283,7 +1283,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "sql_server",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-21",
@@ -1304,7 +1304,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "sql_server",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-21",
@@ -1325,7 +1325,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "sql_server",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-21",
@@ -1346,7 +1346,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "sql_server",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-21",
@@ -1367,7 +1367,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "sql_server",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-21",
@@ -1382,13 +1382,13 @@
       "horario_fin": "12:00",
       "turno": "Turno Mañana",
       "ubicacion": "SOLÍS 453",
-      "aula": "A101",
+      "aula": "A104",
       "docente": "VIGLIANO, Carlos Adolfo",
       "dia_semana": "Miércoles",
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "sql_server",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-21",
@@ -1409,7 +1409,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-21",
@@ -1430,7 +1430,7 @@
       "observacion": "Grupo 22",
       "es_clase_virtual": false,
       "origen_db": "sql_server",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-21",
@@ -1451,7 +1451,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "sql_server",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-21",
@@ -1472,7 +1472,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "sql_server",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-21",
@@ -1493,7 +1493,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "sql_server",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-21",
@@ -1514,7 +1514,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "sql_server",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-21",
@@ -1535,7 +1535,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "sql_server",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-21",
@@ -1556,7 +1556,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "sql_server",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-21",
@@ -1577,7 +1577,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "sql_server",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-21",
@@ -1598,7 +1598,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "sql_server",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-21",
@@ -1619,7 +1619,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "sql_server",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-21",
@@ -1640,7 +1640,7 @@
       "observacion": "Clase virtual",
       "es_clase_virtual": true,
       "origen_db": "sql_server",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-21",
@@ -1661,7 +1661,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "sql_server",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-21",
@@ -1682,7 +1682,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "sql_server",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-21",
@@ -1703,7 +1703,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "sql_server",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-21",
@@ -1724,7 +1724,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "sql_server",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-21",
@@ -1745,7 +1745,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "sql_server",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-21",
@@ -1760,13 +1760,13 @@
       "horario_fin": "14:00",
       "turno": "Turno Mañana",
       "ubicacion": "SOLÍS 453",
-      "aula": "A101",
+      "aula": "A104",
       "docente": "DROLAS, María Cecilia",
       "dia_semana": "Miércoles",
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "sql_server",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-21",
@@ -1787,7 +1787,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "sql_server",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-21",
@@ -1808,7 +1808,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "sql_server",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-21",
@@ -1829,7 +1829,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "sql_server",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-21",
@@ -1850,7 +1850,7 @@
       "observacion": "Clase virtual",
       "es_clase_virtual": true,
       "origen_db": "sql_server",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-21",
@@ -1871,7 +1871,7 @@
       "observacion": "Clase virtual",
       "es_clase_virtual": true,
       "origen_db": "sql_server",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-21",
@@ -1892,7 +1892,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "sql_server",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-21",
@@ -1913,7 +1913,7 @@
       "observacion": "Clase virtual",
       "es_clase_virtual": true,
       "origen_db": "sql_server",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-21",
@@ -1934,7 +1934,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-21",
@@ -1955,7 +1955,28 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "sql_server",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
+    },
+    {
+      "fecha": "2026-10-21",
+      "año": "3º año",
+      "carrera": "MEDICINA",
+      "actividad": "Investigación en Ciencias Biomédicas - Módulo II",
+      "actividad_completa": "3º año - Investigación en Ciencias Biomédicas - Módulo II",
+      "comision": "0",
+      "id_comision": "0",
+      "horario": "13:00 - 18:00",
+      "horario_ini": "13:00",
+      "horario_fin": "18:00",
+      "turno": "Turno Mañana",
+      "ubicacion": "AV. BELGRANO 1670",
+      "aula": "E702",
+      "docente": "RAPACIOLI, Melina Paola",
+      "dia_semana": "Miércoles",
+      "observacion": "",
+      "es_clase_virtual": false,
+      "origen_db": "sql_server",
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-21",
@@ -1976,7 +1997,7 @@
       "observacion": "Clase virtual",
       "es_clase_virtual": true,
       "origen_db": "sql_server",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-21",
@@ -1997,7 +2018,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "sql_server",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-21",
@@ -2018,7 +2039,7 @@
       "observacion": "Clase virtual",
       "es_clase_virtual": true,
       "origen_db": "sql_server",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-21",
@@ -2039,7 +2060,7 @@
       "observacion": "Clase virtual",
       "es_clase_virtual": true,
       "origen_db": "sql_server",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-21",
@@ -2060,7 +2081,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-21",
@@ -2075,13 +2096,13 @@
       "horario_fin": "16:00",
       "turno": "Turno Mañana",
       "ubicacion": "SOLÍS 453",
-      "aula": "A101",
+      "aula": "A104",
       "docente": "RAPACIOLI, Melina Paola",
       "dia_semana": "Miércoles",
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "sql_server",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-21",
@@ -2102,7 +2123,7 @@
       "observacion": "Clase virtual",
       "es_clase_virtual": true,
       "origen_db": "sql_server",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-21",
@@ -2123,7 +2144,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-21",
@@ -2144,7 +2165,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "sql_server",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-21",
@@ -2165,7 +2186,7 @@
       "observacion": "Clase virtual",
       "es_clase_virtual": true,
       "origen_db": "sql_server",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-21",
@@ -2186,7 +2207,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-21",
@@ -2207,28 +2228,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "sql_server",
-      "insert_ts": "21/10/2026, 04:11:03"
-    },
-    {
-      "fecha": "2026-10-21",
-      "año": "3º año",
-      "carrera": "MEDICINA",
-      "actividad": "Investigación en Ciencias Biomédicas - Módulo II",
-      "actividad_completa": "3º año - Investigación en Ciencias Biomédicas - Módulo II",
-      "comision": "0",
-      "id_comision": "0",
-      "horario": "14:00 - 18:00",
-      "horario_ini": "14:00",
-      "horario_fin": "18:00",
-      "turno": "Turno Mañana",
-      "ubicacion": "AV. BELGRANO 1670",
-      "aula": "E702",
-      "docente": "RAPACIOLI, Melina Paola",
-      "dia_semana": "Miércoles",
-      "observacion": "",
-      "es_clase_virtual": false,
-      "origen_db": "sql_server",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-21",
@@ -2249,7 +2249,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "sql_server",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-21",
@@ -2270,7 +2270,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "sql_server",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-21",
@@ -2291,7 +2291,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "sql_server",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-21",
@@ -2312,7 +2312,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "sql_server",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-21",
@@ -2333,7 +2333,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-21",
@@ -2354,7 +2354,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "sql_server",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-21",
@@ -2375,7 +2375,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "sql_server",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-21",
@@ -2396,7 +2396,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "sql_server",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-21",
@@ -2417,7 +2417,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "sql_server",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-21",
@@ -2438,7 +2438,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "sql_server",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-21",
@@ -2459,7 +2459,7 @@
       "observacion": "Clase virtual",
       "es_clase_virtual": true,
       "origen_db": "sql_server",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-21",
@@ -2480,7 +2480,7 @@
       "observacion": "Clase virtual",
       "es_clase_virtual": true,
       "origen_db": "sql_server",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-21",
@@ -2501,7 +2501,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "sql_server",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-21",
@@ -2522,7 +2522,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "sql_server",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-21",
@@ -2543,7 +2543,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-21",
@@ -2564,7 +2564,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "sql_server",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-21",
@@ -2585,7 +2585,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-21",
@@ -2606,7 +2606,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "sql_server",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-21",
@@ -2621,13 +2621,13 @@
       "horario_fin": "18:00",
       "turno": "Turno Vespertino",
       "ubicacion": "SOLÍS 453",
-      "aula": "A101",
+      "aula": "A104",
       "docente": "CORTÉS, Claudia Mariana",
       "dia_semana": "Miércoles",
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "sql_server",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-21",
@@ -2648,7 +2648,7 @@
       "observacion": "Clase virtual",
       "es_clase_virtual": true,
       "origen_db": "sql_server",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-21",
@@ -2669,7 +2669,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "sql_server",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-21",
@@ -2690,7 +2690,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-21",
@@ -2711,7 +2711,7 @@
       "observacion": "Clase virtual",
       "es_clase_virtual": true,
       "origen_db": "sql_server",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-21",
@@ -2732,7 +2732,7 @@
       "observacion": "Clase virtual",
       "es_clase_virtual": true,
       "origen_db": "sql_server",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-21",
@@ -2753,7 +2753,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "sql_server",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-21",
@@ -2774,7 +2774,7 @@
       "observacion": "Clase virtual",
       "es_clase_virtual": true,
       "origen_db": "sql_server",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-21",
@@ -2795,7 +2795,7 @@
       "observacion": "Clase virtual",
       "es_clase_virtual": true,
       "origen_db": "sql_server",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-21",
@@ -2816,7 +2816,7 @@
       "observacion": "Clase virtual",
       "es_clase_virtual": true,
       "origen_db": "sql_server",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-21",
@@ -2837,7 +2837,7 @@
       "observacion": "Clase virtual",
       "es_clase_virtual": true,
       "origen_db": "sql_server",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-21",
@@ -2858,7 +2858,7 @@
       "observacion": "Clase virtual",
       "es_clase_virtual": true,
       "origen_db": "sql_server",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-21",
@@ -2879,7 +2879,7 @@
       "observacion": "Clase virtual",
       "es_clase_virtual": true,
       "origen_db": "sql_server",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-21",
@@ -2900,7 +2900,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "sql_server",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-21",
@@ -2915,13 +2915,13 @@
       "horario_fin": "20:00",
       "turno": "Turno Vespertino",
       "ubicacion": "SOLÍS 453",
-      "aula": "A101",
+      "aula": "A104",
       "docente": "CAMBARIERE, Roberto",
       "dia_semana": "Miércoles",
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "sql_server",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-21",
@@ -2942,7 +2942,7 @@
       "observacion": "Clase virtual",
       "es_clase_virtual": true,
       "origen_db": "sql_server",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-21",
@@ -2963,7 +2963,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "sql_server",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-21",
@@ -2984,7 +2984,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "sql_server",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-21",
@@ -3005,7 +3005,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "sql_server",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-21",
@@ -3026,7 +3026,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "sql_server",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-21",
@@ -3047,7 +3047,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "sql_server",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-21",
@@ -3068,7 +3068,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-21",
@@ -3089,7 +3089,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-21",
@@ -3110,7 +3110,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-21",
@@ -3131,7 +3131,7 @@
       "observacion": "Clase virtual",
       "es_clase_virtual": true,
       "origen_db": "sql_server",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-21",
@@ -3152,7 +3152,7 @@
       "observacion": "Clase virtual",
       "es_clase_virtual": true,
       "origen_db": "sql_server",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-21",
@@ -3173,7 +3173,7 @@
       "observacion": "Clase virtual",
       "es_clase_virtual": true,
       "origen_db": "sql_server",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-21",
@@ -3194,7 +3194,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-21",
@@ -3215,7 +3215,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "sql_server",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-21",
@@ -3236,7 +3236,7 @@
       "observacion": "Clase virtual",
       "es_clase_virtual": true,
       "origen_db": "sql_server",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-21",
@@ -3257,7 +3257,7 @@
       "observacion": "Clase virtual",
       "es_clase_virtual": true,
       "origen_db": "sql_server",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-21",
@@ -3278,7 +3278,7 @@
       "observacion": "Clase virtual",
       "es_clase_virtual": true,
       "origen_db": "sql_server",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-22",
@@ -3299,7 +3299,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-22",
@@ -3320,7 +3320,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-22",
@@ -3341,7 +3341,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-22",
@@ -3362,7 +3362,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-22",
@@ -3383,7 +3383,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-22",
@@ -3404,7 +3404,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-22",
@@ -3425,7 +3425,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-22",
@@ -3446,7 +3446,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-22",
@@ -3467,7 +3467,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-22",
@@ -3488,7 +3488,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-22",
@@ -3509,7 +3509,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-22",
@@ -3530,7 +3530,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-22",
@@ -3551,7 +3551,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-22",
@@ -3572,7 +3572,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-22",
@@ -3593,7 +3593,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-22",
@@ -3614,7 +3614,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-22",
@@ -3635,7 +3635,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-22",
@@ -3656,7 +3656,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-22",
@@ -3677,7 +3677,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-22",
@@ -3698,7 +3698,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-22",
@@ -3719,7 +3719,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-22",
@@ -3740,7 +3740,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-22",
@@ -3761,7 +3761,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-22",
@@ -3782,7 +3782,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-22",
@@ -3803,7 +3803,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-23",
@@ -3824,7 +3824,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-23",
@@ -3845,7 +3845,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-23",
@@ -3866,7 +3866,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-23",
@@ -3887,7 +3887,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-23",
@@ -3908,7 +3908,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-23",
@@ -3929,7 +3929,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-23",
@@ -3950,7 +3950,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-23",
@@ -3971,7 +3971,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-26",
@@ -3992,7 +3992,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-26",
@@ -4013,7 +4013,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-26",
@@ -4034,7 +4034,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-26",
@@ -4055,7 +4055,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-26",
@@ -4076,7 +4076,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-26",
@@ -4097,7 +4097,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-26",
@@ -4118,7 +4118,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-26",
@@ -4139,7 +4139,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-26",
@@ -4160,7 +4160,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-26",
@@ -4181,7 +4181,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-26",
@@ -4202,7 +4202,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-26",
@@ -4223,7 +4223,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-26",
@@ -4244,7 +4244,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-26",
@@ -4265,7 +4265,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-26",
@@ -4286,7 +4286,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-26",
@@ -4307,7 +4307,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-26",
@@ -4328,7 +4328,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-26",
@@ -4349,7 +4349,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-26",
@@ -4370,7 +4370,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-26",
@@ -4391,7 +4391,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-26",
@@ -4412,7 +4412,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-26",
@@ -4433,7 +4433,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-26",
@@ -4454,7 +4454,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-26",
@@ -4475,7 +4475,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-27",
@@ -4496,7 +4496,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-27",
@@ -4517,7 +4517,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-27",
@@ -4538,7 +4538,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-27",
@@ -4559,7 +4559,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-27",
@@ -4580,7 +4580,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-27",
@@ -4601,7 +4601,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-27",
@@ -4622,7 +4622,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-27",
@@ -4643,7 +4643,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-27",
@@ -4664,7 +4664,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-27",
@@ -4685,7 +4685,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-27",
@@ -4706,7 +4706,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-27",
@@ -4727,7 +4727,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-27",
@@ -4748,7 +4748,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-27",
@@ -4769,7 +4769,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-27",
@@ -4790,7 +4790,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-27",
@@ -4811,7 +4811,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-27",
@@ -4832,7 +4832,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-27",
@@ -4853,7 +4853,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-27",
@@ -4874,7 +4874,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-27",
@@ -4895,7 +4895,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-27",
@@ -4916,7 +4916,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-27",
@@ -4937,7 +4937,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-27",
@@ -4958,7 +4958,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-27",
@@ -4979,7 +4979,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-27",
@@ -5000,7 +5000,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-28",
@@ -5021,7 +5021,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-28",
@@ -5042,7 +5042,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-28",
@@ -5063,7 +5063,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-28",
@@ -5084,7 +5084,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-28",
@@ -5105,7 +5105,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-28",
@@ -5126,7 +5126,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-28",
@@ -5147,7 +5147,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-28",
@@ -5168,7 +5168,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-28",
@@ -5189,7 +5189,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-28",
@@ -5210,7 +5210,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-28",
@@ -5231,7 +5231,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-28",
@@ -5252,7 +5252,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-28",
@@ -5273,7 +5273,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-28",
@@ -5294,7 +5294,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-28",
@@ -5315,7 +5315,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     },
     {
       "fecha": "2026-10-28",
@@ -5336,7 +5336,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "21/10/2026, 04:11:03"
+      "insert_ts": "21/10/2026, 10:05:04"
     }
   ]
 }
