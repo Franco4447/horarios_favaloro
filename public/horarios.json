@@ -1,8 +1,8 @@
 {
   "ok": true,
-  "generatedAt": "2026-10-26T05:49:49+00:00",
+  "generatedAt": "2026-10-26T12:24:52+00:00",
   "source": "multi_db",
-  "totalItems": 260,
+  "totalItems": 301,
   "rows": [
     {
       "fecha": "2026-10-26",
@@ -23,7 +23,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "sql_server",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-26",
@@ -44,7 +44,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "sql_server",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-26",
@@ -65,7 +65,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "sql_server",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-26",
@@ -86,7 +86,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "sql_server",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-26",
@@ -107,7 +107,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "sql_server",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-26",
@@ -128,7 +128,7 @@
       "observacion": "Clase virtual",
       "es_clase_virtual": true,
       "origen_db": "sql_server",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-26",
@@ -149,7 +149,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "sql_server",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-26",
@@ -170,7 +170,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "sql_server",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-26",
@@ -191,7 +191,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-26",
@@ -212,7 +212,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "sql_server",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-26",
@@ -233,7 +233,7 @@
       "observacion": "Clase virtual",
       "es_clase_virtual": true,
       "origen_db": "sql_server",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-26",
@@ -254,7 +254,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-26",
@@ -275,7 +275,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "sql_server",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-26",
@@ -296,7 +296,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "sql_server",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-26",
@@ -317,7 +317,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "sql_server",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-26",
@@ -338,7 +338,7 @@
       "observacion": "Clase virtual",
       "es_clase_virtual": true,
       "origen_db": "sql_server",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-26",
@@ -359,7 +359,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-26",
@@ -380,7 +380,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "sql_server",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-26",
@@ -401,14 +401,14 @@
       "observacion": "Clase virtual",
       "es_clase_virtual": true,
       "origen_db": "sql_server",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-26",
       "año": "5º año",
       "carrera": "LICENCIATURA EN KINESIOLOGÍA Y FISIATRÍA",
       "actividad": "Práctica Final Obligatoria - Práctica Final Obligatoria",
-      "actividad_completa": "5º año - Práctica Final Obligatoria - Práctica Final Obligatoria",
+      "actividad_completa": "5º año - Práctica Final Obligatoria",
       "comision": "0",
       "id_comision": "0",
       "horario": "08:00 - 15:00",
@@ -422,7 +422,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "sql_server",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-26",
@@ -443,7 +443,28 @@
       "observacion": "Clase virtual",
       "es_clase_virtual": true,
       "origen_db": "sql_server",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
+    },
+    {
+      "fecha": "2026-10-26",
+      "año": "2º año",
+      "carrera": "LICENCIATURA EN NUTRICIÓN",
+      "actividad": "Taller de Integración I",
+      "actividad_completa": "2 AÑO - Taller de Integración I - 3016TAL 1",
+      "comision": "3016TAL 1 (#6324)",
+      "id_comision": "6324",
+      "horario": "08:00 - 10:00",
+      "horario_ini": "08:00",
+      "horario_fin": "10:00",
+      "turno": "Turno Mañana",
+      "ubicacion": "Espacios UF",
+      "aula": "Aula F403 - Sede Moreno",
+      "docente": "",
+      "dia_semana": "Lunes",
+      "observacion": "",
+      "es_clase_virtual": false,
+      "origen_db": "postgresql",
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-26",
@@ -464,7 +485,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "sql_server",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-26",
@@ -485,7 +506,7 @@
       "observacion": "Clase virtual",
       "es_clase_virtual": true,
       "origen_db": "sql_server",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-26",
@@ -506,7 +527,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "sql_server",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-26",
@@ -527,7 +548,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "sql_server",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-26",
@@ -548,7 +569,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "sql_server",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-26",
@@ -569,7 +590,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "sql_server",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-26",
@@ -590,7 +611,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "sql_server",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-26",
@@ -611,7 +632,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "sql_server",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-26",
@@ -632,7 +653,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "sql_server",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-26",
@@ -653,7 +674,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "sql_server",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-26",
@@ -674,7 +695,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "sql_server",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-26",
@@ -695,14 +716,14 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "sql_server",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-26",
       "año": "3º año",
       "carrera": "LICENCIATURA EN PSICOLOGÍA",
       "actividad": "Evaluación Psicológica",
-      "actividad_completa": "3 AÑO - Evaluación Psicológica - EVALUACIÓN PSICOLÓGICA - TM - C1",
+      "actividad_completa": "3 AÑO - Evaluación Psicológica - TM - C1",
       "comision": "EVALUACIÓN PSICOLÓGICA - TM - C1 (#292)",
       "id_comision": "292",
       "horario": "08:00 - 12:00",
@@ -716,14 +737,14 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-26",
       "año": "3º año",
       "carrera": "LICENCIATURA EN PSICOLOGÍA",
       "actividad": "Evaluación Psicológica",
-      "actividad_completa": "3 AÑO - Evaluación Psicológica - EVALUACIÓN PSICOLÓGICA - TM - C2",
+      "actividad_completa": "3 AÑO - Evaluación Psicológica - TM - C2",
       "comision": "EVALUACIÓN PSICOLÓGICA - TM - C2 (#293)",
       "id_comision": "293",
       "horario": "08:00 - 12:00",
@@ -737,7 +758,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-26",
@@ -758,7 +779,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "sql_server",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-26",
@@ -779,7 +800,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "sql_server",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-26",
@@ -800,7 +821,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-26",
@@ -821,7 +842,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "sql_server",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-26",
@@ -842,7 +863,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "sql_server",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-26",
@@ -863,14 +884,35 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "sql_server",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
+    },
+    {
+      "fecha": "2026-10-26",
+      "año": "4º año",
+      "carrera": "MEDICINA",
+      "actividad": "Medicina II - Clínica Médica",
+      "actividad_completa": "4 AÑO - Medicina II - Clínica Médica - MED2 - CLMED - Comisión 0",
+      "comision": "MED2 - CLMED - Comisión 0 (#8318)",
+      "id_comision": "8318",
+      "horario": "08:00 - 12:00",
+      "horario_ini": "08:00",
+      "horario_fin": "12:00",
+      "turno": "Turno Mañana",
+      "ubicacion": "Espacios UF",
+      "aula": "Aula C411 (4° Piso) - Entre Ríos 495",
+      "docente": "",
+      "dia_semana": "Lunes",
+      "observacion": "",
+      "es_clase_virtual": false,
+      "origen_db": "postgresql",
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-26",
       "año": "4º año",
       "carrera": "MEDICINA",
       "actividad": "Medicina II - Medicina II",
-      "actividad_completa": "4º año - Medicina II - Medicina II",
+      "actividad_completa": "4º año - Medicina II",
       "comision": "0",
       "id_comision": "0",
       "horario": "08:00 - 12:00",
@@ -884,7 +926,7 @@
       "observacion": "Todas las comisiones",
       "es_clase_virtual": false,
       "origen_db": "sql_server",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-26",
@@ -905,7 +947,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-26",
@@ -926,7 +968,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-26",
@@ -947,7 +989,7 @@
       "observacion": "Htal Fernandez - Htal. Pirovano - Htal Piñero",
       "es_clase_virtual": false,
       "origen_db": "sql_server",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-26",
@@ -968,7 +1010,7 @@
       "observacion": "Htal. Fernandez - Htal. Pirovano - Htal. Piñero",
       "es_clase_virtual": false,
       "origen_db": "sql_server",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-26",
@@ -989,7 +1031,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "sql_server",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-26",
@@ -1010,14 +1052,14 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "sql_server",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-26",
       "año": "1º año",
       "carrera": "POSGRADO",
       "actividad": "- Clínica de Endodoncia I",
-      "actividad_completa": "1º año -  - Clínica de Endodoncia I",
+      "actividad_completa": "1º año - - Clínica de Endodoncia I",
       "comision": "1",
       "id_comision": "1",
       "horario": "08:00 - 12:00",
@@ -1031,14 +1073,14 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "sql_server",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-26",
       "año": "2º año",
       "carrera": "POSGRADO",
       "actividad": "- Asignatura Co-curricular: Metodología de la Investigación II",
-      "actividad_completa": "2º año -  - Asignatura Co-curricular: Metodología de la Investigación II",
+      "actividad_completa": "2º año - - Asignatura Co-curricular: Metodología de la Investigación II",
       "comision": "1",
       "id_comision": "1",
       "horario": "08:00 - 12:00",
@@ -1052,14 +1094,14 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "sql_server",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-26",
       "año": "2º año",
       "carrera": "POSGRADO",
       "actividad": "- Clínica de Endodoncia II",
-      "actividad_completa": "2º año -  - Clínica de Endodoncia II",
+      "actividad_completa": "2º año - - Clínica de Endodoncia II",
       "comision": "1",
       "id_comision": "1",
       "horario": "08:00 - 12:00",
@@ -1073,7 +1115,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "sql_server",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-26",
@@ -1094,7 +1136,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "sql_server",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-26",
@@ -1115,28 +1157,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "sql_server",
-      "insert_ts": "26/10/2026, 02:49:49"
-    },
-    {
-      "fecha": "2026-10-26",
-      "año": "3º año",
-      "carrera": "LICENCIATURA EN CIENCIAS BIOLÓGICAS",
-      "actividad": "Laboratorio y Trabajo de Campo VI",
-      "actividad_completa": "3º año - Laboratorio y Trabajo de Campo VI",
-      "comision": "0",
-      "id_comision": "0",
-      "horario": "09:00 - 13:00",
-      "horario_ini": "09:00",
-      "horario_fin": "13:00",
-      "turno": "Turno Mañana",
-      "ubicacion": "SOLÍS 453",
-      "aula": "A301",
-      "docente": "CUNIBERTI, Luis Alberto",
-      "dia_semana": "Lunes",
-      "observacion": "",
-      "es_clase_virtual": false,
-      "origen_db": "sql_server",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-26",
@@ -1157,14 +1178,14 @@
       "observacion": "Clase virtual",
       "es_clase_virtual": true,
       "origen_db": "sql_server",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-26",
       "año": "5º año",
       "carrera": "LICENCIATURA EN KINESIOLOGÍA Y FISIATRÍA",
       "actividad": "Práctica Final Obligatoria - Práctica Final Obligatoria",
-      "actividad_completa": "5º año - Práctica Final Obligatoria - Práctica Final Obligatoria",
+      "actividad_completa": "5º año - Práctica Final Obligatoria",
       "comision": "0",
       "id_comision": "0",
       "horario": "09:00 - 16:00",
@@ -1178,14 +1199,14 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "sql_server",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-26",
       "año": "5º año",
       "carrera": "LICENCIATURA EN KINESIOLOGÍA Y FISIATRÍA",
       "actividad": "Práctica Final Obligatoria - Práctica Final Obligatoria",
-      "actividad_completa": "5º año - Práctica Final Obligatoria - Práctica Final Obligatoria",
+      "actividad_completa": "5º año - Práctica Final Obligatoria",
       "comision": "0",
       "id_comision": "0",
       "horario": "09:00 - 16:00",
@@ -1199,14 +1220,14 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "sql_server",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-26",
       "año": "5º año",
       "carrera": "LICENCIATURA EN KINESIOLOGÍA Y FISIATRÍA",
       "actividad": "Práctica Final Obligatoria - Práctica Final Obligatoria",
-      "actividad_completa": "5º año - Práctica Final Obligatoria - Práctica Final Obligatoria",
+      "actividad_completa": "5º año - Práctica Final Obligatoria",
       "comision": "0",
       "id_comision": "0",
       "horario": "09:00 - 16:00",
@@ -1220,7 +1241,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "sql_server",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-26",
@@ -1241,14 +1262,14 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "sql_server",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-26",
       "año": "3º año",
       "carrera": "LICENCIATURA EN PSICOPEDAGOGÍA",
       "actividad": "Técnicas de Evaluación Psicopedagógicas",
-      "actividad_completa": "3 AÑO - Técnicas de Evaluación Psicopedagógicas - TÉCNICAS DE EVALUACIÓN PSICOPEDAGÓGICAS",
+      "actividad_completa": "3 AÑO - Técnicas de Evaluación Psicopedagógicas",
       "comision": "TÉCNICAS DE EVALUACIÓN PSICOPEDAGÓGICAS (#352)",
       "id_comision": "352",
       "horario": "09:00 - 13:00",
@@ -1262,7 +1283,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-26",
@@ -1283,7 +1304,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "sql_server",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-26",
@@ -1304,7 +1325,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-26",
@@ -1325,7 +1346,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "sql_server",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-26",
@@ -1346,7 +1367,7 @@
       "observacion": "Clase virtual",
       "es_clase_virtual": true,
       "origen_db": "sql_server",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-26",
@@ -1367,7 +1388,49 @@
       "observacion": "Clase virtual",
       "es_clase_virtual": true,
       "origen_db": "sql_server",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
+    },
+    {
+      "fecha": "2026-10-26",
+      "año": "2º año",
+      "carrera": "LICENCIATURA EN NUTRICIÓN",
+      "actividad": "Inglés Técnico II",
+      "actividad_completa": "2 AÑO - Inglés Técnico II - 3016ING 2 - Comision 1",
+      "comision": "3016ING 2 - Comision 1 (#6323)",
+      "id_comision": "6323",
+      "horario": "10:00 - 12:00",
+      "horario_ini": "10:00",
+      "horario_fin": "12:00",
+      "turno": "Turno Mañana",
+      "ubicacion": "Espacios UF",
+      "aula": "Aula F403 - Sede Moreno",
+      "docente": "",
+      "dia_semana": "Lunes",
+      "observacion": "",
+      "es_clase_virtual": false,
+      "origen_db": "postgresql",
+      "insert_ts": "26/10/2026, 09:24:52"
+    },
+    {
+      "fecha": "2026-10-26",
+      "año": "2º año",
+      "carrera": "LICENCIATURA EN NUTRICIÓN",
+      "actividad": "Inglés Técnico II",
+      "actividad_completa": "2 AÑO - Inglés Técnico II - 3016ING 2 - Comision 2",
+      "comision": "3016ING 2 - Comision 2 (#6501)",
+      "id_comision": "6501",
+      "horario": "10:00 - 12:00",
+      "horario_ini": "10:00",
+      "horario_fin": "12:00",
+      "turno": "Turno Mañana",
+      "ubicacion": "Espacios UF",
+      "aula": "Aula F401 - Sede Moreno",
+      "docente": "",
+      "dia_semana": "Lunes",
+      "observacion": "",
+      "es_clase_virtual": false,
+      "origen_db": "postgresql",
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-26",
@@ -1388,7 +1451,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "sql_server",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-26",
@@ -1409,7 +1472,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "sql_server",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-26",
@@ -1430,7 +1493,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "sql_server",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-26",
@@ -1451,7 +1514,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "sql_server",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-26",
@@ -1472,7 +1535,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "sql_server",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-26",
@@ -1493,14 +1556,14 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "sql_server",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-26",
       "año": "4º año",
       "carrera": "LICENCIATURA EN PSICOPEDAGOGÍA",
       "actividad": "Clínica Psicopedagógica",
-      "actividad_completa": "4 AÑO - Clínica Psicopedagógica - CLÍNICA PSICOPEDAGÓGICA",
+      "actividad_completa": "4 AÑO - Clínica Psicopedagógica",
       "comision": "CLÍNICA PSICOPEDAGÓGICA (#350)",
       "id_comision": "350",
       "horario": "10:00 - 13:00",
@@ -1514,7 +1577,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-26",
@@ -1535,14 +1598,35 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "sql_server",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
+    },
+    {
+      "fecha": "2026-10-26",
+      "año": "6º año",
+      "carrera": "MEDICINA",
+      "actividad": "Práctica Final Obligatoria",
+      "actividad_completa": "6 AÑO - Práctica Final Obligatoria - PFO - TALLERES",
+      "comision": "PFO - TALLERES (#8330)",
+      "id_comision": "8330",
+      "horario": "10:00 - 17:00",
+      "horario_ini": "10:00",
+      "horario_fin": "17:00",
+      "turno": "Turno Mañana",
+      "ubicacion": "Espacios UF",
+      "aula": "Aula A501 (5º Piso) - Sede Solís",
+      "docente": "",
+      "dia_semana": "Lunes",
+      "observacion": "",
+      "es_clase_virtual": false,
+      "origen_db": "postgresql",
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-26",
       "año": "6º año",
       "carrera": "MEDICINA",
       "actividad": "Práctica Final Obligatoria - Práctica Final Obligatoria",
-      "actividad_completa": "6º año - Práctica Final Obligatoria - Práctica Final Obligatoria",
+      "actividad_completa": "6º año - Práctica Final Obligatoria",
       "comision": "0",
       "id_comision": "0",
       "horario": "10:00 - 17:00",
@@ -1556,7 +1640,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "sql_server",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-26",
@@ -1577,7 +1661,28 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "sql_server",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
+    },
+    {
+      "fecha": "2026-10-26",
+      "año": "1º año",
+      "carrera": "LICENCIATURA EN CIENCIAS BIOLÓGICAS",
+      "actividad": "Biología Vegetal y Botánica",
+      "actividad_completa": "1 AÑO - Biología Vegetal y Botánica - BVB - Biología Vegetal y Botánica",
+      "comision": "BVB - Biología Vegetal y Botánica (#6574)",
+      "id_comision": "6574",
+      "horario": "10:30 - 13:30",
+      "horario_ini": "10:30",
+      "horario_fin": "13:30",
+      "turno": "Turno Mañana",
+      "ubicacion": "Espacios UF",
+      "aula": "Aula B403 (4° Piso) - Sarmiento 1853",
+      "docente": "",
+      "dia_semana": "Lunes",
+      "observacion": "",
+      "es_clase_virtual": false,
+      "origen_db": "postgresql",
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-26",
@@ -1598,7 +1703,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "sql_server",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-26",
@@ -1619,7 +1724,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "sql_server",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-26",
@@ -1640,7 +1745,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "sql_server",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-26",
@@ -1661,7 +1766,7 @@
       "observacion": "Clase virtual",
       "es_clase_virtual": true,
       "origen_db": "sql_server",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-26",
@@ -1682,7 +1787,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-26",
@@ -1703,7 +1808,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "sql_server",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-26",
@@ -1724,7 +1829,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "sql_server",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-26",
@@ -1745,7 +1850,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "sql_server",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-26",
@@ -1766,14 +1871,14 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "sql_server",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-26",
       "año": "1º año",
       "carrera": "BACHILLERATO UNIVERSITARIO EN CIENCIAS DE LA INGENIERÍA",
       "actividad": "Lógica, Epistemología y Ética - Lógica, Epistemología y Ética",
-      "actividad_completa": "1º año - Lógica, Epistemología y Ética - Lógica, Epistemología y Ética",
+      "actividad_completa": "1º año - Lógica, Epistemología y Ética",
       "comision": "0",
       "id_comision": "0",
       "horario": "13:00 - 15:00",
@@ -1787,7 +1892,7 @@
       "observacion": "Clase virtual",
       "es_clase_virtual": true,
       "origen_db": "sql_server",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-26",
@@ -1808,7 +1913,28 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "sql_server",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
+    },
+    {
+      "fecha": "2026-10-26",
+      "año": "1º año",
+      "carrera": "MEDICINA",
+      "actividad": "Química General",
+      "actividad_completa": "1 AÑO - Química General - QG - Comisión 0",
+      "comision": "QG - Comisión 0 (#353)",
+      "id_comision": "353",
+      "horario": "13:00 - 15:00",
+      "horario_ini": "13:00",
+      "horario_fin": "15:00",
+      "turno": "Turno Mañana",
+      "ubicacion": "Espacios UF",
+      "aula": "Aula E501 - Sede Belgrano",
+      "docente": "",
+      "dia_semana": "Lunes",
+      "observacion": "",
+      "es_clase_virtual": false,
+      "origen_db": "postgresql",
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-26",
@@ -1829,7 +1955,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "sql_server",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-26",
@@ -1850,7 +1976,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-26",
@@ -1871,14 +1997,14 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "sql_server",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-26",
       "año": "1º año",
       "carrera": "POSGRADO",
       "actividad": "- Asignaturas Co-curriculares: Búsqueda Bibliográfica, Inglés Técnico, Metodología de la Investigación I",
-      "actividad_completa": "1º año -  - Asignaturas Co-curriculares: Búsqueda Bibliográfica, Inglés Técnico, Metodología de la Investigación I",
+      "actividad_completa": "1º año - - Asignaturas Co-curriculares: Búsqueda Bibliográfica, Inglés Técnico, Metodología de la Investigación I",
       "comision": "1",
       "id_comision": "1",
       "horario": "13:00 - 17:00",
@@ -1892,7 +2018,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "sql_server",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-26",
@@ -1913,7 +2039,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "sql_server",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-26",
@@ -1934,7 +2060,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-26",
@@ -1955,7 +2081,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-26",
@@ -1976,7 +2102,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "sql_server",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-26",
@@ -1997,7 +2123,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-26",
@@ -2018,7 +2144,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "sql_server",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-26",
@@ -2039,7 +2165,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-26",
@@ -2060,7 +2186,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "sql_server",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-26",
@@ -2081,7 +2207,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "sql_server",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-26",
@@ -2102,7 +2228,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-26",
@@ -2123,7 +2249,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "sql_server",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-26",
@@ -2144,7 +2270,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "sql_server",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-26",
@@ -2165,7 +2291,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "sql_server",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-26",
@@ -2186,7 +2312,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "sql_server",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-26",
@@ -2207,7 +2333,7 @@
       "observacion": "Clase virtual",
       "es_clase_virtual": true,
       "origen_db": "sql_server",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-26",
@@ -2228,7 +2354,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "sql_server",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-26",
@@ -2249,7 +2375,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-26",
@@ -2270,7 +2396,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "sql_server",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-26",
@@ -2291,7 +2417,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-26",
@@ -2312,7 +2438,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "sql_server",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-26",
@@ -2333,7 +2459,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-26",
@@ -2354,7 +2480,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "sql_server",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-26",
@@ -2375,7 +2501,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "sql_server",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-26",
@@ -2396,7 +2522,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "sql_server",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-26",
@@ -2417,7 +2543,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "sql_server",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-26",
@@ -2438,7 +2564,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "sql_server",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-26",
@@ -2459,7 +2585,7 @@
       "observacion": "Clase virtual",
       "es_clase_virtual": true,
       "origen_db": "sql_server",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-26",
@@ -2480,7 +2606,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "sql_server",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-26",
@@ -2501,7 +2627,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "sql_server",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-26",
@@ -2522,7 +2648,7 @@
       "observacion": "Clase virtual",
       "es_clase_virtual": true,
       "origen_db": "sql_server",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-26",
@@ -2543,7 +2669,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-26",
@@ -2564,14 +2690,35 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "sql_server",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
+    },
+    {
+      "fecha": "2026-10-26",
+      "año": "1º año",
+      "carrera": "LICENCIATURA EN PRODUCCIÓN DE BIOIMÁGENES",
+      "actividad": "Anatomía II",
+      "actividad_completa": "1 AÑO - Anatomía II - ANA II - Teórico",
+      "comision": "ANA II - Teórico (#6381)",
+      "id_comision": "6381",
+      "horario": "16:00 - 18:00",
+      "horario_ini": "16:00",
+      "horario_fin": "18:00",
+      "turno": "Turno Vespertino",
+      "ubicacion": "Espacios UF",
+      "aula": "Aula A104 (1º Piso) - Sede Solís",
+      "docente": "",
+      "dia_semana": "Lunes",
+      "observacion": "",
+      "es_clase_virtual": false,
+      "origen_db": "postgresql",
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-26",
       "año": "1º año",
       "carrera": "LICENCIATURA EN PRODUCCIÓN DE BIOIMÁGENES",
       "actividad": "Anatomía II - Anatomía II",
-      "actividad_completa": "1º año - Anatomía II - Anatomía II",
+      "actividad_completa": "1º año - Anatomía II",
       "comision": "0",
       "id_comision": "0",
       "horario": "16:00 - 18:00",
@@ -2585,7 +2732,28 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "sql_server",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
+    },
+    {
+      "fecha": "2026-10-26",
+      "año": "4º año",
+      "carrera": "LICENCIATURA EN PRODUCCIÓN DE BIOIMÁGENES",
+      "actividad": "Taller de Trabajo Final",
+      "actividad_completa": "4 AÑO - Taller de Trabajo Final - TTF - Taller de Trabajo Final",
+      "comision": "TTF - Taller de Trabajo Final (#6417)",
+      "id_comision": "6417",
+      "horario": "16:00 - 20:00",
+      "horario_ini": "16:00",
+      "horario_fin": "20:00",
+      "turno": "Turno Vespertino",
+      "ubicacion": "Espacios UF",
+      "aula": "Aula E702 - Sede Belgrano",
+      "docente": "",
+      "dia_semana": "Lunes",
+      "observacion": "",
+      "es_clase_virtual": false,
+      "origen_db": "postgresql",
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-26",
@@ -2606,7 +2774,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "sql_server",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-26",
@@ -2627,7 +2795,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-26",
@@ -2648,7 +2816,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-26",
@@ -2669,7 +2837,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "sql_server",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-26",
@@ -2690,7 +2858,7 @@
       "observacion": "Clase virtual",
       "es_clase_virtual": true,
       "origen_db": "sql_server",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-26",
@@ -2711,7 +2879,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "sql_server",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-26",
@@ -2732,7 +2900,7 @@
       "observacion": "Clase virtual",
       "es_clase_virtual": true,
       "origen_db": "sql_server",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-26",
@@ -2753,7 +2921,7 @@
       "observacion": "Clase virtual",
       "es_clase_virtual": true,
       "origen_db": "sql_server",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-26",
@@ -2774,14 +2942,14 @@
       "observacion": "Clase virtual",
       "es_clase_virtual": true,
       "origen_db": "sql_server",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-26",
       "año": "",
       "carrera": "INSTITUTO DE CIENCIAS DEL DEPORTE",
       "actividad": "icdBNUT26  - Curso de Bases de Nutrición y Suplementación Deportiva. Método y Gestión en la Planificación",
-      "actividad_completa": "- icdBNUT26  - Curso de Bases de Nutrición y Suplementación Deportiva. Método y Gestión en la Planificación",
+      "actividad_completa": "- icdBNUT26 - Curso de Bases de Nutrición y Suplementación Deportiva. Método y Gestión en la Planificación",
       "comision": "1",
       "id_comision": "1",
       "horario": "18:00 - 20:00",
@@ -2795,7 +2963,7 @@
       "observacion": "Clase virtual",
       "es_clase_virtual": true,
       "origen_db": "sql_server",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-26",
@@ -2816,7 +2984,7 @@
       "observacion": "Clase virtual",
       "es_clase_virtual": true,
       "origen_db": "sql_server",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-26",
@@ -2831,13 +2999,13 @@
       "horario_fin": "20:00",
       "turno": "Turno Vespertino",
       "ubicacion": "AV. BELGRANO 1670",
-      "aula": "E602",
+      "aula": "E202",
       "docente": "CAMIO, Verónica",
       "dia_semana": "Lunes",
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "sql_server",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-26",
@@ -2858,7 +3026,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-26",
@@ -2879,7 +3047,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-26",
@@ -2900,7 +3068,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "sql_server",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-26",
@@ -2921,14 +3089,35 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "sql_server",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
+    },
+    {
+      "fecha": "2026-10-26",
+      "año": "1º año",
+      "carrera": "LICENCIATURA EN PRODUCCIÓN DE BIOIMÁGENES",
+      "actividad": "Anatomía II",
+      "actividad_completa": "1 AÑO - Anatomía II - ANA II - Imagenes",
+      "comision": "ANA II - Imagenes (#6382)",
+      "id_comision": "6382",
+      "horario": "18:00 - 20:00",
+      "horario_ini": "18:00",
+      "horario_fin": "20:00",
+      "turno": "Turno Vespertino",
+      "ubicacion": "Espacios UF",
+      "aula": "Aula A104 (1º Piso) - Sede Solís",
+      "docente": "",
+      "dia_semana": "Lunes",
+      "observacion": "",
+      "es_clase_virtual": false,
+      "origen_db": "postgresql",
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-26",
       "año": "1º año",
       "carrera": "LICENCIATURA EN PRODUCCIÓN DE BIOIMÁGENES",
       "actividad": "Anatomía II - Anatomía II",
-      "actividad_completa": "1º año - Anatomía II - Anatomía II",
+      "actividad_completa": "1º año - Anatomía II",
       "comision": "0",
       "id_comision": "0",
       "horario": "18:00 - 20:00",
@@ -2942,7 +3131,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "sql_server",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-26",
@@ -2963,7 +3152,7 @@
       "observacion": "Clase virtual",
       "es_clase_virtual": true,
       "origen_db": "sql_server",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-26",
@@ -2984,14 +3173,14 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "sql_server",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-26",
       "año": "2º año",
       "carrera": "LICENCIATURA EN PSICOLOGÍA",
       "actividad": "Psicoanálisis",
-      "actividad_completa": "2 AÑO - Psicoanálisis - PSICOANÁLISIS - TV",
+      "actividad_completa": "2 AÑO - Psicoanálisis - TV",
       "comision": "PSICOANÁLISIS - TV (#275)",
       "id_comision": "275",
       "horario": "18:00 - 21:00",
@@ -3005,7 +3194,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-26",
@@ -3026,14 +3215,14 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "sql_server",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-26",
       "año": "3º año",
       "carrera": "LICENCIATURA EN PSICOLOGÍA",
       "actividad": "Evaluación Psicológica",
-      "actividad_completa": "3 AÑO - Evaluación Psicológica - EVALUACIÓN PSICOLÓGICA - TV",
+      "actividad_completa": "3 AÑO - Evaluación Psicológica - TV",
       "comision": "EVALUACIÓN PSICOLÓGICA - TV (#294)",
       "id_comision": "294",
       "horario": "18:00 - 22:00",
@@ -3047,7 +3236,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-26",
@@ -3068,7 +3257,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "sql_server",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-26",
@@ -3089,7 +3278,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "sql_server",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-26",
@@ -3110,7 +3299,7 @@
       "observacion": "Clase virtual",
       "es_clase_virtual": true,
       "origen_db": "sql_server",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-26",
@@ -3131,7 +3320,7 @@
       "observacion": "Clase virtual",
       "es_clase_virtual": true,
       "origen_db": "sql_server",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-26",
@@ -3152,7 +3341,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-26",
@@ -3173,7 +3362,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-26",
@@ -3194,7 +3383,70 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "sql_server",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
+    },
+    {
+      "fecha": "2026-10-27",
+      "año": "",
+      "carrera": "INGENIERÍA BIOMÉDICA",
+      "actividad": "Anatomía, Embriología y Fisiología Animal Comparada I",
+      "actividad_completa": "Anatomía, Embriología y Fisiología Animal Comparada I - AEF1 - Anatomía, Embriología y Fisiología Comparada I",
+      "comision": "AEF1 - Anatomía, Embriología y Fisiología Comparada I (#6577)",
+      "id_comision": "6577",
+      "horario": "08:00 - 10:00",
+      "horario_ini": "08:00",
+      "horario_fin": "10:00",
+      "turno": "Turno Mañana",
+      "ubicacion": "Espacios UF",
+      "aula": "Aula B502 (5º Piso) - Sarmiento 1853",
+      "docente": "",
+      "dia_semana": "Martes",
+      "observacion": "",
+      "es_clase_virtual": false,
+      "origen_db": "postgresql",
+      "insert_ts": "26/10/2026, 09:24:52"
+    },
+    {
+      "fecha": "2026-10-27",
+      "año": "1º año",
+      "carrera": "LICENCIATURA EN CIENCIAS BIOLÓGICAS",
+      "actividad": "Química Orgánica",
+      "actividad_completa": "1 AÑO - Química Orgánica - QO - Química Orgánica",
+      "comision": "QO - Química Orgánica (#6575)",
+      "id_comision": "6575",
+      "horario": "08:00 - 10:00",
+      "horario_ini": "08:00",
+      "horario_fin": "10:00",
+      "turno": "Turno Mañana",
+      "ubicacion": "Espacios UF",
+      "aula": "Aula E701 - Sede Belgrano",
+      "docente": "",
+      "dia_semana": "Martes",
+      "observacion": "",
+      "es_clase_virtual": false,
+      "origen_db": "postgresql",
+      "insert_ts": "26/10/2026, 09:24:52"
+    },
+    {
+      "fecha": "2026-10-27",
+      "año": "2º año",
+      "carrera": "LICENCIATURA EN CIENCIAS BIOLÓGICAS",
+      "actividad": "Anatomía, Embriología y Fisiología Animal Comparada I",
+      "actividad_completa": "2 AÑO - Anatomía, Embriología y Fisiología Animal Comparada I - AEF1 - Anatomía, Embriología y Fisiología Comparada I",
+      "comision": "AEF1 - Anatomía, Embriología y Fisiología Comparada I (#6577)",
+      "id_comision": "6577",
+      "horario": "08:00 - 10:00",
+      "horario_ini": "08:00",
+      "horario_fin": "10:00",
+      "turno": "Turno Mañana",
+      "ubicacion": "Espacios UF",
+      "aula": "Aula B502 (5º Piso) - Sarmiento 1853",
+      "docente": "",
+      "dia_semana": "Martes",
+      "observacion": "",
+      "es_clase_virtual": false,
+      "origen_db": "postgresql",
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-27",
@@ -3215,7 +3467,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-27",
@@ -3236,7 +3488,49 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
+    },
+    {
+      "fecha": "2026-10-27",
+      "año": "2º año",
+      "carrera": "MEDICINA",
+      "actividad": "Química Biológica",
+      "actividad_completa": "2 AÑO - Química Biológica - QB - Comisión 0",
+      "comision": "QB - Comisión 0 (#433)",
+      "id_comision": "433",
+      "horario": "08:00 - 12:00",
+      "horario_ini": "08:00",
+      "horario_fin": "12:00",
+      "turno": "Turno Mañana",
+      "ubicacion": "Espacios UF",
+      "aula": "Aula Magna - Sede Solís",
+      "docente": "",
+      "dia_semana": "Martes",
+      "observacion": "",
+      "es_clase_virtual": false,
+      "origen_db": "postgresql",
+      "insert_ts": "26/10/2026, 09:24:52"
+    },
+    {
+      "fecha": "2026-10-27",
+      "año": "3º año",
+      "carrera": "MEDICINA",
+      "actividad": "Medicina I - Nefrología",
+      "actividad_completa": "3 AÑO - Medicina I - Nefrología - MED1 - NEFRO - Comisión 1",
+      "comision": "MED1 - NEFRO - Comisión 1 (#7132)",
+      "id_comision": "7132",
+      "horario": "08:00 - 10:00",
+      "horario_ini": "08:00",
+      "horario_fin": "10:00",
+      "turno": "Turno Mañana",
+      "ubicacion": "Espacios UF",
+      "aula": "Aula E201 - Sede Belgrano",
+      "docente": "",
+      "dia_semana": "Martes",
+      "observacion": "",
+      "es_clase_virtual": false,
+      "origen_db": "postgresql",
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-27",
@@ -3257,7 +3551,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-27",
@@ -3278,14 +3572,14 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-27",
       "año": "2º año",
       "carrera": "LICENCIATURA EN PSICOLOGÍA",
       "actividad": "Psicoanálisis",
-      "actividad_completa": "2 AÑO - Psicoanálisis - PSICOANÁLISIS - TM - C1",
+      "actividad_completa": "2 AÑO - Psicoanálisis - TM - C1",
       "comision": "PSICOANÁLISIS - TM - C1 (#273)",
       "id_comision": "273",
       "horario": "10:00 - 11:30",
@@ -3299,7 +3593,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-27",
@@ -3320,7 +3614,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-27",
@@ -3341,14 +3635,77 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
+    },
+    {
+      "fecha": "2026-10-27",
+      "año": "6º año",
+      "carrera": "MEDICINA",
+      "actividad": "Práctica Final Obligatoria",
+      "actividad_completa": "6 AÑO - Práctica Final Obligatoria - PFO - TALLERES",
+      "comision": "PFO - TALLERES (#8330)",
+      "id_comision": "8330",
+      "horario": "10:00 - 17:00",
+      "horario_ini": "10:00",
+      "horario_fin": "17:00",
+      "turno": "Turno Mañana",
+      "ubicacion": "Espacios UF",
+      "aula": "Aula A501 (5º Piso) - Sede Solís",
+      "docente": "",
+      "dia_semana": "Martes",
+      "observacion": "",
+      "es_clase_virtual": false,
+      "origen_db": "postgresql",
+      "insert_ts": "26/10/2026, 09:24:52"
+    },
+    {
+      "fecha": "2026-10-27",
+      "año": "",
+      "carrera": "INGENIERÍA BIOMÉDICA",
+      "actividad": "Bioestadística",
+      "actividad_completa": "Bioestadística - BEST - Bioestadística",
+      "comision": "BEST - Bioestadística (#6578)",
+      "id_comision": "6578",
+      "horario": "10:30 - 12:30",
+      "horario_ini": "10:30",
+      "horario_fin": "12:30",
+      "turno": "Turno Mañana",
+      "ubicacion": "Espacios UF",
+      "aula": "Aula B502 (5º Piso) - Sarmiento 1853",
+      "docente": "",
+      "dia_semana": "Martes",
+      "observacion": "",
+      "es_clase_virtual": false,
+      "origen_db": "postgresql",
+      "insert_ts": "26/10/2026, 09:24:52"
+    },
+    {
+      "fecha": "2026-10-27",
+      "año": "2º año",
+      "carrera": "LICENCIATURA EN CIENCIAS BIOLÓGICAS",
+      "actividad": "Bioestadística",
+      "actividad_completa": "2 AÑO - Bioestadística - BEST - Bioestadística",
+      "comision": "BEST - Bioestadística (#6578)",
+      "id_comision": "6578",
+      "horario": "10:30 - 12:30",
+      "horario_ini": "10:30",
+      "horario_fin": "12:30",
+      "turno": "Turno Mañana",
+      "ubicacion": "Espacios UF",
+      "aula": "Aula B502 (5º Piso) - Sarmiento 1853",
+      "docente": "",
+      "dia_semana": "Martes",
+      "observacion": "",
+      "es_clase_virtual": false,
+      "origen_db": "postgresql",
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-27",
       "año": "2º año",
       "carrera": "LICENCIATURA EN PSICOLOGÍA",
       "actividad": "Psicoanálisis",
-      "actividad_completa": "2 AÑO - Psicoanálisis - PSICOANÁLISIS - TM - C2",
+      "actividad_completa": "2 AÑO - Psicoanálisis - TM - C2",
       "comision": "PSICOANÁLISIS - TM - C2 (#274)",
       "id_comision": "274",
       "horario": "11:30 - 13:00",
@@ -3362,7 +3719,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-27",
@@ -3383,7 +3740,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-27",
@@ -3404,7 +3761,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-27",
@@ -3425,7 +3782,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-27",
@@ -3446,7 +3803,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-27",
@@ -3467,7 +3824,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-27",
@@ -3488,7 +3845,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-27",
@@ -3509,7 +3866,70 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
+    },
+    {
+      "fecha": "2026-10-27",
+      "año": "4º año",
+      "carrera": "MEDICINA",
+      "actividad": "Antropología Médica",
+      "actividad_completa": "4 AÑO - Antropología Médica - ANTM - Comisión 0",
+      "comision": "ANTM - Comisión 0 (#4959)",
+      "id_comision": "4959",
+      "horario": "14:00 - 16:00",
+      "horario_ini": "14:00",
+      "horario_fin": "16:00",
+      "turno": "Turno Mañana",
+      "ubicacion": "Espacios UF",
+      "aula": "Aula E201 - Sede Belgrano",
+      "docente": "",
+      "dia_semana": "Martes",
+      "observacion": "",
+      "es_clase_virtual": false,
+      "origen_db": "postgresql",
+      "insert_ts": "26/10/2026, 09:24:52"
+    },
+    {
+      "fecha": "2026-10-27",
+      "año": "2º año",
+      "carrera": "MEDICINA",
+      "actividad": "Prácticas Médicas Hospitalarias",
+      "actividad_completa": "2 AÑO - Prácticas Médicas Hospitalarias - PMH - Comisión 1",
+      "comision": "PMH - Comisión 1 (#493)",
+      "id_comision": "493",
+      "horario": "15:00 - 17:00",
+      "horario_ini": "15:00",
+      "horario_fin": "17:00",
+      "turno": "Turno Vespertino",
+      "ubicacion": "Espacios UF",
+      "aula": "Aula Magna - Sede Solís",
+      "docente": "",
+      "dia_semana": "Martes",
+      "observacion": "",
+      "es_clase_virtual": false,
+      "origen_db": "postgresql",
+      "insert_ts": "26/10/2026, 09:24:52"
+    },
+    {
+      "fecha": "2026-10-27",
+      "año": "2º año",
+      "carrera": "MEDICINA",
+      "actividad": "Prácticas Médicas Hospitalarias",
+      "actividad_completa": "2 AÑO - Prácticas Médicas Hospitalarias - PMH - Comisión 2",
+      "comision": "PMH - Comisión 2 (#494)",
+      "id_comision": "494",
+      "horario": "15:00 - 17:00",
+      "horario_ini": "15:00",
+      "horario_fin": "17:00",
+      "turno": "Turno Vespertino",
+      "ubicacion": "Espacios UF",
+      "aula": "Aula Magna - Sede Solís",
+      "docente": "",
+      "dia_semana": "Martes",
+      "observacion": "",
+      "es_clase_virtual": false,
+      "origen_db": "postgresql",
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-27",
@@ -3530,7 +3950,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-27",
@@ -3551,7 +3971,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-27",
@@ -3572,7 +3992,70 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
+    },
+    {
+      "fecha": "2026-10-27",
+      "año": "2º año",
+      "carrera": "LICENCIATURA EN PRODUCCIÓN DE BIOIMÁGENES",
+      "actividad": "Fisiología",
+      "actividad_completa": "2 AÑO - Fisiología - FISIO - Fisiología",
+      "comision": "FISIO - Fisiología (#6403)",
+      "id_comision": "6403",
+      "horario": "16:00 - 20:00",
+      "horario_ini": "16:00",
+      "horario_fin": "20:00",
+      "turno": "Turno Vespertino",
+      "ubicacion": "Espacios UF",
+      "aula": "Aula A101 (1º Piso) - Sede Solís",
+      "docente": "",
+      "dia_semana": "Martes",
+      "observacion": "",
+      "es_clase_virtual": false,
+      "origen_db": "postgresql",
+      "insert_ts": "26/10/2026, 09:24:52"
+    },
+    {
+      "fecha": "2026-10-27",
+      "año": "3º año",
+      "carrera": "LICENCIATURA EN PRODUCCIÓN DE BIOIMÁGENES",
+      "actividad": "Radiología Odontológica",
+      "actividad_completa": "3 AÑO - Radiología Odontológica - RXODO - Teórico",
+      "comision": "RXODO - Teórico (#6410)",
+      "id_comision": "6410",
+      "horario": "16:00 - 20:00",
+      "horario_ini": "16:00",
+      "horario_fin": "20:00",
+      "turno": "Turno Vespertino",
+      "ubicacion": "Espacios UF",
+      "aula": "Aula E701 - Sede Belgrano",
+      "docente": "",
+      "dia_semana": "Martes",
+      "observacion": "",
+      "es_clase_virtual": false,
+      "origen_db": "postgresql",
+      "insert_ts": "26/10/2026, 09:24:52"
+    },
+    {
+      "fecha": "2026-10-27",
+      "año": "4º año",
+      "carrera": "MEDICINA",
+      "actividad": "Inglés Médico - Módulo III",
+      "actividad_completa": "4 AÑO - Inglés Médico - Módulo III - INGM - M3 Comisión 0",
+      "comision": "INGM - M3 Comisión 0 (#4958)",
+      "id_comision": "4958",
+      "horario": "16:00 - 18:00",
+      "horario_ini": "16:00",
+      "horario_fin": "18:00",
+      "turno": "Turno Vespertino",
+      "ubicacion": "Espacios UF",
+      "aula": "Aula E502 - Sede Belgrano",
+      "docente": "",
+      "dia_semana": "Martes",
+      "observacion": "",
+      "es_clase_virtual": false,
+      "origen_db": "postgresql",
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-27",
@@ -3593,7 +4076,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-27",
@@ -3614,7 +4097,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-27",
@@ -3635,7 +4118,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-27",
@@ -3656,7 +4139,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-27",
@@ -3677,7 +4160,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-27",
@@ -3698,7 +4181,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-27",
@@ -3719,7 +4202,28 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
+    },
+    {
+      "fecha": "2026-10-27",
+      "año": "4º año",
+      "carrera": "LICENCIATURA EN PRODUCCIÓN DE BIOIMÁGENES",
+      "actividad": "Medicina Nuclear",
+      "actividad_completa": "4 AÑO - Medicina Nuclear - MN - Teórico",
+      "comision": "MN - Teórico (#6418)",
+      "id_comision": "6418",
+      "horario": "20:00 - 22:00",
+      "horario_ini": "20:00",
+      "horario_fin": "22:00",
+      "turno": "Turno Vespertino",
+      "ubicacion": "Espacios UF",
+      "aula": "Aula A101 (1º Piso) - Sede Solís",
+      "docente": "",
+      "dia_semana": "Martes",
+      "observacion": "",
+      "es_clase_virtual": false,
+      "origen_db": "postgresql",
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-28",
@@ -3740,7 +4244,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-28",
@@ -3761,7 +4265,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-28",
@@ -3782,7 +4286,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-28",
@@ -3803,7 +4307,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-28",
@@ -3824,7 +4328,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-28",
@@ -3845,7 +4349,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-28",
@@ -3866,7 +4370,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-28",
@@ -3887,7 +4391,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-28",
@@ -3908,7 +4412,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-28",
@@ -3929,7 +4433,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-28",
@@ -3950,7 +4454,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-28",
@@ -3971,7 +4475,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-28",
@@ -3992,7 +4496,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-28",
@@ -4013,7 +4517,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-28",
@@ -4034,7 +4538,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-28",
@@ -4055,7 +4559,28 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
+    },
+    {
+      "fecha": "2026-10-29",
+      "año": "3º año",
+      "carrera": "LICENCIATURA EN CIENCIAS BIOLÓGICAS",
+      "actividad": "Biología Molecular",
+      "actividad_completa": "3 AÑO - Biología Molecular - BMOL - Biología Molecular",
+      "comision": "BMOL - Biología Molecular (#6584)",
+      "id_comision": "6584",
+      "horario": "08:00 - 10:00",
+      "horario_ini": "08:00",
+      "horario_fin": "10:00",
+      "turno": "Turno Mañana",
+      "ubicacion": "Espacios UF",
+      "aula": "Aula B203 (2º Piso) - Sarmiento 1853",
+      "docente": "",
+      "dia_semana": "Jueves",
+      "observacion": "",
+      "es_clase_virtual": false,
+      "origen_db": "postgresql",
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-29",
@@ -4076,7 +4601,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-29",
@@ -4097,7 +4622,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-29",
@@ -4118,7 +4643,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-29",
@@ -4139,7 +4664,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-29",
@@ -4160,7 +4685,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-29",
@@ -4181,7 +4706,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-29",
@@ -4202,7 +4727,28 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
+    },
+    {
+      "fecha": "2026-10-29",
+      "año": "3º año",
+      "carrera": "LICENCIATURA EN CIENCIAS BIOLÓGICAS",
+      "actividad": "Módulo de Investigación III",
+      "actividad_completa": "3 AÑO - Módulo de Investigación III - MINV3 - Módulo de Investigación III",
+      "comision": "MINV3 - Módulo de Investigación III (#6588)",
+      "id_comision": "6588",
+      "horario": "10:30 - 13:30",
+      "horario_ini": "10:30",
+      "horario_fin": "13:30",
+      "turno": "Turno Mañana",
+      "ubicacion": "Espacios UF",
+      "aula": "Aula B203 (2º Piso) - Sarmiento 1853",
+      "docente": "",
+      "dia_semana": "Jueves",
+      "observacion": "",
+      "es_clase_virtual": false,
+      "origen_db": "postgresql",
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-29",
@@ -4223,7 +4769,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-29",
@@ -4244,7 +4790,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-29",
@@ -4265,7 +4811,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-29",
@@ -4286,7 +4832,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-29",
@@ -4307,7 +4853,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-29",
@@ -4328,7 +4874,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-29",
@@ -4349,7 +4895,133 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
+    },
+    {
+      "fecha": "2026-10-29",
+      "año": "5º año",
+      "carrera": "INGENIERÍA BIOMÉDICA",
+      "actividad": "Gestión Empresarial",
+      "actividad_completa": "5 AÑO - Gestión Empresarial - GE - Gestión Empresarial",
+      "comision": "GE - Gestión Empresarial (#6564)",
+      "id_comision": "6564",
+      "horario": "14:30 - 19:30",
+      "horario_ini": "14:30",
+      "horario_fin": "19:30",
+      "turno": "Turno Mañana",
+      "ubicacion": "Espacios UF",
+      "aula": "Aula B502 (5º Piso) - Sarmiento 1853",
+      "docente": "",
+      "dia_semana": "Jueves",
+      "observacion": "",
+      "es_clase_virtual": false,
+      "origen_db": "postgresql",
+      "insert_ts": "26/10/2026, 09:24:52"
+    },
+    {
+      "fecha": "2026-10-29",
+      "año": "",
+      "carrera": "INGENIERÍA BIOMÉDICA",
+      "actividad": "Gestión Empresarial",
+      "actividad_completa": "Gestión Empresarial - GE - Gestión Empresarial",
+      "comision": "GE - Gestión Empresarial (#6564)",
+      "id_comision": "6564",
+      "horario": "14:30 - 19:30",
+      "horario_ini": "14:30",
+      "horario_fin": "19:30",
+      "turno": "Turno Mañana",
+      "ubicacion": "Espacios UF",
+      "aula": "Aula B502 (5º Piso) - Sarmiento 1853",
+      "docente": "",
+      "dia_semana": "Jueves",
+      "observacion": "",
+      "es_clase_virtual": false,
+      "origen_db": "postgresql",
+      "insert_ts": "26/10/2026, 09:24:52"
+    },
+    {
+      "fecha": "2026-10-29",
+      "año": "5º año",
+      "carrera": "INGENIERÍA EN COMPUTACIÓN",
+      "actividad": "Gestión Empresarial",
+      "actividad_completa": "5 AÑO - Gestión Empresarial - GE - Gestión Empresarial",
+      "comision": "GE - Gestión Empresarial (#6564)",
+      "id_comision": "6564",
+      "horario": "14:30 - 19:30",
+      "horario_ini": "14:30",
+      "horario_fin": "19:30",
+      "turno": "Turno Mañana",
+      "ubicacion": "Espacios UF",
+      "aula": "Aula B502 (5º Piso) - Sarmiento 1853",
+      "docente": "",
+      "dia_semana": "Jueves",
+      "observacion": "",
+      "es_clase_virtual": false,
+      "origen_db": "postgresql",
+      "insert_ts": "26/10/2026, 09:24:52"
+    },
+    {
+      "fecha": "2026-10-29",
+      "año": "5º año",
+      "carrera": "INGENIERÍA EN FÍSICA MÉDICA",
+      "actividad": "Gestión Empresarial",
+      "actividad_completa": "5 AÑO - Gestión Empresarial - GE - Gestión Empresarial",
+      "comision": "GE - Gestión Empresarial (#6564)",
+      "id_comision": "6564",
+      "horario": "14:30 - 19:30",
+      "horario_ini": "14:30",
+      "horario_fin": "19:30",
+      "turno": "Turno Mañana",
+      "ubicacion": "Espacios UF",
+      "aula": "Aula B502 (5º Piso) - Sarmiento 1853",
+      "docente": "",
+      "dia_semana": "Jueves",
+      "observacion": "",
+      "es_clase_virtual": false,
+      "origen_db": "postgresql",
+      "insert_ts": "26/10/2026, 09:24:52"
+    },
+    {
+      "fecha": "2026-10-29",
+      "año": "4º año",
+      "carrera": "LICENCIATURA EN CIENCIAS BIOLÓGICAS",
+      "actividad": "Gestión Empresarial",
+      "actividad_completa": "4 AÑO - Gestión Empresarial - GE - Gestión Empresarial",
+      "comision": "GE - Gestión Empresarial (#6564)",
+      "id_comision": "6564",
+      "horario": "14:30 - 19:30",
+      "horario_ini": "14:30",
+      "horario_fin": "19:30",
+      "turno": "Turno Mañana",
+      "ubicacion": "Espacios UF",
+      "aula": "Aula B502 (5º Piso) - Sarmiento 1853",
+      "docente": "",
+      "dia_semana": "Jueves",
+      "observacion": "",
+      "es_clase_virtual": false,
+      "origen_db": "postgresql",
+      "insert_ts": "26/10/2026, 09:24:52"
+    },
+    {
+      "fecha": "2026-10-29",
+      "año": "",
+      "carrera": "LICENCIATURA EN CIENCIAS BIOLÓGICAS",
+      "actividad": "Gestión Empresarial",
+      "actividad_completa": "Gestión Empresarial - GE - Gestión Empresarial",
+      "comision": "GE - Gestión Empresarial (#6564)",
+      "id_comision": "6564",
+      "horario": "14:30 - 19:30",
+      "horario_ini": "14:30",
+      "horario_fin": "19:30",
+      "turno": "Turno Mañana",
+      "ubicacion": "Espacios UF",
+      "aula": "Aula B502 (5º Piso) - Sarmiento 1853",
+      "docente": "",
+      "dia_semana": "Jueves",
+      "observacion": "",
+      "es_clase_virtual": false,
+      "origen_db": "postgresql",
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-29",
@@ -4370,7 +5042,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-29",
@@ -4391,7 +5063,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-29",
@@ -4412,7 +5084,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-29",
@@ -4433,7 +5105,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-29",
@@ -4454,7 +5126,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-29",
@@ -4475,7 +5147,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-29",
@@ -4496,7 +5168,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-29",
@@ -4517,7 +5189,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-29",
@@ -4538,7 +5210,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-29",
@@ -4559,7 +5231,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-29",
@@ -4580,7 +5252,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-29",
@@ -4601,7 +5273,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-30",
@@ -4622,7 +5294,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-30",
@@ -4643,7 +5315,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-30",
@@ -4664,7 +5336,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-30",
@@ -4685,7 +5357,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-30",
@@ -4706,7 +5378,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-30",
@@ -4727,7 +5399,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-30",
@@ -4748,7 +5420,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-30",
@@ -4769,14 +5441,14 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-30",
       "año": "1º año",
       "carrera": "LICENCIATURA EN PSICOLOGÍA",
       "actividad": "Proyecto de lectura, escritura y oralidad académicas",
-      "actividad_completa": "1 AÑO - Proyecto de lectura, escritura y oralidad académicas - PROYECTO DE LECTURA, ESCRITURA Y ORALIDAD ACADÉMICAS - TM - C1",
+      "actividad_completa": "1 AÑO - Proyecto de lectura, escritura y oralidad académicas - TM - C1",
       "comision": "PROYECTO DE LECTURA, ESCRITURA Y ORALIDAD ACADÉMICAS - TM - C1 (#270)",
       "id_comision": "270",
       "horario": "09:00 - 12:00",
@@ -4790,14 +5462,14 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-30",
       "año": "1º año",
       "carrera": "LICENCIATURA EN PSICOPEDAGOGÍA",
       "actividad": "Proyecto de lectura, escritura y oralidad académicas",
-      "actividad_completa": "1 AÑO - Proyecto de lectura, escritura y oralidad académicas - PROYECTO DE LECTURA, ESCRITURA Y ORALIDAD ACADÉMICAS - TM - C1",
+      "actividad_completa": "1 AÑO - Proyecto de lectura, escritura y oralidad académicas - TM - C1",
       "comision": "PROYECTO DE LECTURA, ESCRITURA Y ORALIDAD ACADÉMICAS - TM - C1 (#270)",
       "id_comision": "270",
       "horario": "09:00 - 12:00",
@@ -4811,7 +5483,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-30",
@@ -4832,7 +5504,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-30",
@@ -4853,7 +5525,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-30",
@@ -4874,14 +5546,14 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-30",
       "año": "4º año",
       "carrera": "LICENCIATURA EN PRODUCCIÓN DE BIOIMÁGENES",
       "actividad": "Resonancia Magnética",
-      "actividad_completa": "4 AÑO - Resonancia Magnética - Resonancia Magnética",
+      "actividad_completa": "4 AÑO - Resonancia Magnética",
       "comision": "Resonancia Magnética (#6614)",
       "id_comision": "6614",
       "horario": "16:00 - 20:00",
@@ -4895,7 +5567,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-10-30",
@@ -4916,7 +5588,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-11-02",
@@ -4937,7 +5609,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-11-02",
@@ -4958,14 +5630,35 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
+    },
+    {
+      "fecha": "2026-11-02",
+      "año": "2º año",
+      "carrera": "LICENCIATURA EN NUTRICIÓN",
+      "actividad": "Taller de Integración I",
+      "actividad_completa": "2 AÑO - Taller de Integración I - 3016TAL 1",
+      "comision": "3016TAL 1 (#6324)",
+      "id_comision": "6324",
+      "horario": "08:00 - 10:00",
+      "horario_ini": "08:00",
+      "horario_fin": "10:00",
+      "turno": "Turno Mañana",
+      "ubicacion": "Espacios UF",
+      "aula": "Aula F403 - Sede Moreno",
+      "docente": "",
+      "dia_semana": "Lunes",
+      "observacion": "",
+      "es_clase_virtual": false,
+      "origen_db": "postgresql",
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-11-02",
       "año": "3º año",
       "carrera": "LICENCIATURA EN PSICOLOGÍA",
       "actividad": "Evaluación Psicológica",
-      "actividad_completa": "3 AÑO - Evaluación Psicológica - EVALUACIÓN PSICOLÓGICA - TM - C1",
+      "actividad_completa": "3 AÑO - Evaluación Psicológica - TM - C1",
       "comision": "EVALUACIÓN PSICOLÓGICA - TM - C1 (#292)",
       "id_comision": "292",
       "horario": "08:00 - 12:00",
@@ -4979,14 +5672,14 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-11-02",
       "año": "3º año",
       "carrera": "LICENCIATURA EN PSICOLOGÍA",
       "actividad": "Evaluación Psicológica",
-      "actividad_completa": "3 AÑO - Evaluación Psicológica - EVALUACIÓN PSICOLÓGICA - TM - C2",
+      "actividad_completa": "3 AÑO - Evaluación Psicológica - TM - C2",
       "comision": "EVALUACIÓN PSICOLÓGICA - TM - C2 (#293)",
       "id_comision": "293",
       "horario": "08:00 - 12:00",
@@ -5000,7 +5693,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-11-02",
@@ -5021,7 +5714,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-11-02",
@@ -5042,14 +5735,14 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-11-02",
       "año": "3º año",
       "carrera": "LICENCIATURA EN PSICOPEDAGOGÍA",
       "actividad": "Técnicas de Evaluación Psicopedagógicas",
-      "actividad_completa": "3 AÑO - Técnicas de Evaluación Psicopedagógicas - TÉCNICAS DE EVALUACIÓN PSICOPEDAGÓGICAS",
+      "actividad_completa": "3 AÑO - Técnicas de Evaluación Psicopedagógicas",
       "comision": "TÉCNICAS DE EVALUACIÓN PSICOPEDAGÓGICAS (#352)",
       "id_comision": "352",
       "horario": "09:00 - 13:00",
@@ -5063,14 +5756,56 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
+    },
+    {
+      "fecha": "2026-11-02",
+      "año": "2º año",
+      "carrera": "LICENCIATURA EN NUTRICIÓN",
+      "actividad": "Inglés Técnico II",
+      "actividad_completa": "2 AÑO - Inglés Técnico II - 3016ING 2 - Comision 1",
+      "comision": "3016ING 2 - Comision 1 (#6323)",
+      "id_comision": "6323",
+      "horario": "10:00 - 12:00",
+      "horario_ini": "10:00",
+      "horario_fin": "12:00",
+      "turno": "Turno Mañana",
+      "ubicacion": "Espacios UF",
+      "aula": "Aula F403 - Sede Moreno",
+      "docente": "",
+      "dia_semana": "Lunes",
+      "observacion": "",
+      "es_clase_virtual": false,
+      "origen_db": "postgresql",
+      "insert_ts": "26/10/2026, 09:24:52"
+    },
+    {
+      "fecha": "2026-11-02",
+      "año": "2º año",
+      "carrera": "LICENCIATURA EN NUTRICIÓN",
+      "actividad": "Inglés Técnico II",
+      "actividad_completa": "2 AÑO - Inglés Técnico II - 3016ING 2 - Comision 2",
+      "comision": "3016ING 2 - Comision 2 (#6501)",
+      "id_comision": "6501",
+      "horario": "10:00 - 12:00",
+      "horario_ini": "10:00",
+      "horario_fin": "12:00",
+      "turno": "Turno Mañana",
+      "ubicacion": "Espacios UF",
+      "aula": "Aula F401 - Sede Moreno",
+      "docente": "",
+      "dia_semana": "Lunes",
+      "observacion": "",
+      "es_clase_virtual": false,
+      "origen_db": "postgresql",
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-11-02",
       "año": "4º año",
       "carrera": "LICENCIATURA EN PSICOPEDAGOGÍA",
       "actividad": "Clínica Psicopedagógica",
-      "actividad_completa": "4 AÑO - Clínica Psicopedagógica - CLÍNICA PSICOPEDAGÓGICA",
+      "actividad_completa": "4 AÑO - Clínica Psicopedagógica",
       "comision": "CLÍNICA PSICOPEDAGÓGICA (#350)",
       "id_comision": "350",
       "horario": "10:00 - 13:00",
@@ -5084,7 +5819,49 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
+    },
+    {
+      "fecha": "2026-11-02",
+      "año": "6º año",
+      "carrera": "MEDICINA",
+      "actividad": "Práctica Final Obligatoria",
+      "actividad_completa": "6 AÑO - Práctica Final Obligatoria - PFO - TALLERES",
+      "comision": "PFO - TALLERES (#8330)",
+      "id_comision": "8330",
+      "horario": "10:00 - 17:00",
+      "horario_ini": "10:00",
+      "horario_fin": "17:00",
+      "turno": "Turno Mañana",
+      "ubicacion": "Espacios UF",
+      "aula": "Aula A501 (5º Piso) - Sede Solís",
+      "docente": "",
+      "dia_semana": "Lunes",
+      "observacion": "",
+      "es_clase_virtual": false,
+      "origen_db": "postgresql",
+      "insert_ts": "26/10/2026, 09:24:52"
+    },
+    {
+      "fecha": "2026-11-02",
+      "año": "1º año",
+      "carrera": "LICENCIATURA EN CIENCIAS BIOLÓGICAS",
+      "actividad": "Biología Vegetal y Botánica",
+      "actividad_completa": "1 AÑO - Biología Vegetal y Botánica - BVB - Biología Vegetal y Botánica",
+      "comision": "BVB - Biología Vegetal y Botánica (#6574)",
+      "id_comision": "6574",
+      "horario": "10:30 - 13:30",
+      "horario_ini": "10:30",
+      "horario_fin": "13:30",
+      "turno": "Turno Mañana",
+      "ubicacion": "Espacios UF",
+      "aula": "Aula B403 (4° Piso) - Sarmiento 1853",
+      "docente": "",
+      "dia_semana": "Lunes",
+      "observacion": "",
+      "es_clase_virtual": false,
+      "origen_db": "postgresql",
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-11-02",
@@ -5105,7 +5882,28 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
+    },
+    {
+      "fecha": "2026-11-02",
+      "año": "1º año",
+      "carrera": "MEDICINA",
+      "actividad": "Química General",
+      "actividad_completa": "1 AÑO - Química General - QG - Comisión 0",
+      "comision": "QG - Comisión 0 (#353)",
+      "id_comision": "353",
+      "horario": "13:00 - 15:00",
+      "horario_ini": "13:00",
+      "horario_fin": "15:00",
+      "turno": "Turno Mañana",
+      "ubicacion": "Espacios UF",
+      "aula": "Aula E501 - Sede Belgrano",
+      "docente": "",
+      "dia_semana": "Lunes",
+      "observacion": "",
+      "es_clase_virtual": false,
+      "origen_db": "postgresql",
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-11-02",
@@ -5126,7 +5924,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-11-02",
@@ -5147,7 +5945,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-11-02",
@@ -5168,7 +5966,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-11-02",
@@ -5189,7 +5987,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-11-02",
@@ -5210,7 +6008,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-11-02",
@@ -5231,7 +6029,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-11-02",
@@ -5252,7 +6050,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-11-02",
@@ -5273,7 +6071,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-11-02",
@@ -5294,7 +6092,49 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
+    },
+    {
+      "fecha": "2026-11-02",
+      "año": "1º año",
+      "carrera": "LICENCIATURA EN PRODUCCIÓN DE BIOIMÁGENES",
+      "actividad": "Anatomía II",
+      "actividad_completa": "1 AÑO - Anatomía II - ANA II - Teórico",
+      "comision": "ANA II - Teórico (#6381)",
+      "id_comision": "6381",
+      "horario": "16:00 - 18:00",
+      "horario_ini": "16:00",
+      "horario_fin": "18:00",
+      "turno": "Turno Vespertino",
+      "ubicacion": "Espacios UF",
+      "aula": "Aula A104 (1º Piso) - Sede Solís",
+      "docente": "",
+      "dia_semana": "Lunes",
+      "observacion": "",
+      "es_clase_virtual": false,
+      "origen_db": "postgresql",
+      "insert_ts": "26/10/2026, 09:24:52"
+    },
+    {
+      "fecha": "2026-11-02",
+      "año": "4º año",
+      "carrera": "LICENCIATURA EN PRODUCCIÓN DE BIOIMÁGENES",
+      "actividad": "Taller de Trabajo Final",
+      "actividad_completa": "4 AÑO - Taller de Trabajo Final - TTF - Taller de Trabajo Final",
+      "comision": "TTF - Taller de Trabajo Final (#6417)",
+      "id_comision": "6417",
+      "horario": "16:00 - 20:00",
+      "horario_ini": "16:00",
+      "horario_fin": "20:00",
+      "turno": "Turno Vespertino",
+      "ubicacion": "Espacios UF",
+      "aula": "Aula E702 - Sede Belgrano",
+      "docente": "",
+      "dia_semana": "Lunes",
+      "observacion": "",
+      "es_clase_virtual": false,
+      "origen_db": "postgresql",
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-11-02",
@@ -5315,7 +6155,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-11-02",
@@ -5336,7 +6176,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-11-02",
@@ -5357,7 +6197,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-11-02",
@@ -5378,14 +6218,35 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
+    },
+    {
+      "fecha": "2026-11-02",
+      "año": "1º año",
+      "carrera": "LICENCIATURA EN PRODUCCIÓN DE BIOIMÁGENES",
+      "actividad": "Anatomía II",
+      "actividad_completa": "1 AÑO - Anatomía II - ANA II - Imagenes",
+      "comision": "ANA II - Imagenes (#6382)",
+      "id_comision": "6382",
+      "horario": "18:00 - 20:00",
+      "horario_ini": "18:00",
+      "horario_fin": "20:00",
+      "turno": "Turno Vespertino",
+      "ubicacion": "Espacios UF",
+      "aula": "Aula A104 (1º Piso) - Sede Solís",
+      "docente": "",
+      "dia_semana": "Lunes",
+      "observacion": "",
+      "es_clase_virtual": false,
+      "origen_db": "postgresql",
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-11-02",
       "año": "2º año",
       "carrera": "LICENCIATURA EN PSICOLOGÍA",
       "actividad": "Psicoanálisis",
-      "actividad_completa": "2 AÑO - Psicoanálisis - PSICOANÁLISIS - TV",
+      "actividad_completa": "2 AÑO - Psicoanálisis - TV",
       "comision": "PSICOANÁLISIS - TV (#275)",
       "id_comision": "275",
       "horario": "18:00 - 21:00",
@@ -5399,14 +6260,14 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-11-02",
       "año": "3º año",
       "carrera": "LICENCIATURA EN PSICOLOGÍA",
       "actividad": "Evaluación Psicológica",
-      "actividad_completa": "3 AÑO - Evaluación Psicológica - EVALUACIÓN PSICOLÓGICA - TV",
+      "actividad_completa": "3 AÑO - Evaluación Psicológica - TV",
       "comision": "EVALUACIÓN PSICOLÓGICA - TV (#294)",
       "id_comision": "294",
       "horario": "18:00 - 22:00",
@@ -5420,7 +6281,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-11-02",
@@ -5441,7 +6302,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     },
     {
       "fecha": "2026-11-02",
@@ -5462,7 +6323,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "26/10/2026, 02:49:49"
+      "insert_ts": "26/10/2026, 09:24:52"
     }
   ]
 }
