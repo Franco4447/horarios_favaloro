@@ -1,407 +1,50 @@
 {
   "ok": true,
-  "generatedAt": "2026-11-23T22:50:32+00:00",
+  "generatedAt": "2026-11-24T06:48:17+00:00",
   "source": "multi_db",
-  "totalItems": 162,
+  "totalItems": 224,
   "rows": [
     {
-      "fecha": "2026-11-23",
+      "fecha": "2026-11-24",
       "año": "",
       "carrera": "ATENEOS Y/O EVENTOS ESPECIALES",
-      "actividad": "HUFF - Residencia Clinica Medica",
-      "actividad_completa": "- HUFF - Residencia Clinica Medica",
+      "actividad": "HUFF -  Terapia Intensiva",
+      "actividad_completa": "- HUFF - Terapia Intensiva",
       "comision": "1",
       "id_comision": "1",
-      "horario": "07:30 - 08:00",
-      "horario_ini": "07:30",
+      "horario": "07:00 - 08:00",
+      "horario_ini": "07:00",
       "horario_fin": "08:00",
       "turno": "Turno Mañana",
       "ubicacion": "SOLÍS 453",
-      "aula": "A104",
+      "aula": "A101",
       "docente": "TISSERA, Jorge Horacio",
-      "dia_semana": "Lunes",
+      "dia_semana": "Martes",
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "sql_server",
-      "insert_ts": "23/11/2026, 19:50:32"
+      "insert_ts": "24/11/2026, 03:48:17"
     },
     {
-      "fecha": "2026-11-23",
-      "año": "1º año",
-      "carrera": "LICENCIATURA EN ENFERMERÍA",
-      "actividad": "Fundamentos de Enfermería",
-      "actividad_completa": "1º año - Fundamentos de Enfermería",
-      "comision": "1",
-      "id_comision": "1",
-      "horario": "08:00 - 11:00",
-      "horario_ini": "08:00",
-      "horario_fin": "11:00",
-      "turno": "Turno Mañana",
-      "ubicacion": "ENTRE RÍOS 495",
-      "aula": "C012",
-      "docente": "DI LORETTO, Miriam Liliana",
-      "dia_semana": "Lunes",
-      "observacion": "",
-      "es_clase_virtual": false,
-      "origen_db": "sql_server",
-      "insert_ts": "23/11/2026, 19:50:32"
-    },
-    {
-      "fecha": "2026-11-23",
-      "año": "3º año",
-      "carrera": "LICENCIATURA EN PSICOLOGÍA",
-      "actividad": "Evaluación Psicológica",
-      "actividad_completa": "3 AÑO - Evaluación Psicológica - TM - C1",
-      "comision": "EVALUACIÓN PSICOLÓGICA - TM - C1 (#292)",
-      "id_comision": "292",
-      "horario": "08:00 - 12:00",
-      "horario_ini": "08:00",
-      "horario_fin": "12:00",
-      "turno": "Turno Mañana",
-      "ubicacion": "Espacios UF",
-      "aula": "Aula B404 (4º Piso) - Sarmiento 1853",
-      "docente": "",
-      "dia_semana": "Lunes",
-      "observacion": "",
-      "es_clase_virtual": false,
-      "origen_db": "postgresql",
-      "insert_ts": "23/11/2026, 19:50:32"
-    },
-    {
-      "fecha": "2026-11-23",
-      "año": "3º año",
-      "carrera": "LICENCIATURA EN PSICOLOGÍA",
-      "actividad": "Evaluación Psicológica",
-      "actividad_completa": "3 AÑO - Evaluación Psicológica - TM - C2",
-      "comision": "EVALUACIÓN PSICOLÓGICA - TM - C2 (#293)",
-      "id_comision": "293",
-      "horario": "08:00 - 12:00",
-      "horario_ini": "08:00",
-      "horario_fin": "12:00",
-      "turno": "Turno Mañana",
-      "ubicacion": "Espacios UF",
-      "aula": "Aula B402 (4° Piso) - Lab. Elect. Analóg. - Sarmiento 1853",
-      "docente": "",
-      "dia_semana": "Lunes",
-      "observacion": "",
-      "es_clase_virtual": false,
-      "origen_db": "postgresql",
-      "insert_ts": "23/11/2026, 19:50:32"
-    },
-    {
-      "fecha": "2026-11-23",
-      "año": "5º año",
-      "carrera": "MEDICINA",
-      "actividad": "CIR - Cirugía General",
-      "actividad_completa": "5 AÑO - CIR - Cirugía General - CIR - CIR- GRAL - Comisión 3",
-      "comision": "CIR - CIR- GRAL - Comisión 3 (#782)",
-      "id_comision": "782",
-      "horario": "08:00 - 12:00",
-      "horario_ini": "08:00",
-      "horario_fin": "12:00",
-      "turno": "Turno Mañana",
-      "ubicacion": "Hospital (Centro de práctica)",
-      "aula": "Hospital Fernández",
-      "docente": "",
-      "dia_semana": "Lunes",
-      "observacion": "",
-      "es_clase_virtual": false,
-      "origen_db": "postgresql",
-      "insert_ts": "23/11/2026, 19:50:32"
-    },
-    {
-      "fecha": "2026-11-23",
-      "año": "5º año",
-      "carrera": "MEDICINA",
-      "actividad": "CIR - Cirugía General",
-      "actividad_completa": "5 AÑO - CIR - Cirugía General - CIR - CIR. GRAL - Comsión 4",
-      "comision": "CIR - CIR. GRAL - Comsión 4 (#783)",
-      "id_comision": "783",
-      "horario": "08:00 - 12:00",
-      "horario_ini": "08:00",
-      "horario_fin": "12:00",
-      "turno": "Turno Mañana",
-      "ubicacion": "Hospital (Centro de práctica)",
-      "aula": "Hospital Fernández",
-      "docente": "",
-      "dia_semana": "Lunes",
-      "observacion": "",
-      "es_clase_virtual": false,
-      "origen_db": "postgresql",
-      "insert_ts": "23/11/2026, 19:50:32"
-    },
-    {
-      "fecha": "2026-11-23",
-      "año": "5º año",
-      "carrera": "MEDICINA",
-      "actividad": "Pediatría",
-      "actividad_completa": "5 AÑO - Pediatría - PED - Comisión 2",
-      "comision": "PED - Comisión 2 (#608)",
-      "id_comision": "608",
-      "horario": "08:00 - 12:00",
-      "horario_ini": "08:00",
-      "horario_fin": "12:00",
-      "turno": "Turno Mañana",
-      "ubicacion": "Hospital (Centro de práctica)",
-      "aula": "Hospital Pirovano",
-      "docente": "",
-      "dia_semana": "Lunes",
-      "observacion": "",
-      "es_clase_virtual": false,
-      "origen_db": "postgresql",
-      "insert_ts": "23/11/2026, 19:50:32"
-    },
-    {
-      "fecha": "2026-11-23",
-      "año": "5º año",
-      "carrera": "MEDICINA",
-      "actividad": "Cirugía",
-      "actividad_completa": "5º año - Cirugía",
-      "comision": "3",
-      "id_comision": "3",
-      "horario": "08:00 - 12:00",
-      "horario_ini": "08:00",
-      "horario_fin": "12:00",
-      "turno": "Turno Mañana",
-      "ubicacion": "",
-      "aula": "",
-      "docente": "MARTÍNEZ CERANA, Adela Cecilia",
-      "dia_semana": "Lunes",
-      "observacion": "Htal Fernandez - Htal. Pirovano - Htal Piñero",
-      "es_clase_virtual": false,
-      "origen_db": "sql_server",
-      "insert_ts": "23/11/2026, 19:50:32"
-    },
-    {
-      "fecha": "2026-11-23",
-      "año": "5º año",
-      "carrera": "MEDICINA",
-      "actividad": "Cirugía",
-      "actividad_completa": "5º año - Cirugía",
-      "comision": "4",
-      "id_comision": "4",
-      "horario": "08:00 - 12:00",
-      "horario_ini": "08:00",
-      "horario_fin": "12:00",
-      "turno": "Turno Mañana",
-      "ubicacion": "",
-      "aula": "",
-      "docente": "MARTÍNEZ CERANA, Adela Cecilia",
-      "dia_semana": "Lunes",
-      "observacion": "Htal. Fernandez - Htal. Pirovano - Htal. Piñero",
-      "es_clase_virtual": false,
-      "origen_db": "sql_server",
-      "insert_ts": "23/11/2026, 19:50:32"
-    },
-    {
-      "fecha": "2026-11-23",
-      "año": "5º año",
-      "carrera": "MEDICINA",
-      "actividad": "Pediatría",
-      "actividad_completa": "5º año - Pediatría",
-      "comision": "1",
-      "id_comision": "1",
-      "horario": "08:00 - 12:00",
-      "horario_ini": "08:00",
-      "horario_fin": "12:00",
-      "turno": "Turno Mañana",
-      "ubicacion": "HOSPITAL PIROVANO",
-      "aula": "HPIROVANO",
-      "docente": "COOK, Silvia Claudia",
-      "dia_semana": "Lunes",
-      "observacion": "",
-      "es_clase_virtual": false,
-      "origen_db": "sql_server",
-      "insert_ts": "23/11/2026, 19:50:32"
-    },
-    {
-      "fecha": "2026-11-23",
-      "año": "5º año",
-      "carrera": "MEDICINA",
-      "actividad": "Pediatría",
-      "actividad_completa": "5º año - Pediatría",
-      "comision": "2",
-      "id_comision": "2",
-      "horario": "08:00 - 12:00",
-      "horario_ini": "08:00",
-      "horario_fin": "12:00",
-      "turno": "Turno Mañana",
-      "ubicacion": "HOSPITAL PIROVANO",
-      "aula": "HPIROVANO",
-      "docente": "COOK, Silvia Claudia",
-      "dia_semana": "Lunes",
-      "observacion": "",
-      "es_clase_virtual": false,
-      "origen_db": "sql_server",
-      "insert_ts": "23/11/2026, 19:50:32"
-    },
-    {
-      "fecha": "2026-11-23",
-      "año": "3º año",
-      "carrera": "LICENCIATURA EN PSICOPEDAGOGÍA",
-      "actividad": "Técnicas de Evaluación Psicopedagógicas",
-      "actividad_completa": "3 AÑO - Técnicas de Evaluación Psicopedagógicas",
-      "comision": "TÉCNICAS DE EVALUACIÓN PSICOPEDAGÓGICAS (#352)",
-      "id_comision": "352",
-      "horario": "09:00 - 13:00",
-      "horario_ini": "09:00",
-      "horario_fin": "13:00",
-      "turno": "Turno Mañana",
-      "ubicacion": "Espacios UF",
-      "aula": "Aula C111 (1° Piso) - Entre Ríos 495",
-      "docente": "",
-      "dia_semana": "Lunes",
-      "observacion": "",
-      "es_clase_virtual": false,
-      "origen_db": "postgresql",
-      "insert_ts": "23/11/2026, 19:50:32"
-    },
-    {
-      "fecha": "2026-11-23",
-      "año": "4º año",
-      "carrera": "LICENCIATURA EN PSICOPEDAGOGÍA",
-      "actividad": "Clínica Psicopedagógica",
-      "actividad_completa": "4 AÑO - Clínica Psicopedagógica",
-      "comision": "CLÍNICA PSICOPEDAGÓGICA (#350)",
-      "id_comision": "350",
-      "horario": "10:00 - 13:00",
-      "horario_ini": "10:00",
-      "horario_fin": "13:00",
-      "turno": "Turno Mañana",
-      "ubicacion": "Espacios UF",
-      "aula": "Aula B202 (2º Piso) - Laboratorio PCs - Sarmiento 1853",
-      "docente": "",
-      "dia_semana": "Lunes",
-      "observacion": "",
-      "es_clase_virtual": false,
-      "origen_db": "postgresql",
-      "insert_ts": "23/11/2026, 19:50:32"
-    },
-    {
-      "fecha": "2026-11-23",
+      "fecha": "2026-11-24",
       "año": "",
       "carrera": "ATENEOS Y/O EVENTOS ESPECIALES",
-      "actividad": "UF - Esparcimiento",
-      "actividad_completa": "- UF - Esparcimiento",
+      "actividad": "UF - Guardado Acto de Colación FICEN",
+      "actividad_completa": "- UF - Guardado Acto de Colación FICEN",
       "comision": "1",
       "id_comision": "1",
-      "horario": "12:00 - 14:00",
-      "horario_ini": "12:00",
-      "horario_fin": "14:00",
+      "horario": "07:00 - 22:30",
+      "horario_ini": "07:00",
+      "horario_fin": "22:30",
       "turno": "Turno Mañana",
-      "ubicacion": "AV. BELGRANO 1670",
-      "aula": "E202",
+      "ubicacion": "SOLÍS 453",
+      "aula": "A102",
       "docente": "TISSERA, Jorge Horacio",
-      "dia_semana": "Lunes",
+      "dia_semana": "Martes",
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "sql_server",
-      "insert_ts": "23/11/2026, 19:50:32"
-    },
-    {
-      "fecha": "2026-11-23",
-      "año": "",
-      "carrera": "ATENEOS Y/O EVENTOS ESPECIALES",
-      "actividad": "HUFF -  Residencia de Cardiología",
-      "actividad_completa": "- HUFF - Residencia de Cardiología",
-      "comision": "1",
-      "id_comision": "1",
-      "horario": "13:00 - 14:00",
-      "horario_ini": "13:00",
-      "horario_fin": "14:00",
-      "turno": "Turno Mañana",
-      "ubicacion": "ENTRE RÍOS 495",
-      "aula": "C412",
-      "docente": "TISSERA, Jorge Horacio",
-      "dia_semana": "Lunes",
-      "observacion": "",
-      "es_clase_virtual": false,
-      "origen_db": "sql_server",
-      "insert_ts": "23/11/2026, 19:50:32"
-    },
-    {
-      "fecha": "2026-11-23",
-      "año": "",
-      "carrera": "ATENEOS Y/O EVENTOS ESPECIALES",
-      "actividad": "HUFF - Curso Anual Residentes Neumonología",
-      "actividad_completa": "- HUFF - Curso Anual Residentes Neumonología",
-      "comision": "1",
-      "id_comision": "1",
-      "horario": "15:00 - 16:00",
-      "horario_ini": "15:00",
-      "horario_fin": "16:00",
-      "turno": "Turno Vespertino",
-      "ubicacion": "ENTRE RÍOS 495",
-      "aula": "C111",
-      "docente": "CÁNEVA, Jorge Osvaldo",
-      "dia_semana": "Lunes",
-      "observacion": "",
-      "es_clase_virtual": false,
-      "origen_db": "sql_server",
-      "insert_ts": "23/11/2026, 19:50:32"
-    },
-    {
-      "fecha": "2026-11-23",
-      "año": "",
-      "carrera": "ATENEOS Y/O EVENTOS ESPECIALES",
-      "actividad": "UF -  Programa de Nivelación FCM",
-      "actividad_completa": "- UF - Programa de Nivelación FCM",
-      "comision": "1",
-      "id_comision": "1",
-      "horario": "18:00 - 21:00",
-      "horario_ini": "18:00",
-      "horario_fin": "21:00",
-      "turno": "Turno Vespertino",
-      "ubicacion": "Virtual (Zoom)",
-      "aula": "z_fcm_21",
-      "docente": "FLORES, Domingo Vladimir",
-      "dia_semana": "Lunes",
-      "observacion": "Clase virtual",
-      "es_clase_virtual": true,
-      "origen_db": "sql_server",
-      "insert_ts": "23/11/2026, 19:50:32"
-    },
-    {
-      "fecha": "2026-11-23",
-      "año": "2º año",
-      "carrera": "LICENCIATURA EN PSICOLOGÍA",
-      "actividad": "Psicoanálisis",
-      "actividad_completa": "2 AÑO - Psicoanálisis - TV",
-      "comision": "PSICOANÁLISIS - TV (#275)",
-      "id_comision": "275",
-      "horario": "18:00 - 21:00",
-      "horario_ini": "18:00",
-      "horario_fin": "21:00",
-      "turno": "Turno Vespertino",
-      "ubicacion": "Espacios UF",
-      "aula": "Aula B501 (5º Piso) - Sarmiento 1853",
-      "docente": "",
-      "dia_semana": "Lunes",
-      "observacion": "",
-      "es_clase_virtual": false,
-      "origen_db": "postgresql",
-      "insert_ts": "23/11/2026, 19:50:32"
-    },
-    {
-      "fecha": "2026-11-23",
-      "año": "3º año",
-      "carrera": "LICENCIATURA EN PSICOLOGÍA",
-      "actividad": "Evaluación Psicológica",
-      "actividad_completa": "3 AÑO - Evaluación Psicológica - TV",
-      "comision": "EVALUACIÓN PSICOLÓGICA - TV (#294)",
-      "id_comision": "294",
-      "horario": "18:00 - 22:00",
-      "horario_ini": "18:00",
-      "horario_fin": "22:00",
-      "turno": "Turno Vespertino",
-      "ubicacion": "Espacios UF",
-      "aula": "Aula B301 (3° Piso) - Sarmiento 1853",
-      "docente": "",
-      "dia_semana": "Lunes",
-      "observacion": "",
-      "es_clase_virtual": false,
-      "origen_db": "postgresql",
-      "insert_ts": "23/11/2026, 19:50:32"
+      "insert_ts": "24/11/2026, 03:48:17"
     },
     {
       "fecha": "2026-11-24",
@@ -422,7 +65,154 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "23/11/2026, 19:50:32"
+      "insert_ts": "24/11/2026, 03:48:17"
+    },
+    {
+      "fecha": "2026-11-24",
+      "año": "",
+      "carrera": "ATENEOS Y/O EVENTOS ESPECIALES",
+      "actividad": "HUFF - Residencia Clinica Medica",
+      "actividad_completa": "- HUFF - Residencia Clinica Medica",
+      "comision": "1",
+      "id_comision": "1",
+      "horario": "07:30 - 08:00",
+      "horario_ini": "07:30",
+      "horario_fin": "08:00",
+      "turno": "Turno Mañana",
+      "ubicacion": "SOLÍS 453",
+      "aula": "A104",
+      "docente": "TISSERA, Jorge Horacio",
+      "dia_semana": "Martes",
+      "observacion": "",
+      "es_clase_virtual": false,
+      "origen_db": "sql_server",
+      "insert_ts": "24/11/2026, 03:48:17"
+    },
+    {
+      "fecha": "2026-11-24",
+      "año": "",
+      "carrera": "ATENEOS Y/O EVENTOS ESPECIALES",
+      "actividad": "UF - carCMEC",
+      "actividad_completa": "- UF - carCMEC",
+      "comision": "1",
+      "id_comision": "1",
+      "horario": "08:00 - 12:00",
+      "horario_ini": "08:00",
+      "horario_fin": "12:00",
+      "turno": "Turno Mañana",
+      "ubicacion": "ENTRE RÍOS 495",
+      "aula": "C412",
+      "docente": "TISSERA, Jorge Horacio",
+      "dia_semana": "Martes",
+      "observacion": "",
+      "es_clase_virtual": false,
+      "origen_db": "sql_server",
+      "insert_ts": "24/11/2026, 03:48:17"
+    },
+    {
+      "fecha": "2026-11-24",
+      "año": "",
+      "carrera": "ATENEOS Y/O EVENTOS ESPECIALES",
+      "actividad": "UF - MED Anatomía",
+      "actividad_completa": "- UF - MED Anatomía",
+      "comision": "1",
+      "id_comision": "1",
+      "horario": "08:00 - 12:00",
+      "horario_ini": "08:00",
+      "horario_fin": "12:00",
+      "turno": "Turno Mañana",
+      "ubicacion": "AV. BELGRANO 1670",
+      "aula": "E202",
+      "docente": "VÁZQUEZ, Raquel Liliana",
+      "dia_semana": "Martes",
+      "observacion": "",
+      "es_clase_virtual": false,
+      "origen_db": "sql_server",
+      "insert_ts": "24/11/2026, 03:48:17"
+    },
+    {
+      "fecha": "2026-11-24",
+      "año": "",
+      "carrera": "ATENEOS Y/O EVENTOS ESPECIALES",
+      "actividad": "UF-Equipo de Orientación Vocacional",
+      "actividad_completa": "- UF-Equipo de Orientación Vocacional",
+      "comision": "1",
+      "id_comision": "1",
+      "horario": "08:00 - 10:00",
+      "horario_ini": "08:00",
+      "horario_fin": "10:00",
+      "turno": "Turno Mañana",
+      "ubicacion": "Virtual (Zoom)",
+      "aula": "z_fchc_psi5",
+      "docente": "TISSERA, Jorge Horacio",
+      "dia_semana": "Martes",
+      "observacion": "Clase virtual",
+      "es_clase_virtual": true,
+      "origen_db": "sql_server",
+      "insert_ts": "24/11/2026, 03:48:17"
+    },
+    {
+      "fecha": "2026-11-24",
+      "año": "1º año",
+      "carrera": "BACHILLERATO UNIVERSITARIO EN CIENCIAS DE LA INGENIERÍA",
+      "actividad": "Cálculo II - Examen Final",
+      "actividad_completa": "1º año - Cálculo II - Examen Final",
+      "comision": "0",
+      "id_comision": "0",
+      "horario": "08:00 - 11:30",
+      "horario_ini": "08:00",
+      "horario_fin": "11:30",
+      "turno": "Turno Mañana",
+      "ubicacion": "SARMIENTO 1853",
+      "aula": "B302",
+      "docente": "",
+      "dia_semana": "Martes",
+      "observacion": "Recuperatorio",
+      "es_clase_virtual": false,
+      "origen_db": "sql_server",
+      "insert_ts": "24/11/2026, 03:48:17"
+    },
+    {
+      "fecha": "2026-11-24",
+      "año": "2º año",
+      "carrera": "BACHILLERATO UNIVERSITARIO EN CIENCIAS DE LA INGENIERÍA",
+      "actividad": "Física II - Examen Final",
+      "actividad_completa": "2º año - Física II - Examen Final",
+      "comision": "0",
+      "id_comision": "0",
+      "horario": "08:00 - 11:00",
+      "horario_ini": "08:00",
+      "horario_fin": "11:00",
+      "turno": "Turno Mañana",
+      "ubicacion": "SARMIENTO 1853",
+      "aula": "B203",
+      "docente": "",
+      "dia_semana": "Martes",
+      "observacion": "Recuperatorio",
+      "es_clase_virtual": false,
+      "origen_db": "sql_server",
+      "insert_ts": "24/11/2026, 03:48:17"
+    },
+    {
+      "fecha": "2026-11-24",
+      "año": "3º año",
+      "carrera": "BACHILLERATO UNIVERSITARIO EN CIENCIAS DE LA INGENIERÍA",
+      "actividad": "Introducción a la Biología - Examen Final",
+      "actividad_completa": "3º año - Introducción a la Biología - Examen Final",
+      "comision": "0",
+      "id_comision": "0",
+      "horario": "08:00 - 12:00",
+      "horario_ini": "08:00",
+      "horario_fin": "12:00",
+      "turno": "Turno Mañana",
+      "ubicacion": "AV. BELGRANO 1670",
+      "aula": "E502",
+      "docente": "",
+      "dia_semana": "Martes",
+      "observacion": "",
+      "es_clase_virtual": false,
+      "origen_db": "sql_server",
+      "insert_ts": "24/11/2026, 03:48:17"
     },
     {
       "fecha": "2026-11-24",
@@ -443,7 +233,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "23/11/2026, 19:50:32"
+      "insert_ts": "24/11/2026, 03:48:17"
     },
     {
       "fecha": "2026-11-24",
@@ -464,7 +254,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "23/11/2026, 19:50:32"
+      "insert_ts": "24/11/2026, 03:48:17"
     },
     {
       "fecha": "2026-11-24",
@@ -485,7 +275,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "23/11/2026, 19:50:32"
+      "insert_ts": "24/11/2026, 03:48:17"
     },
     {
       "fecha": "2026-11-24",
@@ -506,7 +296,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "23/11/2026, 19:50:32"
+      "insert_ts": "24/11/2026, 03:48:17"
     },
     {
       "fecha": "2026-11-24",
@@ -527,7 +317,28 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "23/11/2026, 19:50:32"
+      "insert_ts": "24/11/2026, 03:48:17"
+    },
+    {
+      "fecha": "2026-11-24",
+      "año": "4º año",
+      "carrera": "INGENIERÍA BIOMÉDICA",
+      "actividad": "Mecánica de Fluidos - Examen Final",
+      "actividad_completa": "4º año - Mecánica de Fluidos - Examen Final",
+      "comision": "0",
+      "id_comision": "0",
+      "horario": "08:00 - 11:00",
+      "horario_ini": "08:00",
+      "horario_fin": "11:00",
+      "turno": "Turno Mañana",
+      "ubicacion": "SARMIENTO 1853",
+      "aula": "B501",
+      "docente": "",
+      "dia_semana": "Martes",
+      "observacion": "Recuperatorio",
+      "es_clase_virtual": false,
+      "origen_db": "sql_server",
+      "insert_ts": "24/11/2026, 03:48:17"
     },
     {
       "fecha": "2026-11-24",
@@ -548,7 +359,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "23/11/2026, 19:50:32"
+      "insert_ts": "24/11/2026, 03:48:17"
     },
     {
       "fecha": "2026-11-24",
@@ -569,7 +380,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "23/11/2026, 19:50:32"
+      "insert_ts": "24/11/2026, 03:48:17"
     },
     {
       "fecha": "2026-11-24",
@@ -590,7 +401,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "23/11/2026, 19:50:32"
+      "insert_ts": "24/11/2026, 03:48:17"
     },
     {
       "fecha": "2026-11-24",
@@ -611,7 +422,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "23/11/2026, 19:50:32"
+      "insert_ts": "24/11/2026, 03:48:17"
     },
     {
       "fecha": "2026-11-24",
@@ -632,7 +443,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "23/11/2026, 19:50:32"
+      "insert_ts": "24/11/2026, 03:48:17"
     },
     {
       "fecha": "2026-11-24",
@@ -653,7 +464,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "23/11/2026, 19:50:32"
+      "insert_ts": "24/11/2026, 03:48:17"
     },
     {
       "fecha": "2026-11-24",
@@ -674,7 +485,112 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "23/11/2026, 19:50:32"
+      "insert_ts": "24/11/2026, 03:48:17"
+    },
+    {
+      "fecha": "2026-11-24",
+      "año": "5º año",
+      "carrera": "INGENIERÍA EN FÍSICA MÉDICA",
+      "actividad": "Resonancia Magnética Nuclear - Examen Final",
+      "actividad_completa": "5º año - Resonancia Magnética Nuclear - Examen Final",
+      "comision": "0",
+      "id_comision": "0",
+      "horario": "08:00 - 11:00",
+      "horario_ini": "08:00",
+      "horario_fin": "11:00",
+      "turno": "Turno Mañana",
+      "ubicacion": "Virtual (Zoom)",
+      "aula": "z_ficen_ing5",
+      "docente": "",
+      "dia_semana": "Martes",
+      "observacion": "Clase virtual",
+      "es_clase_virtual": true,
+      "origen_db": "sql_server",
+      "insert_ts": "24/11/2026, 03:48:17"
+    },
+    {
+      "fecha": "2026-11-24",
+      "año": "1º año",
+      "carrera": "LICENCIATURA EN NUTRICIÓN",
+      "actividad": "Anatomía - Examen Final",
+      "actividad_completa": "1º año - Anatomía - Examen Final",
+      "comision": "0",
+      "id_comision": "0",
+      "horario": "08:00 - 12:00",
+      "horario_ini": "08:00",
+      "horario_fin": "12:00",
+      "turno": "Turno Mañana",
+      "ubicacion": "AV. BELGRANO 1670",
+      "aula": "E602",
+      "docente": "",
+      "dia_semana": "Martes",
+      "observacion": "ANAT - Final - 24-11",
+      "es_clase_virtual": false,
+      "origen_db": "sql_server",
+      "insert_ts": "24/11/2026, 03:48:17"
+    },
+    {
+      "fecha": "2026-11-24",
+      "año": "1º año",
+      "carrera": "LICENCIATURA EN NUTRICIÓN",
+      "actividad": "Biología Celular, Histología, Embriología y Genética - BCHEG / Biología Celular, Histología, Embriología y Genética",
+      "actividad_completa": "1º año - Biología Celular, Histología, Embriología y Genética - BCHEG",
+      "comision": "0",
+      "id_comision": "0",
+      "horario": "08:00 - 12:00",
+      "horario_ini": "08:00",
+      "horario_fin": "12:00",
+      "turno": "Turno Mañana",
+      "ubicacion": "AV. BELGRANO 1670",
+      "aula": "E201",
+      "docente": "FLORES, Domingo Vladimir",
+      "dia_semana": "Martes",
+      "observacion": "1° y 2° Parcial Recuperatorio BCHEG",
+      "es_clase_virtual": false,
+      "origen_db": "sql_server",
+      "insert_ts": "24/11/2026, 03:48:17"
+    },
+    {
+      "fecha": "2026-11-24",
+      "año": "2º año",
+      "carrera": "LICENCIATURA EN NUTRICIÓN",
+      "actividad": "Microbiología e Inmunología",
+      "actividad_completa": "2º año - Microbiología e Inmunología",
+      "comision": "0",
+      "id_comision": "0",
+      "horario": "08:00 - 10:00",
+      "horario_ini": "08:00",
+      "horario_fin": "10:00",
+      "turno": "Turno Mañana",
+      "ubicacion": "SOLÍS 453",
+      "aula": "A101",
+      "docente": "PIROLA, Daniel Alberto",
+      "dia_semana": "Martes",
+      "observacion": "Parcial Recuperatorio MIC",
+      "es_clase_virtual": false,
+      "origen_db": "sql_server",
+      "insert_ts": "24/11/2026, 03:48:17"
+    },
+    {
+      "fecha": "2026-11-24",
+      "año": "3º año",
+      "carrera": "LICENCIATURA EN NUTRICIÓN",
+      "actividad": "Técnica Dietoterápica",
+      "actividad_completa": "3º año - Técnica Dietoterápica",
+      "comision": "0",
+      "id_comision": "0",
+      "horario": "08:00 - 11:00",
+      "horario_ini": "08:00",
+      "horario_fin": "11:00",
+      "turno": "Turno Mañana",
+      "ubicacion": "ENTRE RÍOS 495",
+      "aula": "C111",
+      "docente": "BATISTA, Mariana Laura",
+      "dia_semana": "Martes",
+      "observacion": "Parcial Recuperatorio TEDI",
+      "es_clase_virtual": false,
+      "origen_db": "sql_server",
+      "insert_ts": "24/11/2026, 03:48:17"
     },
     {
       "fecha": "2026-11-24",
@@ -695,7 +611,28 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "23/11/2026, 19:50:32"
+      "insert_ts": "24/11/2026, 03:48:17"
+    },
+    {
+      "fecha": "2026-11-24",
+      "año": "4º año",
+      "carrera": "LICENCIATURA EN PSICOLOGÍA",
+      "actividad": "Psicología Educacional - Examen Final",
+      "actividad_completa": "4º año - Psicología Educacional - Examen Final",
+      "comision": "0",
+      "id_comision": "0",
+      "horario": "08:00 - 11:00",
+      "horario_ini": "08:00",
+      "horario_fin": "11:00",
+      "turno": "Turno Mañana",
+      "ubicacion": "SARMIENTO 1853",
+      "aula": "B403",
+      "docente": "",
+      "dia_semana": "Martes",
+      "observacion": "",
+      "es_clase_virtual": false,
+      "origen_db": "sql_server",
+      "insert_ts": "24/11/2026, 03:48:17"
     },
     {
       "fecha": "2026-11-24",
@@ -716,7 +653,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "23/11/2026, 19:50:32"
+      "insert_ts": "24/11/2026, 03:48:17"
     },
     {
       "fecha": "2026-11-24",
@@ -737,7 +674,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "23/11/2026, 19:50:32"
+      "insert_ts": "24/11/2026, 03:48:17"
     },
     {
       "fecha": "2026-11-24",
@@ -758,7 +695,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "23/11/2026, 19:50:32"
+      "insert_ts": "24/11/2026, 03:48:17"
     },
     {
       "fecha": "2026-11-24",
@@ -779,7 +716,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "23/11/2026, 19:50:32"
+      "insert_ts": "24/11/2026, 03:48:17"
     },
     {
       "fecha": "2026-11-24",
@@ -800,7 +737,154 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "23/11/2026, 19:50:32"
+      "insert_ts": "24/11/2026, 03:48:17"
+    },
+    {
+      "fecha": "2026-11-24",
+      "año": "5º año",
+      "carrera": "MEDICINA",
+      "actividad": "Cirugía",
+      "actividad_completa": "5º año - Cirugía",
+      "comision": "3",
+      "id_comision": "3",
+      "horario": "08:00 - 12:00",
+      "horario_ini": "08:00",
+      "horario_fin": "12:00",
+      "turno": "Turno Mañana",
+      "ubicacion": "",
+      "aula": "",
+      "docente": "MARTÍNEZ CERANA, Adela Cecilia",
+      "dia_semana": "Martes",
+      "observacion": "Htal Fernandez - Htal. Pirovano - Htal Piñero",
+      "es_clase_virtual": false,
+      "origen_db": "sql_server",
+      "insert_ts": "24/11/2026, 03:48:17"
+    },
+    {
+      "fecha": "2026-11-24",
+      "año": "5º año",
+      "carrera": "MEDICINA",
+      "actividad": "Cirugía",
+      "actividad_completa": "5º año - Cirugía",
+      "comision": "4",
+      "id_comision": "4",
+      "horario": "08:00 - 12:00",
+      "horario_ini": "08:00",
+      "horario_fin": "12:00",
+      "turno": "Turno Mañana",
+      "ubicacion": "",
+      "aula": "",
+      "docente": "MARTÍNEZ CERANA, Adela Cecilia",
+      "dia_semana": "Martes",
+      "observacion": "Htal. Fernandez - Htal. Pirovano - Htal. Piñero",
+      "es_clase_virtual": false,
+      "origen_db": "sql_server",
+      "insert_ts": "24/11/2026, 03:48:17"
+    },
+    {
+      "fecha": "2026-11-24",
+      "año": "5º año",
+      "carrera": "MEDICINA",
+      "actividad": "Pediatría",
+      "actividad_completa": "5º año - Pediatría",
+      "comision": "1",
+      "id_comision": "1",
+      "horario": "08:00 - 12:00",
+      "horario_ini": "08:00",
+      "horario_fin": "12:00",
+      "turno": "Turno Mañana",
+      "ubicacion": "HOSPITAL PIROVANO",
+      "aula": "HPIROVANO",
+      "docente": "COOK, Silvia Claudia",
+      "dia_semana": "Martes",
+      "observacion": "",
+      "es_clase_virtual": false,
+      "origen_db": "sql_server",
+      "insert_ts": "24/11/2026, 03:48:17"
+    },
+    {
+      "fecha": "2026-11-24",
+      "año": "5º año",
+      "carrera": "MEDICINA",
+      "actividad": "Pediatría",
+      "actividad_completa": "5º año - Pediatría",
+      "comision": "2",
+      "id_comision": "2",
+      "horario": "08:00 - 12:00",
+      "horario_ini": "08:00",
+      "horario_fin": "12:00",
+      "turno": "Turno Mañana",
+      "ubicacion": "HOSPITAL PIROVANO",
+      "aula": "HPIROVANO",
+      "docente": "COOK, Silvia Claudia",
+      "dia_semana": "Martes",
+      "observacion": "",
+      "es_clase_virtual": false,
+      "origen_db": "sql_server",
+      "insert_ts": "24/11/2026, 03:48:17"
+    },
+    {
+      "fecha": "2026-11-24",
+      "año": "",
+      "carrera": "ATENEOS Y/O EVENTOS ESPECIALES",
+      "actividad": "UF - BROM NUT",
+      "actividad_completa": "- UF - BROM NUT",
+      "comision": "1",
+      "id_comision": "1",
+      "horario": "08:30 - 11:00",
+      "horario_ini": "08:30",
+      "horario_fin": "11:00",
+      "turno": "Turno Mañana",
+      "ubicacion": "Virtual (Zoom)",
+      "aula": "z_fcm_03",
+      "docente": "TISSERA, Jorge Horacio",
+      "dia_semana": "Martes",
+      "observacion": "Clase virtual",
+      "es_clase_virtual": true,
+      "origen_db": "sql_server",
+      "insert_ts": "24/11/2026, 03:48:17"
+    },
+    {
+      "fecha": "2026-11-24",
+      "año": "",
+      "carrera": "ATENEOS Y/O EVENTOS ESPECIALES",
+      "actividad": "UF - ENFER Ciencias Psicosociales I",
+      "actividad_completa": "- UF - ENFER Ciencias Psicosociales I",
+      "comision": "1",
+      "id_comision": "1",
+      "horario": "09:00 - 12:00",
+      "horario_ini": "09:00",
+      "horario_fin": "12:00",
+      "turno": "Turno Mañana",
+      "ubicacion": "ENTRE RÍOS 495",
+      "aula": "C212",
+      "docente": "CAMIO, Adriana Victoria",
+      "dia_semana": "Martes",
+      "observacion": "",
+      "es_clase_virtual": false,
+      "origen_db": "sql_server",
+      "insert_ts": "24/11/2026, 03:48:17"
+    },
+    {
+      "fecha": "2026-11-24",
+      "año": "",
+      "carrera": "ATENEOS Y/O EVENTOS ESPECIALES",
+      "actividad": "UF - LIQ FI I",
+      "actividad_completa": "- UF - LIQ FI I",
+      "comision": "1",
+      "id_comision": "1",
+      "horario": "09:00 - 12:00",
+      "horario_ini": "09:00",
+      "horario_fin": "12:00",
+      "turno": "Turno Mañana",
+      "ubicacion": "ENTRE RÍOS 495",
+      "aula": "C011",
+      "docente": "GALLO, Silvana",
+      "dia_semana": "Martes",
+      "observacion": "",
+      "es_clase_virtual": false,
+      "origen_db": "sql_server",
+      "insert_ts": "24/11/2026, 03:48:17"
     },
     {
       "fecha": "2026-11-24",
@@ -821,7 +905,49 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "23/11/2026, 19:50:32"
+      "insert_ts": "24/11/2026, 03:48:17"
+    },
+    {
+      "fecha": "2026-11-24",
+      "año": "1º año",
+      "carrera": "LICENCIATURA EN PSICOLOGÍA",
+      "actividad": "Filosofía - Examen Final",
+      "actividad_completa": "1º año - Filosofía - Examen Final",
+      "comision": "0",
+      "id_comision": "0",
+      "horario": "09:00 - 11:00",
+      "horario_ini": "09:00",
+      "horario_fin": "11:00",
+      "turno": "Turno Mañana",
+      "ubicacion": "SARMIENTO 1853",
+      "aula": "B404",
+      "docente": "",
+      "dia_semana": "Martes",
+      "observacion": "",
+      "es_clase_virtual": false,
+      "origen_db": "sql_server",
+      "insert_ts": "24/11/2026, 03:48:17"
+    },
+    {
+      "fecha": "2026-11-24",
+      "año": "",
+      "carrera": "ATENEOS Y/O EVENTOS ESPECIALES",
+      "actividad": "HUFF - Entrevistas Lola Ruperez",
+      "actividad_completa": "- HUFF - Entrevistas Lola Ruperez",
+      "comision": "1",
+      "id_comision": "1",
+      "horario": "09:30 - 11:00",
+      "horario_ini": "09:30",
+      "horario_fin": "11:00",
+      "turno": "Turno Mañana",
+      "ubicacion": "SOLÍS 453",
+      "aula": "A801",
+      "docente": "TISSERA, Jorge Horacio",
+      "dia_semana": "Martes",
+      "observacion": "",
+      "es_clase_virtual": false,
+      "origen_db": "sql_server",
+      "insert_ts": "24/11/2026, 03:48:17"
     },
     {
       "fecha": "2026-11-24",
@@ -842,7 +968,49 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "23/11/2026, 19:50:32"
+      "insert_ts": "24/11/2026, 03:48:17"
+    },
+    {
+      "fecha": "2026-11-24",
+      "año": "",
+      "carrera": "ATENEOS Y/O EVENTOS ESPECIALES",
+      "actividad": "UF - ENFER Teorías y Tendencias en Enfermería",
+      "actividad_completa": "- UF - ENFER Teorías y Tendencias en Enfermería",
+      "comision": "1",
+      "id_comision": "1",
+      "horario": "10:00 - 13:00",
+      "horario_ini": "10:00",
+      "horario_fin": "13:00",
+      "turno": "Turno Mañana",
+      "ubicacion": "AV. BELGRANO 1670",
+      "aula": "E501",
+      "docente": "CAMIO, Adriana Victoria",
+      "dia_semana": "Martes",
+      "observacion": "",
+      "es_clase_virtual": false,
+      "origen_db": "sql_server",
+      "insert_ts": "24/11/2026, 03:48:17"
+    },
+    {
+      "fecha": "2026-11-24",
+      "año": "",
+      "carrera": "ATENEOS Y/O EVENTOS ESPECIALES",
+      "actividad": "UF - LIQ SP",
+      "actividad_completa": "- UF - LIQ SP",
+      "comision": "1",
+      "id_comision": "1",
+      "horario": "10:00 - 13:00",
+      "horario_ini": "10:00",
+      "horario_fin": "13:00",
+      "turno": "Turno Mañana",
+      "ubicacion": "SOLÍS 453",
+      "aula": "A101",
+      "docente": "CONTRERAS, Marta",
+      "dia_semana": "Martes",
+      "observacion": "",
+      "es_clase_virtual": false,
+      "origen_db": "sql_server",
+      "insert_ts": "24/11/2026, 03:48:17"
     },
     {
       "fecha": "2026-11-24",
@@ -863,7 +1031,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "23/11/2026, 19:50:32"
+      "insert_ts": "24/11/2026, 03:48:17"
     },
     {
       "fecha": "2026-11-24",
@@ -884,7 +1052,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "23/11/2026, 19:50:32"
+      "insert_ts": "24/11/2026, 03:48:17"
     },
     {
       "fecha": "2026-11-24",
@@ -905,7 +1073,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "23/11/2026, 19:50:32"
+      "insert_ts": "24/11/2026, 03:48:17"
     },
     {
       "fecha": "2026-11-24",
@@ -926,7 +1094,28 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "23/11/2026, 19:50:32"
+      "insert_ts": "24/11/2026, 03:48:17"
+    },
+    {
+      "fecha": "2026-11-24",
+      "año": "4º año",
+      "carrera": "LICENCIATURA EN NUTRICIÓN",
+      "actividad": "Soporte Nutricional - Examen Final",
+      "actividad_completa": "4º año - Soporte Nutricional - Examen Final",
+      "comision": "0",
+      "id_comision": "0",
+      "horario": "10:00 - 13:00",
+      "horario_ini": "10:00",
+      "horario_fin": "13:00",
+      "turno": "Turno Mañana",
+      "ubicacion": "AV. BELGRANO 1670",
+      "aula": "E702",
+      "docente": "",
+      "dia_semana": "Martes",
+      "observacion": "Final SONU",
+      "es_clase_virtual": false,
+      "origen_db": "sql_server",
+      "insert_ts": "24/11/2026, 03:48:17"
     },
     {
       "fecha": "2026-11-24",
@@ -947,7 +1136,28 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "23/11/2026, 19:50:32"
+      "insert_ts": "24/11/2026, 03:48:17"
+    },
+    {
+      "fecha": "2026-11-24",
+      "año": "3º año",
+      "carrera": "BACHILLERATO UNIVERSITARIO EN CIENCIAS DE LA INGENIERÍA",
+      "actividad": "Electrónica Analógica - Examen Final",
+      "actividad_completa": "3º año - Electrónica Analógica - Examen Final",
+      "comision": "0",
+      "id_comision": "0",
+      "horario": "10:30 - 13:30",
+      "horario_ini": "10:30",
+      "horario_fin": "13:30",
+      "turno": "Turno Mañana",
+      "ubicacion": "SARMIENTO 1853",
+      "aula": "B502",
+      "docente": "",
+      "dia_semana": "Martes",
+      "observacion": "Recuperatorio",
+      "es_clase_virtual": false,
+      "origen_db": "sql_server",
+      "insert_ts": "24/11/2026, 03:48:17"
     },
     {
       "fecha": "2026-11-24",
@@ -968,7 +1178,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "23/11/2026, 19:50:32"
+      "insert_ts": "24/11/2026, 03:48:17"
     },
     {
       "fecha": "2026-11-24",
@@ -989,7 +1199,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "23/11/2026, 19:50:32"
+      "insert_ts": "24/11/2026, 03:48:17"
     },
     {
       "fecha": "2026-11-24",
@@ -1010,7 +1220,49 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "23/11/2026, 19:50:32"
+      "insert_ts": "24/11/2026, 03:48:17"
+    },
+    {
+      "fecha": "2026-11-24",
+      "año": "",
+      "carrera": "ATENEOS Y/O EVENTOS ESPECIALES",
+      "actividad": "UF - ENFER Introducción a la Inv. Enfer.",
+      "actividad_completa": "- UF - ENFER Introducción a la Inv. Enfer.",
+      "comision": "1",
+      "id_comision": "1",
+      "horario": "11:00 - 13:00",
+      "horario_ini": "11:00",
+      "horario_fin": "13:00",
+      "turno": "Turno Mañana",
+      "ubicacion": "ENTRE RÍOS 495",
+      "aula": "C111",
+      "docente": "CAMIO, Adriana Victoria",
+      "dia_semana": "Martes",
+      "observacion": "",
+      "es_clase_virtual": false,
+      "origen_db": "sql_server",
+      "insert_ts": "24/11/2026, 03:48:17"
+    },
+    {
+      "fecha": "2026-11-24",
+      "año": "",
+      "carrera": "ATENEOS Y/O EVENTOS ESPECIALES",
+      "actividad": "UF - Reunion Docente",
+      "actividad_completa": "- UF - Reunion Docente",
+      "comision": "1",
+      "id_comision": "1",
+      "horario": "11:00 - 12:00",
+      "horario_ini": "11:00",
+      "horario_fin": "12:00",
+      "turno": "Turno Mañana",
+      "ubicacion": "SOLÍS 453",
+      "aula": "A801",
+      "docente": "KLEIN, Francisco Ricardo",
+      "dia_semana": "Martes",
+      "observacion": "",
+      "es_clase_virtual": false,
+      "origen_db": "sql_server",
+      "insert_ts": "24/11/2026, 03:48:17"
     },
     {
       "fecha": "2026-11-24",
@@ -1031,7 +1283,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "23/11/2026, 19:50:32"
+      "insert_ts": "24/11/2026, 03:48:17"
     },
     {
       "fecha": "2026-11-24",
@@ -1052,7 +1304,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "23/11/2026, 19:50:32"
+      "insert_ts": "24/11/2026, 03:48:17"
     },
     {
       "fecha": "2026-11-24",
@@ -1073,7 +1325,49 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "23/11/2026, 19:50:32"
+      "insert_ts": "24/11/2026, 03:48:17"
+    },
+    {
+      "fecha": "2026-11-24",
+      "año": "",
+      "carrera": "ATENEOS Y/O EVENTOS ESPECIALES",
+      "actividad": "UF - Esparcimiento",
+      "actividad_completa": "- UF - Esparcimiento",
+      "comision": "1",
+      "id_comision": "1",
+      "horario": "12:00 - 14:00",
+      "horario_ini": "12:00",
+      "horario_fin": "14:00",
+      "turno": "Turno Mañana",
+      "ubicacion": "AV. BELGRANO 1670",
+      "aula": "E202",
+      "docente": "TISSERA, Jorge Horacio",
+      "dia_semana": "Martes",
+      "observacion": "",
+      "es_clase_virtual": false,
+      "origen_db": "sql_server",
+      "insert_ts": "24/11/2026, 03:48:17"
+    },
+    {
+      "fecha": "2026-11-24",
+      "año": "",
+      "carrera": "ATENEOS Y/O EVENTOS ESPECIALES",
+      "actividad": "UF - MED II",
+      "actividad_completa": "- UF - MED II",
+      "comision": "1",
+      "id_comision": "1",
+      "horario": "12:00 - 14:00",
+      "horario_ini": "12:00",
+      "horario_fin": "14:00",
+      "turno": "Turno Mañana",
+      "ubicacion": "ENTRE RÍOS 495",
+      "aula": "C012",
+      "docente": "HABERMAN, Diego Mariano",
+      "dia_semana": "Martes",
+      "observacion": "",
+      "es_clase_virtual": false,
+      "origen_db": "sql_server",
+      "insert_ts": "24/11/2026, 03:48:17"
     },
     {
       "fecha": "2026-11-24",
@@ -1094,7 +1388,28 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "23/11/2026, 19:50:32"
+      "insert_ts": "24/11/2026, 03:48:17"
+    },
+    {
+      "fecha": "2026-11-24",
+      "año": "3º año",
+      "carrera": "BACHILLERATO UNIVERSITARIO EN CIENCIAS DE LA INGENIERÍA",
+      "actividad": "Electrónica Digital II",
+      "actividad_completa": "3º año - Electrónica Digital II",
+      "comision": "0",
+      "id_comision": "0",
+      "horario": "12:30 - 15:00",
+      "horario_ini": "12:30",
+      "horario_fin": "15:00",
+      "turno": "Turno Mañana",
+      "ubicacion": "SARMIENTO 1853",
+      "aula": "B501",
+      "docente": "GRAF CARIDE, Diego Sebastián",
+      "dia_semana": "Martes",
+      "observacion": "aula comun Sarmiento",
+      "es_clase_virtual": false,
+      "origen_db": "sql_server",
+      "insert_ts": "24/11/2026, 03:48:17"
     },
     {
       "fecha": "2026-11-24",
@@ -1115,7 +1430,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "23/11/2026, 19:50:32"
+      "insert_ts": "24/11/2026, 03:48:17"
     },
     {
       "fecha": "2026-11-24",
@@ -1136,7 +1451,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "23/11/2026, 19:50:32"
+      "insert_ts": "24/11/2026, 03:48:17"
     },
     {
       "fecha": "2026-11-24",
@@ -1157,7 +1472,70 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "23/11/2026, 19:50:32"
+      "insert_ts": "24/11/2026, 03:48:17"
+    },
+    {
+      "fecha": "2026-11-24",
+      "año": "",
+      "carrera": "ATENEOS Y/O EVENTOS ESPECIALES",
+      "actividad": "HUFF - Ateneo Bibliografico",
+      "actividad_completa": "- HUFF - Ateneo Bibliografico",
+      "comision": "1",
+      "id_comision": "1",
+      "horario": "13:00 - 14:00",
+      "horario_ini": "13:00",
+      "horario_fin": "14:00",
+      "turno": "Turno Mañana",
+      "ubicacion": "Virtual (Zoom)",
+      "aula": "z_fcm_11",
+      "docente": "TISSERA, Jorge Horacio",
+      "dia_semana": "Martes",
+      "observacion": "Clase virtual",
+      "es_clase_virtual": true,
+      "origen_db": "sql_server",
+      "insert_ts": "24/11/2026, 03:48:17"
+    },
+    {
+      "fecha": "2026-11-24",
+      "año": "",
+      "carrera": "ATENEOS Y/O EVENTOS ESPECIALES",
+      "actividad": "HUFF - Ateneo Bibliográfico cardiología",
+      "actividad_completa": "- HUFF - Ateneo Bibliográfico cardiología",
+      "comision": "1",
+      "id_comision": "1",
+      "horario": "13:00 - 14:30",
+      "horario_ini": "13:00",
+      "horario_fin": "14:30",
+      "turno": "Turno Mañana",
+      "ubicacion": "SOLÍS 453",
+      "aula": "Mag",
+      "docente": "TISSERA, Jorge Horacio",
+      "dia_semana": "Martes",
+      "observacion": "",
+      "es_clase_virtual": false,
+      "origen_db": "sql_server",
+      "insert_ts": "24/11/2026, 03:48:17"
+    },
+    {
+      "fecha": "2026-11-24",
+      "año": "",
+      "carrera": "ATENEOS Y/O EVENTOS ESPECIALES",
+      "actividad": "UF - KIN Práctica Final Obligatoria",
+      "actividad_completa": "- UF - KIN Práctica Final Obligatoria",
+      "comision": "1",
+      "id_comision": "1",
+      "horario": "13:00 - 15:00",
+      "horario_ini": "13:00",
+      "horario_fin": "15:00",
+      "turno": "Turno Mañana",
+      "ubicacion": "ENTRE RÍOS 495",
+      "aula": "C211",
+      "docente": "DI YELSI, Sergio Osvaldo",
+      "dia_semana": "Martes",
+      "observacion": "",
+      "es_clase_virtual": false,
+      "origen_db": "sql_server",
+      "insert_ts": "24/11/2026, 03:48:17"
     },
     {
       "fecha": "2026-11-24",
@@ -1178,7 +1556,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "23/11/2026, 19:50:32"
+      "insert_ts": "24/11/2026, 03:48:17"
     },
     {
       "fecha": "2026-11-24",
@@ -1199,7 +1577,28 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "23/11/2026, 19:50:32"
+      "insert_ts": "24/11/2026, 03:48:17"
+    },
+    {
+      "fecha": "2026-11-24",
+      "año": "2º año",
+      "carrera": "MEDICINA",
+      "actividad": "Microbiología",
+      "actividad_completa": "2º año - Microbiología",
+      "comision": "0",
+      "id_comision": "0",
+      "horario": "13:00 - 15:00",
+      "horario_ini": "13:00",
+      "horario_fin": "15:00",
+      "turno": "Turno Mañana",
+      "ubicacion": "AV. BELGRANO 1670",
+      "aula": "E501",
+      "docente": "PIROLA, Daniel Alberto",
+      "dia_semana": "Martes",
+      "observacion": "",
+      "es_clase_virtual": false,
+      "origen_db": "sql_server",
+      "insert_ts": "24/11/2026, 03:48:17"
     },
     {
       "fecha": "2026-11-24",
@@ -1220,7 +1619,91 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "23/11/2026, 19:50:32"
+      "insert_ts": "24/11/2026, 03:48:17"
+    },
+    {
+      "fecha": "2026-11-24",
+      "año": "",
+      "carrera": "ATENEOS Y/O EVENTOS ESPECIALES",
+      "actividad": "HUFF - Ateneo de Trasplante Hepatico",
+      "actividad_completa": "- HUFF - Ateneo de Trasplante Hepatico",
+      "comision": "1",
+      "id_comision": "1",
+      "horario": "13:30 - 15:30",
+      "horario_ini": "13:30",
+      "horario_fin": "15:30",
+      "turno": "Turno Mañana",
+      "ubicacion": "SOLÍS 453",
+      "aula": "A801",
+      "docente": "TISSERA, Jorge Horacio",
+      "dia_semana": "Martes",
+      "observacion": "",
+      "es_clase_virtual": false,
+      "origen_db": "sql_server",
+      "insert_ts": "24/11/2026, 03:48:17"
+    },
+    {
+      "fecha": "2026-11-24",
+      "año": "",
+      "carrera": "ATENEOS Y/O EVENTOS ESPECIALES",
+      "actividad": "HUFF -  Ateneos de trasplante hepático",
+      "actividad_completa": "- HUFF - Ateneos de trasplante hepático",
+      "comision": "1",
+      "id_comision": "1",
+      "horario": "13:30 - 15:00",
+      "horario_ini": "13:30",
+      "horario_fin": "15:00",
+      "turno": "Turno Mañana",
+      "ubicacion": "ENTRE RÍOS 495",
+      "aula": "C111",
+      "docente": "TISSERA, Jorge Horacio",
+      "dia_semana": "Martes",
+      "observacion": "",
+      "es_clase_virtual": false,
+      "origen_db": "sql_server",
+      "insert_ts": "24/11/2026, 03:48:17"
+    },
+    {
+      "fecha": "2026-11-24",
+      "año": "",
+      "carrera": "ATENEOS Y/O EVENTOS ESPECIALES",
+      "actividad": "UF - KIN Farmacología",
+      "actividad_completa": "- UF - KIN Farmacología",
+      "comision": "1",
+      "id_comision": "1",
+      "horario": "14:00 - 18:00",
+      "horario_ini": "14:00",
+      "horario_fin": "18:00",
+      "turno": "Turno Mañana",
+      "ubicacion": "Virtual (Zoom)",
+      "aula": "z_fcm_16",
+      "docente": "DI YELSI, Sergio Osvaldo",
+      "dia_semana": "Martes",
+      "observacion": "Clase virtual",
+      "es_clase_virtual": true,
+      "origen_db": "sql_server",
+      "insert_ts": "24/11/2026, 03:48:17"
+    },
+    {
+      "fecha": "2026-11-24",
+      "año": "",
+      "carrera": "ATENEOS Y/O EVENTOS ESPECIALES",
+      "actividad": "UF - MED Antropología Médica",
+      "actividad_completa": "- UF - MED Antropología Médica",
+      "comision": "1",
+      "id_comision": "1",
+      "horario": "14:00 - 16:00",
+      "horario_ini": "14:00",
+      "horario_fin": "16:00",
+      "turno": "Turno Mañana",
+      "ubicacion": "SOLÍS 453",
+      "aula": "A104",
+      "docente": "VÁZQUEZ, Raquel Liliana",
+      "dia_semana": "Martes",
+      "observacion": "",
+      "es_clase_virtual": false,
+      "origen_db": "sql_server",
+      "insert_ts": "24/11/2026, 03:48:17"
     },
     {
       "fecha": "2026-11-24",
@@ -1241,7 +1724,28 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "23/11/2026, 19:50:32"
+      "insert_ts": "24/11/2026, 03:48:17"
+    },
+    {
+      "fecha": "2026-11-24",
+      "año": "4º año",
+      "carrera": "INGENIERÍA BIOMÉDICA",
+      "actividad": "Radiaciones y Radioprotección",
+      "actividad_completa": "4º año - Radiaciones y Radioprotección",
+      "comision": "0",
+      "id_comision": "0",
+      "horario": "14:00 - 18:00",
+      "horario_ini": "14:00",
+      "horario_fin": "18:00",
+      "turno": "Turno Mañana",
+      "ubicacion": "SARMIENTO 1853",
+      "aula": "B302",
+      "docente": "STROCOVSKY, Sergio Gerardo",
+      "dia_semana": "Martes",
+      "observacion": "",
+      "es_clase_virtual": false,
+      "origen_db": "sql_server",
+      "insert_ts": "24/11/2026, 03:48:17"
     },
     {
       "fecha": "2026-11-24",
@@ -1262,7 +1766,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "23/11/2026, 19:50:32"
+      "insert_ts": "24/11/2026, 03:48:17"
     },
     {
       "fecha": "2026-11-24",
@@ -1283,7 +1787,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "23/11/2026, 19:50:32"
+      "insert_ts": "24/11/2026, 03:48:17"
     },
     {
       "fecha": "2026-11-24",
@@ -1304,7 +1808,28 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "23/11/2026, 19:50:32"
+      "insert_ts": "24/11/2026, 03:48:17"
+    },
+    {
+      "fecha": "2026-11-24",
+      "año": "2º año",
+      "carrera": "LICENCIATURA EN KINESIOLOGÍA Y FISIATRÍA",
+      "actividad": "Biomecánica y Análisis del Movimiento",
+      "actividad_completa": "2º año - Biomecánica y Análisis del Movimiento",
+      "comision": "0",
+      "id_comision": "0",
+      "horario": "14:00 - 16:00",
+      "horario_ini": "14:00",
+      "horario_fin": "16:00",
+      "turno": "Turno Mañana",
+      "ubicacion": "ENTRE RÍOS 495",
+      "aula": "C011",
+      "docente": "WILLIG, Gabriel",
+      "dia_semana": "Martes",
+      "observacion": "Recuperatorio 4° parcial + Final",
+      "es_clase_virtual": false,
+      "origen_db": "sql_server",
+      "insert_ts": "24/11/2026, 03:48:17"
     },
     {
       "fecha": "2026-11-24",
@@ -1325,7 +1850,91 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "23/11/2026, 19:50:32"
+      "insert_ts": "24/11/2026, 03:48:17"
+    },
+    {
+      "fecha": "2026-11-24",
+      "año": "3º año",
+      "carrera": "MEDICINA",
+      "actividad": "FIS - Rehabilitación y Calidad de Vida - Rehabilitación y Calidad de Vida",
+      "actividad_completa": "3º año - FIS - Rehabilitación y Calidad de Vida",
+      "comision": "0",
+      "id_comision": "0",
+      "horario": "14:00 - 16:00",
+      "horario_ini": "14:00",
+      "horario_fin": "16:00",
+      "turno": "Turno Mañana",
+      "ubicacion": "AV. BELGRANO 1670",
+      "aula": "E201",
+      "docente": "VÁZQUEZ, Raquel Liliana",
+      "dia_semana": "Martes",
+      "observacion": "Recup. FIS RCV",
+      "es_clase_virtual": false,
+      "origen_db": "sql_server",
+      "insert_ts": "24/11/2026, 03:48:17"
+    },
+    {
+      "fecha": "2026-11-24",
+      "año": "3º año",
+      "carrera": "MEDICINA",
+      "actividad": "Inglés Médico - Módulo II",
+      "actividad_completa": "3º año - Inglés Médico - Módulo II",
+      "comision": "1",
+      "id_comision": "1",
+      "horario": "14:00 - 16:00",
+      "horario_ini": "14:00",
+      "horario_fin": "16:00",
+      "turno": "Turno Mañana",
+      "ubicacion": "AV. BELGRANO 1670",
+      "aula": "E702",
+      "docente": "MONOPOLI, Myriam Graciela",
+      "dia_semana": "Martes",
+      "observacion": "Rec. 1º parcial - Com.1",
+      "es_clase_virtual": false,
+      "origen_db": "sql_server",
+      "insert_ts": "24/11/2026, 03:48:17"
+    },
+    {
+      "fecha": "2026-11-24",
+      "año": "3º año",
+      "carrera": "MEDICINA",
+      "actividad": "Inglés Médico - Módulo II",
+      "actividad_completa": "3º año - Inglés Médico - Módulo II",
+      "comision": "2",
+      "id_comision": "2",
+      "horario": "14:00 - 16:00",
+      "horario_ini": "14:00",
+      "horario_fin": "16:00",
+      "turno": "Turno Mañana",
+      "ubicacion": "AV. BELGRANO 1670",
+      "aula": "E703",
+      "docente": "MONOPOLI, Myriam Graciela",
+      "dia_semana": "Martes",
+      "observacion": "Rec. 1º Parcial - Com.2",
+      "es_clase_virtual": false,
+      "origen_db": "sql_server",
+      "insert_ts": "24/11/2026, 03:48:17"
+    },
+    {
+      "fecha": "2026-11-24",
+      "año": "1º año",
+      "carrera": "BACHILLERATO UNIVERSITARIO EN CIENCIAS DE LA INGENIERÍA",
+      "actividad": "Álgebra Lineal - Examen Final",
+      "actividad_completa": "1º año - Álgebra Lineal - Examen Final",
+      "comision": "0",
+      "id_comision": "0",
+      "horario": "14:30 - 17:30",
+      "horario_ini": "14:30",
+      "horario_fin": "17:30",
+      "turno": "Turno Mañana",
+      "ubicacion": "SARMIENTO 1853",
+      "aula": "B403",
+      "docente": "",
+      "dia_semana": "Martes",
+      "observacion": "Recuperatorio",
+      "es_clase_virtual": false,
+      "origen_db": "sql_server",
+      "insert_ts": "24/11/2026, 03:48:17"
     },
     {
       "fecha": "2026-11-24",
@@ -1346,7 +1955,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "23/11/2026, 19:50:32"
+      "insert_ts": "24/11/2026, 03:48:17"
     },
     {
       "fecha": "2026-11-24",
@@ -1367,7 +1976,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "23/11/2026, 19:50:32"
+      "insert_ts": "24/11/2026, 03:48:17"
     },
     {
       "fecha": "2026-11-24",
@@ -1388,7 +1997,91 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "23/11/2026, 19:50:32"
+      "insert_ts": "24/11/2026, 03:48:17"
+    },
+    {
+      "fecha": "2026-11-24",
+      "año": "",
+      "carrera": "ATENEOS Y/O EVENTOS ESPECIALES",
+      "actividad": "UF - BIMA FC I",
+      "actividad_completa": "- UF - BIMA FC I",
+      "comision": "1",
+      "id_comision": "1",
+      "horario": "16:00 - 19:00",
+      "horario_ini": "16:00",
+      "horario_fin": "19:00",
+      "turno": "Turno Vespertino",
+      "ubicacion": "AV. BELGRANO 1670",
+      "aula": "E703",
+      "docente": "ABADI, Andrea Fabiana",
+      "dia_semana": "Martes",
+      "observacion": "",
+      "es_clase_virtual": false,
+      "origen_db": "sql_server",
+      "insert_ts": "24/11/2026, 03:48:17"
+    },
+    {
+      "fecha": "2026-11-24",
+      "año": "",
+      "carrera": "ATENEOS Y/O EVENTOS ESPECIALES",
+      "actividad": "UF - BIMA FISIO",
+      "actividad_completa": "- UF - BIMA FISIO",
+      "comision": "1",
+      "id_comision": "1",
+      "horario": "16:00 - 19:00",
+      "horario_ini": "16:00",
+      "horario_fin": "19:00",
+      "turno": "Turno Vespertino",
+      "ubicacion": "ENTRE RÍOS 495",
+      "aula": "C011",
+      "docente": "MAGULA, Andrés Agustín",
+      "dia_semana": "Martes",
+      "observacion": "",
+      "es_clase_virtual": false,
+      "origen_db": "sql_server",
+      "insert_ts": "24/11/2026, 03:48:17"
+    },
+    {
+      "fecha": "2026-11-24",
+      "año": "",
+      "carrera": "ATENEOS Y/O EVENTOS ESPECIALES",
+      "actividad": "UF - KIN Kinefisiatría Cardiorrespiratoria",
+      "actividad_completa": "- UF - KIN Kinefisiatría Cardiorrespiratoria",
+      "comision": "1",
+      "id_comision": "1",
+      "horario": "16:00 - 18:00",
+      "horario_ini": "16:00",
+      "horario_fin": "18:00",
+      "turno": "Turno Vespertino",
+      "ubicacion": "ENTRE RÍOS 495",
+      "aula": "C111",
+      "docente": "DI YELSI, Sergio Osvaldo",
+      "dia_semana": "Martes",
+      "observacion": "",
+      "es_clase_virtual": false,
+      "origen_db": "sql_server",
+      "insert_ts": "24/11/2026, 03:48:17"
+    },
+    {
+      "fecha": "2026-11-24",
+      "año": "",
+      "carrera": "ATENEOS Y/O EVENTOS ESPECIALES",
+      "actividad": "UF - LIQ TT",
+      "actividad_completa": "- UF - LIQ TT",
+      "comision": "1",
+      "id_comision": "1",
+      "horario": "16:00 - 19:00",
+      "horario_ini": "16:00",
+      "horario_fin": "19:00",
+      "turno": "Turno Vespertino",
+      "ubicacion": "Virtual (Zoom)",
+      "aula": "z_fcm_05",
+      "docente": "OLEA, Fernanda Daniela",
+      "dia_semana": "Martes",
+      "observacion": "Clase virtual",
+      "es_clase_virtual": true,
+      "origen_db": "sql_server",
+      "insert_ts": "24/11/2026, 03:48:17"
     },
     {
       "fecha": "2026-11-24",
@@ -1409,7 +2102,49 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "23/11/2026, 19:50:32"
+      "insert_ts": "24/11/2026, 03:48:17"
+    },
+    {
+      "fecha": "2026-11-24",
+      "año": "",
+      "carrera": "ATENEOS Y/O EVENTOS ESPECIALES",
+      "actividad": "UF - KIN Semiopatología Médico-Kinésica I",
+      "actividad_completa": "- UF - KIN Semiopatología Médico-Kinésica I",
+      "comision": "1",
+      "id_comision": "1",
+      "horario": "17:00 - 20:30",
+      "horario_ini": "17:00",
+      "horario_fin": "20:30",
+      "turno": "Turno Vespertino",
+      "ubicacion": "ENTRE RÍOS 495",
+      "aula": "C211",
+      "docente": "DI YELSI, Sergio Osvaldo",
+      "dia_semana": "Martes",
+      "observacion": "",
+      "es_clase_virtual": false,
+      "origen_db": "sql_server",
+      "insert_ts": "24/11/2026, 03:48:17"
+    },
+    {
+      "fecha": "2026-11-24",
+      "año": "",
+      "carrera": "ATENEOS Y/O EVENTOS ESPECIALES",
+      "actividad": "UF - LIQ MI I",
+      "actividad_completa": "- UF - LIQ MI I",
+      "comision": "1",
+      "id_comision": "1",
+      "horario": "17:00 - 20:00",
+      "horario_ini": "17:00",
+      "horario_fin": "20:00",
+      "turno": "Turno Vespertino",
+      "ubicacion": "Virtual (Zoom)",
+      "aula": "z_fcm_04",
+      "docente": "ROSSI, María Laura",
+      "dia_semana": "Martes",
+      "observacion": "Clase virtual",
+      "es_clase_virtual": true,
+      "origen_db": "sql_server",
+      "insert_ts": "24/11/2026, 03:48:17"
     },
     {
       "fecha": "2026-11-24",
@@ -1430,7 +2165,28 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "23/11/2026, 19:50:32"
+      "insert_ts": "24/11/2026, 03:48:17"
+    },
+    {
+      "fecha": "2026-11-24",
+      "año": "5º año",
+      "carrera": "INGENIERÍA BIOMÉDICA",
+      "actividad": "Introducción a las Redes Neuronales - Examen Final",
+      "actividad_completa": "5º año - Introducción a las Redes Neuronales - Examen Final",
+      "comision": "0",
+      "id_comision": "0",
+      "horario": "17:00 - 20:00",
+      "horario_ini": "17:00",
+      "horario_fin": "20:00",
+      "turno": "Turno Vespertino",
+      "ubicacion": "SARMIENTO 1853",
+      "aula": "B501",
+      "docente": "",
+      "dia_semana": "Martes",
+      "observacion": "Recuperatorio",
+      "es_clase_virtual": false,
+      "origen_db": "sql_server",
+      "insert_ts": "24/11/2026, 03:48:17"
     },
     {
       "fecha": "2026-11-24",
@@ -1451,7 +2207,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "23/11/2026, 19:50:32"
+      "insert_ts": "24/11/2026, 03:48:17"
     },
     {
       "fecha": "2026-11-24",
@@ -1472,7 +2228,322 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "23/11/2026, 19:50:32"
+      "insert_ts": "24/11/2026, 03:48:17"
+    },
+    {
+      "fecha": "2026-11-24",
+      "año": "",
+      "carrera": "ATENEOS Y/O EVENTOS ESPECIALES",
+      "actividad": "UF - MED Medicina del Deporte",
+      "actividad_completa": "- UF - MED Medicina del Deporte",
+      "comision": "1",
+      "id_comision": "1",
+      "horario": "17:30 - 18:30",
+      "horario_ini": "17:30",
+      "horario_fin": "18:30",
+      "turno": "Turno Vespertino",
+      "ubicacion": "SOLÍS 453",
+      "aula": "A101",
+      "docente": "VÁZQUEZ, Raquel Liliana",
+      "dia_semana": "Martes",
+      "observacion": "",
+      "es_clase_virtual": false,
+      "origen_db": "sql_server",
+      "insert_ts": "24/11/2026, 03:48:17"
+    },
+    {
+      "fecha": "2026-11-24",
+      "año": "",
+      "carrera": "ATENEOS Y/O EVENTOS ESPECIALES",
+      "actividad": "UF - derCCF26",
+      "actividad_completa": "- UF - derCCF26",
+      "comision": "1",
+      "id_comision": "1",
+      "horario": "18:00 - 21:00",
+      "horario_ini": "18:00",
+      "horario_fin": "21:00",
+      "turno": "Turno Vespertino",
+      "ubicacion": "Virtual (Zoom)",
+      "aula": "z_fcm_11",
+      "docente": "TISSERA, Jorge Horacio",
+      "dia_semana": "Martes",
+      "observacion": "Clase virtual",
+      "es_clase_virtual": true,
+      "origen_db": "sql_server",
+      "insert_ts": "24/11/2026, 03:48:17"
+    },
+    {
+      "fecha": "2026-11-24",
+      "año": "",
+      "carrera": "ATENEOS Y/O EVENTOS ESPECIALES",
+      "actividad": "UF - Ingreso a Medicina",
+      "actividad_completa": "- UF - Ingreso a Medicina",
+      "comision": "1",
+      "id_comision": "1",
+      "horario": "18:00 - 20:00",
+      "horario_ini": "18:00",
+      "horario_fin": "20:00",
+      "turno": "Turno Vespertino",
+      "ubicacion": "Virtual (Zoom)",
+      "aula": "z_fcm_13",
+      "docente": "TISSERA, Jorge Horacio",
+      "dia_semana": "Martes",
+      "observacion": "Clase virtual",
+      "es_clase_virtual": true,
+      "origen_db": "sql_server",
+      "insert_ts": "24/11/2026, 03:48:17"
+    },
+    {
+      "fecha": "2026-11-24",
+      "año": "",
+      "carrera": "ATENEOS Y/O EVENTOS ESPECIALES",
+      "actividad": "UF -  Programa de Nivelación FCM",
+      "actividad_completa": "- UF - Programa de Nivelación FCM",
+      "comision": "1",
+      "id_comision": "1",
+      "horario": "18:00 - 21:00",
+      "horario_ini": "18:00",
+      "horario_fin": "21:00",
+      "turno": "Turno Vespertino",
+      "ubicacion": "Virtual (Zoom)",
+      "aula": "z_fcm_21",
+      "docente": "FLORES, Domingo Vladimir",
+      "dia_semana": "Martes",
+      "observacion": "Clase virtual",
+      "es_clase_virtual": true,
+      "origen_db": "sql_server",
+      "insert_ts": "24/11/2026, 03:48:17"
+    },
+    {
+      "fecha": "2026-11-24",
+      "año": "1º año",
+      "carrera": "LICENCIATURA EN KINESIOLOGÍA Y FISIATRÍA",
+      "actividad": "Anatomía y Anatomía Funcional",
+      "actividad_completa": "1º año - Anatomía y Anatomía Funcional",
+      "comision": "3",
+      "id_comision": "3",
+      "horario": "18:00 - 21:00",
+      "horario_ini": "18:00",
+      "horario_fin": "21:00",
+      "turno": "Turno Vespertino",
+      "ubicacion": "SOLÍS 453",
+      "aula": "A302",
+      "docente": "DI YELSI, Sergio Osvaldo",
+      "dia_semana": "Martes",
+      "observacion": "",
+      "es_clase_virtual": false,
+      "origen_db": "sql_server",
+      "insert_ts": "24/11/2026, 03:48:17"
+    },
+    {
+      "fecha": "2026-11-24",
+      "año": "2º año",
+      "carrera": "LICENCIATURA EN PSICOLOGÍA",
+      "actividad": "Psicología Evolutiva - Examen Final",
+      "actividad_completa": "2º año - Psicología Evolutiva - Examen Final",
+      "comision": "0",
+      "id_comision": "0",
+      "horario": "18:00 - 22:00",
+      "horario_ini": "18:00",
+      "horario_fin": "22:00",
+      "turno": "Turno Vespertino",
+      "ubicacion": "SARMIENTO 1853",
+      "aula": "B403",
+      "docente": "",
+      "dia_semana": "Martes",
+      "observacion": "",
+      "es_clase_virtual": false,
+      "origen_db": "sql_server",
+      "insert_ts": "24/11/2026, 03:48:17"
+    },
+    {
+      "fecha": "2026-11-24",
+      "año": "4º año",
+      "carrera": "LICENCIATURA EN PSICOLOGÍA",
+      "actividad": "Seminario de Integración II - Examen Final",
+      "actividad_completa": "4º año - Seminario de Integración II - Examen Final",
+      "comision": "0",
+      "id_comision": "0",
+      "horario": "18:00 - 21:00",
+      "horario_ini": "18:00",
+      "horario_fin": "21:00",
+      "turno": "Turno Vespertino",
+      "ubicacion": "SARMIENTO 1853",
+      "aula": "B203",
+      "docente": "",
+      "dia_semana": "Martes",
+      "observacion": "",
+      "es_clase_virtual": false,
+      "origen_db": "sql_server",
+      "insert_ts": "24/11/2026, 03:48:17"
+    },
+    {
+      "fecha": "2026-11-24",
+      "año": "5º año",
+      "carrera": "LICENCIATURA EN PSICOLOGÍA",
+      "actividad": "Práctica Profesional Supervisada",
+      "actividad_completa": "5º año - Práctica Profesional Supervisada",
+      "comision": "1",
+      "id_comision": "1",
+      "horario": "18:00 - 19:30",
+      "horario_ini": "18:00",
+      "horario_fin": "19:30",
+      "turno": "Turno Vespertino",
+      "ubicacion": "Virtual (Zoom)",
+      "aula": "z_fchc_psi3",
+      "docente": "YOMHA CEVASCO, Jazmín",
+      "dia_semana": "Martes",
+      "observacion": "Clase virtual",
+      "es_clase_virtual": true,
+      "origen_db": "sql_server",
+      "insert_ts": "24/11/2026, 03:48:17"
+    },
+    {
+      "fecha": "2026-11-24",
+      "año": "5º año",
+      "carrera": "LICENCIATURA EN PSICOLOGÍA",
+      "actividad": "Rehabilitación Neuropsicológica - Examen Final",
+      "actividad_completa": "5º año - Rehabilitación Neuropsicológica - Examen Final",
+      "comision": "0",
+      "id_comision": "0",
+      "horario": "18:00 - 20:00",
+      "horario_ini": "18:00",
+      "horario_fin": "20:00",
+      "turno": "Turno Vespertino",
+      "ubicacion": "SARMIENTO 1853",
+      "aula": "B302",
+      "docente": "",
+      "dia_semana": "Martes",
+      "observacion": "",
+      "es_clase_virtual": false,
+      "origen_db": "sql_server",
+      "insert_ts": "24/11/2026, 03:48:17"
+    },
+    {
+      "fecha": "2026-11-24",
+      "año": "",
+      "carrera": "ATENEOS Y/O EVENTOS ESPECIALES",
+      "actividad": "UF - carDECOD",
+      "actividad_completa": "- UF - carDECOD",
+      "comision": "1",
+      "id_comision": "1",
+      "horario": "19:00 - 20:00",
+      "horario_ini": "19:00",
+      "horario_fin": "20:00",
+      "turno": "Turno Vespertino",
+      "ubicacion": "Virtual (Zoom)",
+      "aula": "z_fcm_25",
+      "docente": "TISSERA, Jorge Horacio",
+      "dia_semana": "Martes",
+      "observacion": "Clase virtual",
+      "es_clase_virtual": true,
+      "origen_db": "sql_server",
+      "insert_ts": "24/11/2026, 03:48:17"
+    },
+    {
+      "fecha": "2026-11-24",
+      "año": "",
+      "carrera": "ATENEOS Y/O EVENTOS ESPECIALES",
+      "actividad": "UF - neuEEG26",
+      "actividad_completa": "- UF - neuEEG26",
+      "comision": "1",
+      "id_comision": "1",
+      "horario": "19:00 - 20:00",
+      "horario_ini": "19:00",
+      "horario_fin": "20:00",
+      "turno": "Turno Vespertino",
+      "ubicacion": "Virtual (Zoom)",
+      "aula": "z_fcm_03",
+      "docente": "TISSERA, Jorge Horacio",
+      "dia_semana": "Martes",
+      "observacion": "Clase virtual",
+      "es_clase_virtual": true,
+      "origen_db": "sql_server",
+      "insert_ts": "24/11/2026, 03:48:17"
+    },
+    {
+      "fecha": "2026-11-24",
+      "año": "",
+      "carrera": "ATENEOS Y/O EVENTOS ESPECIALES",
+      "actividad": "UF - Tecnica Radiologica BIMA",
+      "actividad_completa": "- UF - Tecnica Radiologica BIMA",
+      "comision": "1",
+      "id_comision": "1",
+      "horario": "19:00 - 21:00",
+      "horario_ini": "19:00",
+      "horario_fin": "21:00",
+      "turno": "Turno Vespertino",
+      "ubicacion": "Virtual (Zoom)",
+      "aula": "z_fcm_05",
+      "docente": "ROSSETTI, Adrián",
+      "dia_semana": "Martes",
+      "observacion": "Clase virtual",
+      "es_clase_virtual": true,
+      "origen_db": "sql_server",
+      "insert_ts": "24/11/2026, 03:48:17"
+    },
+    {
+      "fecha": "2026-11-24",
+      "año": "1º año",
+      "carrera": "CURSO DE AGENTE DE PROPAGANDA MÉDICA",
+      "actividad": "Módulo Médico - Científico - 1er. Ciclo",
+      "actividad_completa": "1º año - Módulo Médico - Científico - 1er. Ciclo",
+      "comision": "0",
+      "id_comision": "0",
+      "horario": "19:00 - 22:00",
+      "horario_ini": "19:00",
+      "horario_fin": "22:00",
+      "turno": "Turno Vespertino",
+      "ubicacion": "Virtual (Zoom)",
+      "aula": "z_fcm_15",
+      "docente": "POMBAR, Hugo Néstor",
+      "dia_semana": "Martes",
+      "observacion": "Clase virtual",
+      "es_clase_virtual": true,
+      "origen_db": "sql_server",
+      "insert_ts": "24/11/2026, 03:48:17"
+    },
+    {
+      "fecha": "2026-11-24",
+      "año": "",
+      "carrera": "ATENEOS Y/O EVENTOS ESPECIALES",
+      "actividad": "UF - Reunión Docente DCBE",
+      "actividad_completa": "- UF - Reunión Docente DCBE",
+      "comision": "1",
+      "id_comision": "1",
+      "horario": "19:30 - 21:00",
+      "horario_ini": "19:30",
+      "horario_fin": "21:00",
+      "turno": "Turno Vespertino",
+      "ubicacion": "Virtual (Zoom)",
+      "aula": "z_fcm_32",
+      "docente": "RAPACIOLI, Melina Paola",
+      "dia_semana": "Martes",
+      "observacion": "Clase virtual",
+      "es_clase_virtual": true,
+      "origen_db": "sql_server",
+      "insert_ts": "24/11/2026, 03:48:17"
+    },
+    {
+      "fecha": "2026-11-24",
+      "año": "",
+      "carrera": "ATENEOS Y/O EVENTOS ESPECIALES",
+      "actividad": "UF - BIMA TAc",
+      "actividad_completa": "- UF - BIMA TAc",
+      "comision": "1",
+      "id_comision": "1",
+      "horario": "20:00 - 22:00",
+      "horario_ini": "20:00",
+      "horario_fin": "22:00",
+      "turno": "Turno Vespertino",
+      "ubicacion": "SOLÍS 453",
+      "aula": "A101",
+      "docente": "ABADI, Andrea Fabiana",
+      "dia_semana": "Martes",
+      "observacion": "",
+      "es_clase_virtual": false,
+      "origen_db": "sql_server",
+      "insert_ts": "24/11/2026, 03:48:17"
     },
     {
       "fecha": "2026-11-25",
@@ -1493,7 +2564,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "23/11/2026, 19:50:32"
+      "insert_ts": "24/11/2026, 03:48:17"
     },
     {
       "fecha": "2026-11-25",
@@ -1514,7 +2585,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "23/11/2026, 19:50:32"
+      "insert_ts": "24/11/2026, 03:48:17"
     },
     {
       "fecha": "2026-11-25",
@@ -1535,7 +2606,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "23/11/2026, 19:50:32"
+      "insert_ts": "24/11/2026, 03:48:17"
     },
     {
       "fecha": "2026-11-25",
@@ -1556,7 +2627,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "23/11/2026, 19:50:32"
+      "insert_ts": "24/11/2026, 03:48:17"
     },
     {
       "fecha": "2026-11-25",
@@ -1577,7 +2648,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "23/11/2026, 19:50:32"
+      "insert_ts": "24/11/2026, 03:48:17"
     },
     {
       "fecha": "2026-11-25",
@@ -1598,7 +2669,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "23/11/2026, 19:50:32"
+      "insert_ts": "24/11/2026, 03:48:17"
     },
     {
       "fecha": "2026-11-25",
@@ -1619,7 +2690,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "23/11/2026, 19:50:32"
+      "insert_ts": "24/11/2026, 03:48:17"
     },
     {
       "fecha": "2026-11-25",
@@ -1640,7 +2711,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "23/11/2026, 19:50:32"
+      "insert_ts": "24/11/2026, 03:48:17"
     },
     {
       "fecha": "2026-11-25",
@@ -1661,7 +2732,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "23/11/2026, 19:50:32"
+      "insert_ts": "24/11/2026, 03:48:17"
     },
     {
       "fecha": "2026-11-25",
@@ -1682,7 +2753,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "23/11/2026, 19:50:32"
+      "insert_ts": "24/11/2026, 03:48:17"
     },
     {
       "fecha": "2026-11-25",
@@ -1703,7 +2774,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "23/11/2026, 19:50:32"
+      "insert_ts": "24/11/2026, 03:48:17"
     },
     {
       "fecha": "2026-11-25",
@@ -1724,7 +2795,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "23/11/2026, 19:50:32"
+      "insert_ts": "24/11/2026, 03:48:17"
     },
     {
       "fecha": "2026-11-25",
@@ -1745,7 +2816,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "23/11/2026, 19:50:32"
+      "insert_ts": "24/11/2026, 03:48:17"
     },
     {
       "fecha": "2026-11-25",
@@ -1766,7 +2837,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "23/11/2026, 19:50:32"
+      "insert_ts": "24/11/2026, 03:48:17"
     },
     {
       "fecha": "2026-11-25",
@@ -1787,7 +2858,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "23/11/2026, 19:50:32"
+      "insert_ts": "24/11/2026, 03:48:17"
     },
     {
       "fecha": "2026-11-25",
@@ -1808,7 +2879,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "23/11/2026, 19:50:32"
+      "insert_ts": "24/11/2026, 03:48:17"
     },
     {
       "fecha": "2026-11-25",
@@ -1829,7 +2900,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "23/11/2026, 19:50:32"
+      "insert_ts": "24/11/2026, 03:48:17"
     },
     {
       "fecha": "2026-11-25",
@@ -1850,7 +2921,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "23/11/2026, 19:50:32"
+      "insert_ts": "24/11/2026, 03:48:17"
     },
     {
       "fecha": "2026-11-25",
@@ -1871,7 +2942,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "23/11/2026, 19:50:32"
+      "insert_ts": "24/11/2026, 03:48:17"
     },
     {
       "fecha": "2026-11-25",
@@ -1892,7 +2963,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "23/11/2026, 19:50:32"
+      "insert_ts": "24/11/2026, 03:48:17"
     },
     {
       "fecha": "2026-11-25",
@@ -1913,7 +2984,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "23/11/2026, 19:50:32"
+      "insert_ts": "24/11/2026, 03:48:17"
     },
     {
       "fecha": "2026-11-25",
@@ -1934,7 +3005,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "23/11/2026, 19:50:32"
+      "insert_ts": "24/11/2026, 03:48:17"
     },
     {
       "fecha": "2026-11-25",
@@ -1955,7 +3026,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "23/11/2026, 19:50:32"
+      "insert_ts": "24/11/2026, 03:48:17"
     },
     {
       "fecha": "2026-11-26",
@@ -1976,7 +3047,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "23/11/2026, 19:50:32"
+      "insert_ts": "24/11/2026, 03:48:17"
     },
     {
       "fecha": "2026-11-26",
@@ -1997,7 +3068,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "23/11/2026, 19:50:32"
+      "insert_ts": "24/11/2026, 03:48:17"
     },
     {
       "fecha": "2026-11-26",
@@ -2018,7 +3089,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "23/11/2026, 19:50:32"
+      "insert_ts": "24/11/2026, 03:48:17"
     },
     {
       "fecha": "2026-11-26",
@@ -2039,7 +3110,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "23/11/2026, 19:50:32"
+      "insert_ts": "24/11/2026, 03:48:17"
     },
     {
       "fecha": "2026-11-26",
@@ -2060,7 +3131,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "23/11/2026, 19:50:32"
+      "insert_ts": "24/11/2026, 03:48:17"
     },
     {
       "fecha": "2026-11-26",
@@ -2081,7 +3152,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "23/11/2026, 19:50:32"
+      "insert_ts": "24/11/2026, 03:48:17"
     },
     {
       "fecha": "2026-11-26",
@@ -2102,7 +3173,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "23/11/2026, 19:50:32"
+      "insert_ts": "24/11/2026, 03:48:17"
     },
     {
       "fecha": "2026-11-26",
@@ -2123,7 +3194,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "23/11/2026, 19:50:32"
+      "insert_ts": "24/11/2026, 03:48:17"
     },
     {
       "fecha": "2026-11-26",
@@ -2144,7 +3215,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "23/11/2026, 19:50:32"
+      "insert_ts": "24/11/2026, 03:48:17"
     },
     {
       "fecha": "2026-11-26",
@@ -2165,7 +3236,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "23/11/2026, 19:50:32"
+      "insert_ts": "24/11/2026, 03:48:17"
     },
     {
       "fecha": "2026-11-26",
@@ -2186,7 +3257,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "23/11/2026, 19:50:32"
+      "insert_ts": "24/11/2026, 03:48:17"
     },
     {
       "fecha": "2026-11-26",
@@ -2207,7 +3278,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "23/11/2026, 19:50:32"
+      "insert_ts": "24/11/2026, 03:48:17"
     },
     {
       "fecha": "2026-11-26",
@@ -2228,7 +3299,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "23/11/2026, 19:50:32"
+      "insert_ts": "24/11/2026, 03:48:17"
     },
     {
       "fecha": "2026-11-26",
@@ -2249,7 +3320,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "23/11/2026, 19:50:32"
+      "insert_ts": "24/11/2026, 03:48:17"
     },
     {
       "fecha": "2026-11-26",
@@ -2270,7 +3341,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "23/11/2026, 19:50:32"
+      "insert_ts": "24/11/2026, 03:48:17"
     },
     {
       "fecha": "2026-11-26",
@@ -2291,7 +3362,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "23/11/2026, 19:50:32"
+      "insert_ts": "24/11/2026, 03:48:17"
     },
     {
       "fecha": "2026-11-26",
@@ -2312,7 +3383,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "23/11/2026, 19:50:32"
+      "insert_ts": "24/11/2026, 03:48:17"
     },
     {
       "fecha": "2026-11-26",
@@ -2333,7 +3404,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "23/11/2026, 19:50:32"
+      "insert_ts": "24/11/2026, 03:48:17"
     },
     {
       "fecha": "2026-11-26",
@@ -2354,7 +3425,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "23/11/2026, 19:50:32"
+      "insert_ts": "24/11/2026, 03:48:17"
     },
     {
       "fecha": "2026-11-26",
@@ -2375,7 +3446,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "23/11/2026, 19:50:32"
+      "insert_ts": "24/11/2026, 03:48:17"
     },
     {
       "fecha": "2026-11-26",
@@ -2396,7 +3467,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "23/11/2026, 19:50:32"
+      "insert_ts": "24/11/2026, 03:48:17"
     },
     {
       "fecha": "2026-11-26",
@@ -2417,7 +3488,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "23/11/2026, 19:50:32"
+      "insert_ts": "24/11/2026, 03:48:17"
     },
     {
       "fecha": "2026-11-26",
@@ -2438,7 +3509,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "23/11/2026, 19:50:32"
+      "insert_ts": "24/11/2026, 03:48:17"
     },
     {
       "fecha": "2026-11-26",
@@ -2459,7 +3530,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "23/11/2026, 19:50:32"
+      "insert_ts": "24/11/2026, 03:48:17"
     },
     {
       "fecha": "2026-11-26",
@@ -2480,7 +3551,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "23/11/2026, 19:50:32"
+      "insert_ts": "24/11/2026, 03:48:17"
     },
     {
       "fecha": "2026-11-26",
@@ -2501,7 +3572,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "23/11/2026, 19:50:32"
+      "insert_ts": "24/11/2026, 03:48:17"
     },
     {
       "fecha": "2026-11-26",
@@ -2522,7 +3593,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "23/11/2026, 19:50:32"
+      "insert_ts": "24/11/2026, 03:48:17"
     },
     {
       "fecha": "2026-11-27",
@@ -2543,7 +3614,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "23/11/2026, 19:50:32"
+      "insert_ts": "24/11/2026, 03:48:17"
     },
     {
       "fecha": "2026-11-27",
@@ -2564,7 +3635,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "23/11/2026, 19:50:32"
+      "insert_ts": "24/11/2026, 03:48:17"
     },
     {
       "fecha": "2026-11-27",
@@ -2585,7 +3656,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "23/11/2026, 19:50:32"
+      "insert_ts": "24/11/2026, 03:48:17"
     },
     {
       "fecha": "2026-11-27",
@@ -2606,7 +3677,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "23/11/2026, 19:50:32"
+      "insert_ts": "24/11/2026, 03:48:17"
     },
     {
       "fecha": "2026-11-27",
@@ -2627,7 +3698,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "23/11/2026, 19:50:32"
+      "insert_ts": "24/11/2026, 03:48:17"
     },
     {
       "fecha": "2026-11-27",
@@ -2648,7 +3719,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "23/11/2026, 19:50:32"
+      "insert_ts": "24/11/2026, 03:48:17"
     },
     {
       "fecha": "2026-11-27",
@@ -2669,7 +3740,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "23/11/2026, 19:50:32"
+      "insert_ts": "24/11/2026, 03:48:17"
     },
     {
       "fecha": "2026-11-27",
@@ -2690,7 +3761,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "23/11/2026, 19:50:32"
+      "insert_ts": "24/11/2026, 03:48:17"
     },
     {
       "fecha": "2026-11-27",
@@ -2711,7 +3782,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "23/11/2026, 19:50:32"
+      "insert_ts": "24/11/2026, 03:48:17"
     },
     {
       "fecha": "2026-11-27",
@@ -2732,7 +3803,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "23/11/2026, 19:50:32"
+      "insert_ts": "24/11/2026, 03:48:17"
     },
     {
       "fecha": "2026-11-27",
@@ -2753,7 +3824,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "23/11/2026, 19:50:32"
+      "insert_ts": "24/11/2026, 03:48:17"
     },
     {
       "fecha": "2026-11-27",
@@ -2774,7 +3845,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "23/11/2026, 19:50:32"
+      "insert_ts": "24/11/2026, 03:48:17"
     },
     {
       "fecha": "2026-11-27",
@@ -2795,7 +3866,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "23/11/2026, 19:50:32"
+      "insert_ts": "24/11/2026, 03:48:17"
     },
     {
       "fecha": "2026-11-27",
@@ -2816,7 +3887,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "23/11/2026, 19:50:32"
+      "insert_ts": "24/11/2026, 03:48:17"
     },
     {
       "fecha": "2026-11-27",
@@ -2837,7 +3908,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "23/11/2026, 19:50:32"
+      "insert_ts": "24/11/2026, 03:48:17"
     },
     {
       "fecha": "2026-11-27",
@@ -2858,7 +3929,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "23/11/2026, 19:50:32"
+      "insert_ts": "24/11/2026, 03:48:17"
     },
     {
       "fecha": "2026-11-27",
@@ -2879,7 +3950,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "23/11/2026, 19:50:32"
+      "insert_ts": "24/11/2026, 03:48:17"
     },
     {
       "fecha": "2026-11-27",
@@ -2900,7 +3971,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "23/11/2026, 19:50:32"
+      "insert_ts": "24/11/2026, 03:48:17"
     },
     {
       "fecha": "2026-11-27",
@@ -2921,7 +3992,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "23/11/2026, 19:50:32"
+      "insert_ts": "24/11/2026, 03:48:17"
     },
     {
       "fecha": "2026-11-27",
@@ -2942,7 +4013,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "23/11/2026, 19:50:32"
+      "insert_ts": "24/11/2026, 03:48:17"
     },
     {
       "fecha": "2026-11-27",
@@ -2963,7 +4034,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "23/11/2026, 19:50:32"
+      "insert_ts": "24/11/2026, 03:48:17"
     },
     {
       "fecha": "2026-11-27",
@@ -2984,7 +4055,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "23/11/2026, 19:50:32"
+      "insert_ts": "24/11/2026, 03:48:17"
     },
     {
       "fecha": "2026-11-27",
@@ -3005,7 +4076,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "23/11/2026, 19:50:32"
+      "insert_ts": "24/11/2026, 03:48:17"
     },
     {
       "fecha": "2026-11-27",
@@ -3026,7 +4097,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "23/11/2026, 19:50:32"
+      "insert_ts": "24/11/2026, 03:48:17"
     },
     {
       "fecha": "2026-11-28",
@@ -3047,7 +4118,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "23/11/2026, 19:50:32"
+      "insert_ts": "24/11/2026, 03:48:17"
     },
     {
       "fecha": "2026-11-28",
@@ -3068,7 +4139,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "23/11/2026, 19:50:32"
+      "insert_ts": "24/11/2026, 03:48:17"
     },
     {
       "fecha": "2026-11-28",
@@ -3089,7 +4160,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "23/11/2026, 19:50:32"
+      "insert_ts": "24/11/2026, 03:48:17"
     },
     {
       "fecha": "2026-11-28",
@@ -3110,7 +4181,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "23/11/2026, 19:50:32"
+      "insert_ts": "24/11/2026, 03:48:17"
     },
     {
       "fecha": "2026-11-28",
@@ -3131,7 +4202,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "23/11/2026, 19:50:32"
+      "insert_ts": "24/11/2026, 03:48:17"
     },
     {
       "fecha": "2026-11-28",
@@ -3152,7 +4223,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "23/11/2026, 19:50:32"
+      "insert_ts": "24/11/2026, 03:48:17"
     },
     {
       "fecha": "2026-11-30",
@@ -3173,7 +4244,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "23/11/2026, 19:50:32"
+      "insert_ts": "24/11/2026, 03:48:17"
     },
     {
       "fecha": "2026-11-30",
@@ -3194,7 +4265,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "23/11/2026, 19:50:32"
+      "insert_ts": "24/11/2026, 03:48:17"
     },
     {
       "fecha": "2026-11-30",
@@ -3215,7 +4286,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "23/11/2026, 19:50:32"
+      "insert_ts": "24/11/2026, 03:48:17"
     },
     {
       "fecha": "2026-11-30",
@@ -3236,7 +4307,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "23/11/2026, 19:50:32"
+      "insert_ts": "24/11/2026, 03:48:17"
     },
     {
       "fecha": "2026-11-30",
@@ -3257,7 +4328,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "23/11/2026, 19:50:32"
+      "insert_ts": "24/11/2026, 03:48:17"
     },
     {
       "fecha": "2026-11-30",
@@ -3278,7 +4349,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "23/11/2026, 19:50:32"
+      "insert_ts": "24/11/2026, 03:48:17"
     },
     {
       "fecha": "2026-11-30",
@@ -3299,7 +4370,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "23/11/2026, 19:50:32"
+      "insert_ts": "24/11/2026, 03:48:17"
     },
     {
       "fecha": "2026-11-30",
@@ -3320,7 +4391,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "23/11/2026, 19:50:32"
+      "insert_ts": "24/11/2026, 03:48:17"
     },
     {
       "fecha": "2026-11-30",
@@ -3341,7 +4412,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "23/11/2026, 19:50:32"
+      "insert_ts": "24/11/2026, 03:48:17"
     },
     {
       "fecha": "2026-11-30",
@@ -3362,7 +4433,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "23/11/2026, 19:50:32"
+      "insert_ts": "24/11/2026, 03:48:17"
     },
     {
       "fecha": "2026-11-30",
@@ -3383,7 +4454,7 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "23/11/2026, 19:50:32"
+      "insert_ts": "24/11/2026, 03:48:17"
     },
     {
       "fecha": "2026-11-30",
@@ -3404,7 +4475,238 @@
       "observacion": "",
       "es_clase_virtual": false,
       "origen_db": "postgresql",
-      "insert_ts": "23/11/2026, 19:50:32"
+      "insert_ts": "24/11/2026, 03:48:17"
+    },
+    {
+      "fecha": "2026-12-01",
+      "año": "5º año",
+      "carrera": "MEDICINA",
+      "actividad": "CIR - Cirugía General",
+      "actividad_completa": "5 AÑO - CIR - Cirugía General - CIR - CIR- GRAL - Comisión 3",
+      "comision": "CIR - CIR- GRAL - Comisión 3 (#782)",
+      "id_comision": "782",
+      "horario": "08:00 - 12:00",
+      "horario_ini": "08:00",
+      "horario_fin": "12:00",
+      "turno": "Turno Mañana",
+      "ubicacion": "Hospital (Centro de práctica)",
+      "aula": "Hospital Fernández",
+      "docente": "",
+      "dia_semana": "Martes",
+      "observacion": "",
+      "es_clase_virtual": false,
+      "origen_db": "postgresql",
+      "insert_ts": "24/11/2026, 03:48:17"
+    },
+    {
+      "fecha": "2026-12-01",
+      "año": "5º año",
+      "carrera": "MEDICINA",
+      "actividad": "CIR - Cirugía General",
+      "actividad_completa": "5 AÑO - CIR - Cirugía General - CIR - CIR. GRAL - Comsión 4",
+      "comision": "CIR - CIR. GRAL - Comsión 4 (#783)",
+      "id_comision": "783",
+      "horario": "08:00 - 12:00",
+      "horario_ini": "08:00",
+      "horario_fin": "12:00",
+      "turno": "Turno Mañana",
+      "ubicacion": "Hospital (Centro de práctica)",
+      "aula": "Hospital Fernández",
+      "docente": "",
+      "dia_semana": "Martes",
+      "observacion": "",
+      "es_clase_virtual": false,
+      "origen_db": "postgresql",
+      "insert_ts": "24/11/2026, 03:48:17"
+    },
+    {
+      "fecha": "2026-12-01",
+      "año": "5º año",
+      "carrera": "MEDICINA",
+      "actividad": "Pediatría",
+      "actividad_completa": "5 AÑO - Pediatría - PED - Comisión 1",
+      "comision": "PED - Comisión 1 (#607)",
+      "id_comision": "607",
+      "horario": "08:00 - 12:00",
+      "horario_ini": "08:00",
+      "horario_fin": "12:00",
+      "turno": "Turno Mañana",
+      "ubicacion": "Hospital (Centro de práctica)",
+      "aula": "Hospital Pirovano",
+      "docente": "",
+      "dia_semana": "Martes",
+      "observacion": "",
+      "es_clase_virtual": false,
+      "origen_db": "postgresql",
+      "insert_ts": "24/11/2026, 03:48:17"
+    },
+    {
+      "fecha": "2026-12-01",
+      "año": "5º año",
+      "carrera": "MEDICINA",
+      "actividad": "Pediatría",
+      "actividad_completa": "5 AÑO - Pediatría - PED - Comisión 2",
+      "comision": "PED - Comisión 2 (#608)",
+      "id_comision": "608",
+      "horario": "08:00 - 12:00",
+      "horario_ini": "08:00",
+      "horario_fin": "12:00",
+      "turno": "Turno Mañana",
+      "ubicacion": "Hospital (Centro de práctica)",
+      "aula": "Hospital Pirovano",
+      "docente": "",
+      "dia_semana": "Martes",
+      "observacion": "",
+      "es_clase_virtual": false,
+      "origen_db": "postgresql",
+      "insert_ts": "24/11/2026, 03:48:17"
+    },
+    {
+      "fecha": "2026-12-01",
+      "año": "2º año",
+      "carrera": "LICENCIATURA EN PSICOLOGÍA",
+      "actividad": "Psicoanálisis",
+      "actividad_completa": "2 AÑO - Psicoanálisis - TM - C1",
+      "comision": "PSICOANÁLISIS - TM - C1 (#273)",
+      "id_comision": "273",
+      "horario": "10:00 - 11:30",
+      "horario_ini": "10:00",
+      "horario_fin": "11:30",
+      "turno": "Turno Mañana",
+      "ubicacion": "Espacios UF",
+      "aula": "Aula E701 - Sede Belgrano",
+      "docente": "",
+      "dia_semana": "Martes",
+      "observacion": "",
+      "es_clase_virtual": false,
+      "origen_db": "postgresql",
+      "insert_ts": "24/11/2026, 03:48:17"
+    },
+    {
+      "fecha": "2026-12-01",
+      "año": "2º año",
+      "carrera": "LICENCIATURA EN PSICOLOGÍA",
+      "actividad": "Psicoanálisis",
+      "actividad_completa": "2 AÑO - Psicoanálisis - TM - C2",
+      "comision": "PSICOANÁLISIS - TM - C2 (#274)",
+      "id_comision": "274",
+      "horario": "11:30 - 13:00",
+      "horario_ini": "11:30",
+      "horario_fin": "13:00",
+      "turno": "Turno Mañana",
+      "ubicacion": "Espacios UF",
+      "aula": "Aula E701 - Sede Belgrano",
+      "docente": "",
+      "dia_semana": "Martes",
+      "observacion": "",
+      "es_clase_virtual": false,
+      "origen_db": "postgresql",
+      "insert_ts": "24/11/2026, 03:48:17"
+    },
+    {
+      "fecha": "2026-12-01",
+      "año": "2º año",
+      "carrera": "LICENCIATURA EN PRODUCCIÓN DE BIOIMÁGENES",
+      "actividad": "Fisiología",
+      "actividad_completa": "2 AÑO - Fisiología - FISIO",
+      "comision": "FISIO - Fisiología (#6403)",
+      "id_comision": "6403",
+      "horario": "16:00 - 20:00",
+      "horario_ini": "16:00",
+      "horario_fin": "20:00",
+      "turno": "Turno Vespertino",
+      "ubicacion": "Espacios UF",
+      "aula": "Aula A101 (1º Piso) - Sede Solís",
+      "docente": "",
+      "dia_semana": "Martes",
+      "observacion": "",
+      "es_clase_virtual": false,
+      "origen_db": "postgresql",
+      "insert_ts": "24/11/2026, 03:48:17"
+    },
+    {
+      "fecha": "2026-12-01",
+      "año": "",
+      "carrera": "EVENTOS ESPECIALES",
+      "actividad": "Eventos Especiales UF",
+      "actividad_completa": "Eventos Especiales UF",
+      "comision": "Eventos Especiales UF (#743)",
+      "id_comision": "743",
+      "horario": "18:00 - 20:00",
+      "horario_ini": "18:00",
+      "horario_fin": "20:00",
+      "turno": "Turno Vespertino",
+      "ubicacion": "Espacios UF",
+      "aula": "Aula B502 (5º Piso) - Sarmiento 1853",
+      "docente": "",
+      "dia_semana": "Martes",
+      "observacion": "",
+      "es_clase_virtual": false,
+      "origen_db": "postgresql",
+      "insert_ts": "24/11/2026, 03:48:17"
+    },
+    {
+      "fecha": "2026-12-01",
+      "año": "2º año",
+      "carrera": "LICENCIATURA EN PSICOLOGÍA",
+      "actividad": "Psicología Evolutiva",
+      "actividad_completa": "2 AÑO - Psicología Evolutiva - TV",
+      "comision": "PSICOLOGÍA EVOLUTIVA - TV (#287)",
+      "id_comision": "287",
+      "horario": "18:00 - 21:00",
+      "horario_ini": "18:00",
+      "horario_fin": "21:00",
+      "turno": "Turno Vespertino",
+      "ubicacion": "Espacios UF",
+      "aula": "Aula B302 (3° Piso) - Sarmiento 1853",
+      "docente": "",
+      "dia_semana": "Martes",
+      "observacion": "",
+      "es_clase_virtual": false,
+      "origen_db": "postgresql",
+      "insert_ts": "24/11/2026, 03:48:17"
+    },
+    {
+      "fecha": "2026-12-01",
+      "año": "3º año",
+      "carrera": "LICENCIATURA EN PSICOLOGÍA",
+      "actividad": "Psicoinmunoneuroendocrinología",
+      "actividad_completa": "3 AÑO - Psicoinmunoneuroendocrinología - TV",
+      "comision": "PSICOINMUNONEUROENDOCRINOLOGÍA - TV (#6451)",
+      "id_comision": "6451",
+      "horario": "18:00 - 21:00",
+      "horario_ini": "18:00",
+      "horario_fin": "21:00",
+      "turno": "Turno Vespertino",
+      "ubicacion": "Espacios UF",
+      "aula": "Aula B203 (2º Piso) - Sarmiento 1853",
+      "docente": "",
+      "dia_semana": "Martes",
+      "observacion": "",
+      "es_clase_virtual": false,
+      "origen_db": "postgresql",
+      "insert_ts": "24/11/2026, 03:48:17"
+    },
+    {
+      "fecha": "2026-12-01",
+      "año": "4º año",
+      "carrera": "LICENCIATURA EN PSICOLOGÍA",
+      "actividad": "Psicoinmunoneuroendocrinología",
+      "actividad_completa": "4 AÑO - Psicoinmunoneuroendocrinología - TV",
+      "comision": "PSICOINMUNONEUROENDOCRINOLOGÍA - TV (#6451)",
+      "id_comision": "6451",
+      "horario": "18:00 - 21:00",
+      "horario_ini": "18:00",
+      "horario_fin": "21:00",
+      "turno": "Turno Vespertino",
+      "ubicacion": "Espacios UF",
+      "aula": "Aula B203 (2º Piso) - Sarmiento 1853",
+      "docente": "",
+      "dia_semana": "Martes",
+      "observacion": "",
+      "es_clase_virtual": false,
+      "origen_db": "postgresql",
+      "insert_ts": "24/11/2026, 03:48:17"
     }
   ]
 }
